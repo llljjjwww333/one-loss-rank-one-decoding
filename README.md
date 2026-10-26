@@ -8,7 +8,7 @@ Software release **v1.1.0** adds a native observed-edge Singular path,
 cross-RUR verification and complete phase measurements. The software DOI
 identifies code and data, separately from any journal article. The preceding
 [v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remains unchanged.
-The version-specific v1.1.0 DOI is added after its Zenodo registration.
+The version-specific v1.1.0 DOI is **https://doi.org/10.5281/zenodo.23664952**.
 
 ## Reproduce
 

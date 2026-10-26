@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "cases": 32,
+  "method_completions": 85,
+  "retained_budget_skips": 11,
+  "singleton_reply_replays": 28,
+  "public_only_preprocessing": true,
+  "outcomes_sha256": "52a0ecdb9d9d15d1e7689268835bc5774db62dd97f390aa11abdb73249484af1"
+}

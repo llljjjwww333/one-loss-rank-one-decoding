@@ -1,0 +1,15 @@
+{
+  "version": "theta-block-exact-2",
+  "candidate_class": "all actual real targets; bounded status checked additionally",
+  "inputs": "all three-path and four-path length-three masks; positive, mixed and asymmetric target factors; four prescribed queries each; three glued-mask controls",
+  "cases": 27,
+  "seed": 2026102601,
+  "query_grids": [1, 2, 8, 32],
+  "solver_input": "public mask, query, both gradients and loss; hidden factors excluded",
+  "gradient_count_audit": "single-block inputs only; glued controls audit the full norm-augmented system",
+  "timeout_seconds": 30,
+  "execution": "serial fresh Python subprocess per case; no cross-solver timing ranking",
+  "checkpoint": "write and hash-bind the exact norm-list certificate before the ancillary gradient-fiber audit; a later timeout is retained as a timeout",
+  "reference_scope": "rational-point norm ideals are certified; non-point or non-shape cases remain unresolved",
+  "retention": "all inputs, timeouts, unresolved cases and negative controls retained"
+}

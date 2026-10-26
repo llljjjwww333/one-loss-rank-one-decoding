@@ -1,0 +1,18 @@
+{
+  "complete": true,
+  "queries": 1605,
+  "certified_singletons": 708,
+  "already_singleton_gradient_fibers": 125,
+  "multiple_gradient_candidates_pruned": 583,
+  "largest_gradient_fiber_certified": 177147,
+  "largest_examples": [
+    "PM_r12_N8_40",
+    "PM_r12_N32_25",
+    "PM_r12_N32_50",
+    "PM_r12_N32_59"
+  ],
+  "results_sha256": "62b82cbc0a383ac75585446b693a4f68731256df86738bb204295e24db282b46",
+  "reference_sha256": "77bdef8cbe344aab751a7190b967265bb9275cef60836640c416494e7a8855fd",
+  "verifier_sha256": "c9809ad2949f74083ea62b36df69b6b9ba5243bd9892c1e4a34ceca41d19a724",
+  "scope": "whole frozen cohort; distinguishes certification frequency from nontrivial pruning; no timing claim"
+}

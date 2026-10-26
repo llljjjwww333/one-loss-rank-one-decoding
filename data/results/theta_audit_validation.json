@@ -1,0 +1,105 @@
+{
+  "complete": true,
+  "cases": 27,
+  "exact_arrays_checked": 29,
+  "norm_singletons": 25,
+  "norm_ambiguous": 2,
+  "retained_worker_timeouts": 2,
+  "completed_gradient_audits": 22,
+  "public_inputs_unchanged": true,
+  "scope": "fresh exact norm-ideal replay and independent rational native reply/support/budget checks; timed gradient audits not repeated",
+  "data_sha256": "3ecb9822a3155af198bfd47400da6d3d316f254ba4c928dc263ea84034450d81",
+  "inputs_sha256": "78acae2982a1c5dca1c7a5c119cc70ddf1945c6613408f3dc1ea1bd458867656",
+  "protocol_sha256": "4bf3ac211e58ae57b1d04f916645c43aabb9c7078cbfcef07887a8fc9693fec3",
+  "verifier_sha256": "ffc3ce3e5e2c23366eb0ae2e75a576d51f2db28bfd4194914b53f5203212c6fb",
+  "gradient_counts": [
+    {
+      "id": "theta3_positive_N1",
+      "count": 1
+    },
+    {
+      "id": "theta3_positive_N2",
+      "count": 1
+    },
+    {
+      "id": "theta3_positive_N8",
+      "count": 1
+    },
+    {
+      "id": "theta3_positive_N32",
+      "count": 1
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "count": 5
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "count": 3
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "count": 3
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "count": 5
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "count": 5
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "count": 3
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "count": 5
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "count": 7
+    },
+    {
+      "id": "theta4_positive_N1",
+      "count": 1
+    },
+    {
+      "id": "theta4_positive_N2",
+      "count": 1
+    },
+    {
+      "id": "theta4_positive_N8",
+      "count": 5
+    },
+    {
+      "id": "theta4_positive_N32",
+      "count": 3
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "count": 9
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "count": 3
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "count": 7
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "count": 9
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "count": 9
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "count": 9
+    }
+  ]
+}

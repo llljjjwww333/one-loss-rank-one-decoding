@@ -1,0 +1,10 @@
+{
+  "version": "squareclass-public-certificate-1",
+  "candidate_class": "all actual real targets, without a factor budget",
+  "solver_input": "public mask, positive rational query and rational complete reply only",
+  "primary_cohort": "all 1605 frozen review4_probability_v1 queries; no exclusions",
+  "controls": "all 14 uniform Linux public inputs and all 32 lattice public inputs; unsupported and unresolved retained",
+  "comparison": "exact previous full-fiber counts; no new solver timing comparison",
+  "arithmetic_controls": "same class with rational-square ratios; multiplicatively dependent distinct classes; rational energies at nonrational roots; shared-class cancellation",
+  "claims": "a sufficient checkable decoding condition, not average-case complexity or a genericity theorem"
+}

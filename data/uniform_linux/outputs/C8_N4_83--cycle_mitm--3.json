@@ -1,0 +1,130 @@
+{
+  "format_version": 1,
+  "public_sha256": "25af0f8c5a6bba2187d449ce4a20a5668f8d13cbbd5de16006990e2f69071a40",
+  "bounded": false,
+  "search": "mitm",
+  "arithmetic": "QQ real algebraic",
+  "cycles": [
+    {
+      "edges": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "coefficients": [
+        "-17/32768",
+        "-295/1610612736",
+        "671/6597069766656",
+        "-315/36028797018963968"
+      ],
+      "degree": 3,
+      "roots": [
+        {
+          "expression": "-189/278528",
+          "multiplicity": 1,
+          "interval": [
+            "-1/1473",
+            "-1/1474"
+          ]
+        },
+        {
+          "expression": "1/8192",
+          "multiplicity": 1,
+          "interval": [
+            "1/8192",
+            "1/8192"
+          ]
+        },
+        {
+          "expression": "5/24576",
+          "multiplicity": 1,
+          "interval": [
+            "1/4916",
+            "1/4915"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "roots": [
+        1
+      ],
+      "energy_sign": 0,
+      "admissible": true
+    },
+    {
+      "roots": [
+        2
+      ],
+      "energy_sign": 0,
+      "admissible": true
+    }
+  ],
+  "candidates": [
+    {
+      "roots": [
+        1
+      ],
+      "values": [
+        "1/128",
+        "1/64",
+        "-1/128",
+        "-3/256",
+        "9/256",
+        "3/64",
+        "-1/32",
+        "-1/128"
+      ]
+    },
+    {
+      "roots": [
+        2
+      ],
+      "values": [
+        "11/384",
+        "0",
+        "0",
+        "-11/768",
+        "31/768",
+        "7/192",
+        "-11/384",
+        "-5/384"
+      ]
+    }
+  ],
+  "norm": "163/32768",
+  "base": [
+    "-3/32768",
+    "5/24576",
+    "-5/24576",
+    "-1/4096",
+    "7/16384",
+    "1/2048",
+    "-9/8192",
+    "0"
+  ],
+  "tuple_bound": 3,
+  "energy_search": {
+    "groups": [
+      [
+        0
+      ],
+      []
+    ],
+    "partial_sizes": [
+      3,
+      1
+    ],
+    "exact_comparisons": 7,
+    "energy_matches": 2
+  },
+  "status": "Ambiguous",
+  "complete": true
+}

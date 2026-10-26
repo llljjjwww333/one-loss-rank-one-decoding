@@ -1,0 +1,256 @@
+{
+  "protocol_sha256": "4bf3ac211e58ae57b1d04f916645c43aabb9c7078cbfcef07887a8fc9693fec3",
+  "cases": [
+    {
+      "id": "theta3_positive_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 1,
+      "public_sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db"
+    },
+    {
+      "id": "theta3_positive_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 2,
+      "public_sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2"
+    },
+    {
+      "id": "theta3_positive_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 8,
+      "public_sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669"
+    },
+    {
+      "id": "theta3_positive_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 32,
+      "public_sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462"
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 1,
+      "public_sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a"
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 2,
+      "public_sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555"
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 8,
+      "public_sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb"
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 32,
+      "public_sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223"
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 1,
+      "public_sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0"
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 2,
+      "public_sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b"
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "public_sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c"
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 32,
+      "public_sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4"
+    },
+    {
+      "id": "theta4_positive_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 1,
+      "public_sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982"
+    },
+    {
+      "id": "theta4_positive_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 2,
+      "public_sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e"
+    },
+    {
+      "id": "theta4_positive_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 8,
+      "public_sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b"
+    },
+    {
+      "id": "theta4_positive_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 32,
+      "public_sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2"
+    },
+    {
+      "id": "theta4_mixed_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 1,
+      "public_sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63"
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 2,
+      "public_sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de"
+    },
+    {
+      "id": "theta4_mixed_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 8,
+      "public_sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f"
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 32,
+      "public_sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5"
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 1,
+      "public_sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef"
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 2,
+      "public_sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1"
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "public_sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf"
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 32,
+      "public_sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6"
+    },
+    {
+      "id": "glued_3_C6",
+      "blocks": [
+        3,
+        "C6"
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "public_sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110"
+    },
+    {
+      "id": "glued_3_3",
+      "blocks": [
+        3,
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "public_sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503"
+    },
+    {
+      "id": "glued_3_4",
+      "blocks": [
+        3,
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "public_sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293"
+    }
+  ],
+  "source_hashes": {
+    "run_theta_study.py": "103a5bd2368c05e539853cc1766a0ade2a5b2f0478955a6639f74cd715c8220f",
+    "normalized_block_decoder.py": "637b60016926e7706ff124aaa51eff45f1bcf871e4801a8930489c8917053bac"
+  },
+  "truth_passed_to_solver": false
+}

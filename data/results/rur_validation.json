@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "jobs": 37,
+  "distinct_public_inputs": 34,
+  "old_theta_inputs": 27,
+  "native_candidate_occurrences": 41,
+  "nonrational_candidate_occurrences": 10,
+  "statuses": {
+    "Unique": 27,
+    "Ambiguous": 7,
+    "Empty": 3
+  },
+  "max_quotient_dimension": 14,
+  "nonradical_native_control": {
+    "quotient_dimension": 14,
+    "distinct_complex_points": 13
+  },
+  "arithmetic_controls": 5,
+  "rejected_corruptions": 2,
+  "initial_timeout_retained": true,
+  "public_hashes_unchanged_since_v1": true,
+  "protocol_sha256": "592307f7ba4246d3f550405b70d4709ac3ff5bc691b78cb651bb7fe416bbebcd",
+  "results_sha256": "ed97d8b958f6d48a7d7013c389d05ec0178e76b16902e164976b3a2f8cf039a4",
+  "verifier_sha256": "eccc882b5b4b55f70d7d3816ece11356cd0771d6663c6a12c9e6fe38233b3e07",
+  "scope": "same-machine exact certificate replay, including all real-root filters; no independent arithmetic backend or cross-solver timing claim"
+}

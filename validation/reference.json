@@ -1,0 +1,82 @@
+{
+  "complete": true,
+  "mode": "full",
+  "manifest_sha256": "a67678a10c7c4ed43ac5ff39e0a8fbcfb0c94bcefc6097c959c5817753e54bec",
+  "snapshot_files_verified": 420,
+  "tasks": [
+    {
+      "name": "grid",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "lattice",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "saved-linux",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "private-classes",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "private-effect",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "unit-blocks",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "scaled-blocks",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "theta-lists",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "rur-arithmetic",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "rur-coverage",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "degree-symbolics",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "degree-binary",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "degree-ternary",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "energy-coordinates",
+      "passed": true,
+      "scientific_results_equal": true
+    }
+  ],
+  "native_solver_timings_repeated": false,
+  "scope": "exact local replay using shared SymPy and incidence reduction; saved Linux outcomes audited, timed native solvers not rerun",
+  "environment": "Windows; Python 3.11; SymPy 1.14.0",
+  "performance_benchmark": false
+}

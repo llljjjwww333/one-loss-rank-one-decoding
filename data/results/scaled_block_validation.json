@@ -1,0 +1,145 @@
+{
+  "complete": true,
+  "universal_coefficient_certificates": {
+    "negative_discriminant": "4*d**2*x + 4*d**2 + 8*d*x**2 + 32*d*x + 24*d + 4*x**3 + 27*x**2 + 56*x + 32",
+    "negative_real_beta_square": "2*d**2*x + 2*d**2 + 4*d*x**2 + 16*d*x + 12*d + 2*x**3 + 13*x**2 + 28*x + 16",
+    "negative_beta_outer": "2*d**2*x + 2*d**2 + 2*d*x**2 + 14*d*x + 12*d + 7*x**2 + 24*x + 16",
+    "negative_alpha_outer": "d**2*x + d**2 + 2*d*x**2 + 9*d*x + 6*d + x**3 + 15*x**2/2 + 16*x + 8",
+    "negative_beta_middle": "2*d**2*x + 2*d**2 + 4*d*x**2 + 16*d*x + 12*d + 2*x**3 + 15*x**2 + 30*x + 16",
+    "negative_alpha_middle": "d**2*x + d**2 + 2*d*x**2 + 8*d*x + 6*d + x**3 + 13*x**2/2 + 13*x + 8"
+  },
+  "coefficient_domain": "c=1+x, epsilon=c+1+d, x>=0, d>=0",
+  "cycle_identity_verified": true,
+  "true_jacobian_factor": "epsilon**2 + 2*epsilon",
+  "finite_path_controls": [
+    {
+      "paths": 2,
+      "epsilon": 2,
+      "multiplicity_patterns": 1,
+      "largest_real_relative_edge_energy_change": "-2"
+    },
+    {
+      "paths": 3,
+      "epsilon": 3,
+      "multiplicity_patterns": 1,
+      "largest_real_relative_edge_energy_change": "-47/72"
+    },
+    {
+      "paths": 4,
+      "epsilon": 4,
+      "multiplicity_patterns": 2,
+      "largest_real_relative_edge_energy_change": "-23/72"
+    },
+    {
+      "paths": 5,
+      "epsilon": 5,
+      "multiplicity_patterns": 2,
+      "largest_real_relative_edge_energy_change": "-151/800"
+    },
+    {
+      "paths": 8,
+      "epsilon": 8,
+      "multiplicity_patterns": 4,
+      "largest_real_relative_edge_energy_change": "-103/1568"
+    },
+    {
+      "paths": 14,
+      "epsilon": 14,
+      "multiplicity_patterns": 7,
+      "largest_real_relative_edge_energy_change": "-164/8281"
+    },
+    {
+      "paths": 15,
+      "epsilon": 15,
+      "multiplicity_patterns": 7,
+      "largest_real_relative_edge_energy_change": "-1511/88200"
+    },
+    {
+      "paths": 32,
+      "epsilon": 32,
+      "multiplicity_patterns": 16,
+      "largest_real_relative_edge_energy_change": "-1759/492032"
+    },
+    {
+      "paths": 64,
+      "epsilon": 64,
+      "multiplicity_patterns": 32,
+      "largest_real_relative_edge_energy_change": "-7103/8128512"
+    },
+    {
+      "paths": 1000,
+      "epsilon": 1000,
+      "multiplicity_patterns": 500,
+      "largest_real_relative_edge_energy_change": "-1748999/499000500000"
+    }
+  ],
+  "scaled_affine_spectra": [
+    {
+      "paths": 2,
+      "epsilon": 2,
+      "affine_points": 3,
+      "projection_offset": 1,
+      "projection_polynomial": "projection**3 + 8*projection"
+    },
+    {
+      "paths": 3,
+      "epsilon": 3,
+      "affine_points": 7,
+      "projection_offset": 3,
+      "projection_polynomial": "projection**7 + 1239*projection**5/4 - 445*projection**4/2 + 99225*projection**3/4 - 23625*projection**2/2 + 168750*projection"
+    },
+    {
+      "paths": 4,
+      "epsilon": 4,
+      "affine_points": 15,
+      "projection_offset": 2,
+      "projection_polynomial": "projection**15 + 17360*projection**13/9 - 16960*projection**12/9 + 1398992*projection**11 - 5824000*projection**10/3 + 467617920*projection**9 - 574443520*projection**8 + 70787877888*projection**7 - 52826112000*projection**6 + 4230162800640*projection**5 + 40131624960*projection**4 + 85727648415744*projection**3 + 24078974976000*projection**2 + 455092627046400*projection"
+    }
+  ],
+  "block_cut_gluing": {
+    "vertices": 121,
+    "blocks": [
+      {
+        "kind": "theta",
+        "parameter": 5,
+        "edges": 15,
+        "products_preserved": true
+      },
+      {
+        "kind": "cycle",
+        "parameter": 4,
+        "edges": 8,
+        "products_preserved": true
+      },
+      {
+        "kind": "theta",
+        "parameter": 15,
+        "edges": 45,
+        "products_preserved": true
+      },
+      {
+        "kind": "bridge",
+        "parameter": 1,
+        "edges": 1,
+        "products_preserved": true
+      },
+      {
+        "kind": "theta",
+        "parameter": 32,
+        "edges": 96,
+        "products_preserved": true
+      },
+      {
+        "kind": "cycle",
+        "parameter": 3,
+        "edges": 6,
+        "products_preserved": true
+      }
+    ],
+    "all_positive": true,
+    "shared_row_and_column_internal_vertices_checked": true
+  },
+  "previous_five_path_obstruction_removed": true,
+  "verifier_sha256": "7d66990dd97f2013e181f0a431254563cb7d2918f097e1ac402e695d87d6f692",
+  "scope": "exact symbolic inequalities for all path counts plus finite spectra and rational block gluing; no observer query uses hidden factors"
+}

@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "cycle_factorizations": 2,
+  "energy_identities": 3,
+  "positive_transversal_derivative": "4*x+8",
+  "simple_P_root_derivative": "2+4*h",
+  "simple_M_root_derivatives": [
+    "-4*rho**2",
+    "12*rho**2"
+  ],
+  "ternary_digit_uniqueness_modulo_four": true,
+  "nonzero_private_row_margin": "3*rho*(v1-v2)",
+  "real_collision_relation": "x**2+4*x-5*W=0",
+  "verifier_sha256": "1a8fa1edaf8940b2a9a626f4916f231a55152cd968fb0d9d21c66bc728ddb457",
+  "scope": "exact symbolic identities; open-neighborhood and arbitrary-r degree argument are in the main proof"
+}

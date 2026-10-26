@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "validation-01-flower-r2-k33",
+      "repeats": 3
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "repeats": 3
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "two_C6_N1_0",
+      "repeats": 3
+    },
+    {
+      "id": "C8_N4_83",
+      "repeats": 3
+    }
+  ],
+  "jobs": 84,
+  "methods": [
+    "cycle_mitm",
+    "msolve_reduced"
+  ],
+  "seconds_after_ready": 30,
+  "execution": "serial fresh fork children after common imports",
+  "includes": "public IO, construction, exact root isolation, energy matching or native msolve startup, parametrization replay, support checks, serialization",
+  "excludes": "one shared import stage, recorded separately; no Windows timing pooled",
+  "single_available_CPU": true,
+  "source_hashes": {
+    "exact_cactus_decoder.py": "2a0a4c46f08ca1e676102b4d0de69110d68be710f5b8f133b0661896c0d32806",
+    "msolve_decoder_worker.py": "2716a24f88a03649aa3c75b63e39d17723789881d3f0c146b270fc7c4c4d99c6",
+    "msolve_runtime.py": "7d9116043d84d639508ed2c775614c50dd09757e6583c760a98680d7a76f3760",
+    "polynomial_solver_baseline.py": "b1372d082ff5616eebae74e242d6304015227d0e9f58682e26ae4d5db6cb4408"
+  },
+  "public_hashes": {
+    "C8_N4_83.json": "49ff89afd0af3723deafc5fed91d86c231549e0b5b44313a44028ebade378a32",
+    "two_C6_N1_0.json": "700e9e5094f455d0f18d08efe27139dea5e834436cb46d0f96f3c0754a690d7c",
+    "validation-01-flower-r2-k33.json": "61efc22e7765df29fa4abc3626dbc4b066734e8f7ecd04fa068f6e0bbb0161df",
+    "validation-02-flower-r2-k55.json": "6eb73386b0f3c2fc81e39443a15f598bbba6e2e092525d4ddb5142ff10a4cd33",
+    "validation-03-flower-r4-k3333.json": "498460d23fa73162fda1e2dff0483afd9bc06f464807318caff976f8604b06d4",
+    "validation-04-flower-r4-k5555.json": "1b6ebe0ff2c34a67bd305c8e368eb1d6104e69cf56603f85464f4e0371f4399c",
+    "validation-05-flower-r8-k33333333.json": "4c01820fafcdf242bbec11bef1506c4d271ac7e62c8e95318dcdb6f06c311bc5",
+    "validation-06-flower-r8-k55555555.json": "c11d8db2008b447ba1608bcb026bfae6eebed1aa6c5afe7f4cd9e6c96acbbc9c",
+    "validation-07-flower-r12-k333333333333.json": "60228e8383ae56775f77c6e660ea3a1a1158f36a796e3ad72ef183d23ecff6f8",
+    "validation-08-flower-r12-k555555555555.json": "8c48cce4b5da49c0f33b62c7be55f71728f7dfb0b9c55e4ba583bcedede20828",
+    "validation-09-chain-r3-k234.json": "518e7497d68d8e655beafe9a59731c82fd11e3c59c4b0757e113915ead685373",
+    "validation-10-bridge-r3-k234.json": "6e9dca6258dc270a8fabf986a24ef448c0266877fd3f29a18a335a1e4df20665",
+    "validation-11-disjoint-r3-k234.json": "56b501d21abdba707f42301b7efdccb65a1c9a7476410b5ade59c7709c89ecba",
+    "validation-12-zero_path-r3-k234.json": "688d1b8c2b2d3c84e6c972cb5a79cd5ff2e7326f0fe9c11777e5cfe2277b99c5"
+  },
+  "runner_sha256": "d91bf14095e11bbee1dfb69fdb7b079c0c29cedcad4b03b4edb399a9f4033082"
+}

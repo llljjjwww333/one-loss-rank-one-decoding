@@ -1,0 +1,91 @@
+{
+  "complete": true,
+  "frozen_queries": 1605,
+  "certified_unique": 1486,
+  "prior_certified": 708,
+  "newly_certified": 778,
+  "nontrivial_pruning": 1361,
+  "already_singleton_gradients": 125,
+  "max_actual_gradient_candidates": 531441,
+  "unresolved_singletons": 54,
+  "retained_ambiguities": 65,
+  "prospective_inputs": 96,
+  "prospective_certified": 84,
+  "prospective_unresolved": 12,
+  "small_complete_oracles": 48,
+  "largest_certified_real_root_product": 31381059609,
+  "additional": {
+    "uniform": {
+      "Unresolved": 6,
+      "CertifiedUnique": 8
+    },
+    "lattice": {
+      "CertifiedUnique": 5,
+      "Unresolved": 18,
+      "CertifiedEmpty": 9
+    }
+  },
+  "vector_oracles": 500,
+  "sturm_controls": 6,
+  "radical_controls": 3,
+  "empty_masks": 2,
+  "rejected_corrupted_certificates": [
+    "omitted_root",
+    "false_bound",
+    "wrong_candidate",
+    "merged_classes"
+  ],
+  "table_counts": {
+    "1": [
+      1,
+      59,
+      64,
+      64,
+      64,
+      64
+    ],
+    "2": [
+      0,
+      60,
+      64,
+      64,
+      64,
+      64
+    ],
+    "4": [
+      0,
+      54,
+      64,
+      64,
+      64,
+      64
+    ],
+    "8": [
+      0,
+      33,
+      57,
+      63,
+      64,
+      64
+    ],
+    "12": [
+      0,
+      19,
+      52,
+      64,
+      64,
+      64
+    ]
+  },
+  "verifier_sha256": "6d579db6a4b298303cf367579201845e8935730fcc9776a94fa778adc6fa8ab4",
+  "protocol_sha256": "de873d54c4e5b5a72a70b1ff61001519f713824c78f6ee3b40cbd268d06ee216",
+  "source_hashes": {
+    "coordinate_decoder.py": "28e2fa392e579b34d024b5457e8145ae28e641e5bf173e8716fe4f7841b6b3c1",
+    "verify_coordinate.py": "c83b81574135d73b20dd32727ad5a84a0f13765569b5cf262c9ce6581565976a",
+    "run_study.py": "483dc51c2859fe196fe652ef604a511f3ef74b71b56d64ed704e2e4df30a378e",
+    "make_protocol.py": "ad10b31ece2418b7a837c2d73ed268f575fe29fe75a089a33d2420a6401ef015"
+  },
+  "outcomes_sha256": "88902cfe194a46420501c96c6b6734864a61e71c46e3c054d0a93df511657f39",
+  "prospective_outcomes_sha256": "64cd9588b2b856ac18d7de879b6d6a70831e4049e48f8a45d7606cebce5625cd",
+  "scope": "local exact certificate replay; shares rational arithmetic and incidence reduction; not a new priority or random-query complexity result"
+}

@@ -1,0 +1,2107 @@
+{
+  "schema_version": 1,
+  "manuscript_version": "jsc-coordinate-2026.10.26.6",
+  "files": [
+    {
+      "path": "src/revisions/20261026_energy_constraints/run_rur_study.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/run_rur_study.py",
+      "sha256": "13cd295e103984cc722ae41682a4ed0c9c12e8c2f2885176e8baaeffc7c632e8"
+    },
+    {
+      "path": "src/exact_cactus_decoder.py",
+      "target": "paper/cactus_global_loss/exact_cactus_decoder.py",
+      "sha256": "2a0a4c46f08ca1e676102b4d0de69110d68be710f5b8f133b0661896c0d32806"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/exact_rur_decoder.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/exact_rur_decoder.py",
+      "sha256": "4b43391e37d67f47dc4f6f6d3e4b6f358b1f73f80027d3b8c9688e643b2d78eb"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/normalized_block_decoder.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/normalized_block_decoder.py",
+      "sha256": "637b60016926e7706ff124aaa51eff45f1bcf871e4801a8930489c8917053bac"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/run_theta_study.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/run_theta_study.py",
+      "sha256": "103a5bd2368c05e539853cc1766a0ade2a5b2f0478955a6639f74cd715c8220f"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_ternary_degree.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_ternary_degree.py",
+      "sha256": "b37d886c71b630217f1e43bd0d4a82b5428ecd636a188830b9af0c5e284d93dc"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_certificate_degree.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_certificate_degree.py",
+      "sha256": "31e9b6a44be1cc64777c9e102075272b835fd54922d2baab62e989ed1e3cb4c1"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_degree_symbolics.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_degree_symbolics.py",
+      "sha256": "1a8fa1edaf8940b2a9a626f4916f231a55152cd968fb0d9d21c66bc728ddb457"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/audit_rur.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/audit_rur.py",
+      "sha256": "eccc882b5b4b55f70d7d3816ece11356cd0771d6663c6a12c9e6fe38233b3e07"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_rur_arithmetic.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_rur_arithmetic.py",
+      "sha256": "4fad82a0c41a91171df61badfa55719876059089cf552e66cafb789316e5dede"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/audit_theta.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/audit_theta.py",
+      "sha256": "ffc3ce3e5e2c23366eb0ae2e75a576d51f2db28bfd4194914b53f5203212c6fb"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_scaled_blocks.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_scaled_blocks.py",
+      "sha256": "7d66990dd97f2013e181f0a431254563cb7d2918f097e1ac402e695d87d6f692"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_unit_blocks.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_unit_blocks.py",
+      "sha256": "5d9622a873211228fcb588f77f864547e36877dc7893da963f02b7f06fbabf54"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/analyze_squareclass.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/analyze_squareclass.py",
+      "sha256": "c9809ad2949f74083ea62b36df69b6b9ba5243bd9892c1e4a34ceca41d19a724"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/run_squareclass_study.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/run_squareclass_study.py",
+      "sha256": "391cdce3f3198bc9e5fbe7a2b33212490d6efd4be586106d39d9763c8ef5955c"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/squareclass_decoder.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/squareclass_decoder.py",
+      "sha256": "3bb03eb18386668c634d8289e6549c9964570fb7a0acdcdf26452036e097096d"
+    },
+    {
+      "path": "src/cubic_probability_decoder.py",
+      "target": "paper/cactus_global_loss/cubic_probability_decoder.py",
+      "sha256": "0586eac364424b2843e7f7f73224098d843c555719ac7ff1436455fe72ded3fd"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/analyze_uniform.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/analyze_uniform.py",
+      "sha256": "5ea6165abc8507641e28a9edda6de92283f34f1b248349394afdc08d74cdb93a"
+    },
+    {
+      "path": "src/verify_solver_comparison.py",
+      "target": "paper/cactus_global_loss/verify_solver_comparison.py",
+      "sha256": "a2e148fb711aa288de8966b4dc4e8358c0f4142421d3475d762b5b48655567af"
+    },
+    {
+      "path": "src/run_solver_comparison.py",
+      "target": "paper/cactus_global_loss/run_solver_comparison.py",
+      "sha256": "f30e8e6affd36e05986437c8ed49480f54e1df227f61744dcce3650fcaae45fb"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/run_lattice_study.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/run_lattice_study.py",
+      "sha256": "9f3f437009101f97e18d1c047568b1d5814d0cbf10daf87fb60857f7339c6e02"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/lattice_decoder.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_decoder.py",
+      "sha256": "955031e9d64ad582de4f8d2049076d2aaa320cdfbb1be1e614ed4fce14d8f9d9"
+    },
+    {
+      "path": "src/revisions/20261025_structural_depth/hardness_family.py",
+      "target": "paper/cactus_global_loss/revisions/20261025_structural_depth/hardness_family.py",
+      "sha256": "a12e95209a548573ea1cd52363437c1d3fffb1880222ed66acc4889ca60a4712"
+    },
+    {
+      "path": "src/revisions/20261026_energy_constraints/check_grid_law.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/check_grid_law.py",
+      "sha256": "20e3649c059c0082858ca6dacda2673353662368d2afd0222cd72a7dab9eaab7"
+    },
+    {
+      "path": "data/results/degree_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/degree_protocol.json",
+      "sha256": "959757d24f5e60391cf7776296cb129cf8934afec98e0fa3d8bf1eb9887e9f5e"
+    },
+    {
+      "path": "data/results/degree_symbolic_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/degree_symbolic_validation.json",
+      "sha256": "1a9a8c62dbf9b81bbee6e7ee9610317e2e9b4534013ec2db1f4807f397e599cf"
+    },
+    {
+      "path": "data/results/degree_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/degree_validation.json",
+      "sha256": "52a49d7291e3777cd252c75c58a5abed9fd55ffb3ba039463243ff64665d2108"
+    },
+    {
+      "path": "data/results/degree_witnesses.jsonl",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/degree_witnesses.jsonl",
+      "sha256": "0c030f7820835e54771046122bc7b4cae36e8927e147d24ed4c1e30b5f16043e"
+    },
+    {
+      "path": "data/results/grid_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/grid_protocol.json",
+      "sha256": "69c8cb921728b85c0dd2408f5f1b7eabe7475c69d9e95f7db78605ac8b4edc79"
+    },
+    {
+      "path": "data/results/grid_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/grid_validation.json",
+      "sha256": "85cee25edd8ef7696760e1b86493be3399ccdb4d0ba97b0d41705b9e4daf8b77"
+    },
+    {
+      "path": "data/results/lattice_outcomes.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_outcomes.json",
+      "sha256": "52a0ecdb9d9d15d1e7689268835bc5774db62dd97f390aa11abdb73249484af1"
+    },
+    {
+      "path": "data/results/lattice_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_protocol.json",
+      "sha256": "5f0b78e43e6aca41d6accc2c38ef0270e64cd5c8b0a576a06eedf091208a52ac"
+    },
+    {
+      "path": "data/results/lattice_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_validation.json",
+      "sha256": "940511847deedc0c7bb09421d83c4e293c09688433772be1739492de0f97d546"
+    },
+    {
+      "path": "data/results/rur_arithmetic_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_arithmetic_validation.json",
+      "sha256": "a2c707d7b9204c8eac5550ad256e02d4bf9ae46099fdf0ea25cf83dfd1a181a9"
+    },
+    {
+      "path": "data/results/rur_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_protocol.json",
+      "sha256": "64ea075e4651b69d2f6150b2d273eb12f90a1335447273e00d93d761a59b8d89"
+    },
+    {
+      "path": "data/results/rur_protocol_v2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_protocol_v2.json",
+      "sha256": "c53883780e17ad1deb179bb380dd3936471cd7925e1e894d77a8ab1536c67e8c"
+    },
+    {
+      "path": "data/results/rur_protocol_v3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_protocol_v3.json",
+      "sha256": "592307f7ba4246d3f550405b70d4709ac3ff5bc691b78cb651bb7fe416bbebcd"
+    },
+    {
+      "path": "data/results/rur_results.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_results.json",
+      "sha256": "0d501088ff32ccdb29c4876318f712e887eb56378e655fa1fcb58fd0fb4afaba"
+    },
+    {
+      "path": "data/results/rur_results_v3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_results_v3.json",
+      "sha256": "ed97d8b958f6d48a7d7013c389d05ec0178e76b16902e164976b3a2f8cf039a4"
+    },
+    {
+      "path": "data/results/rur_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_validation.json",
+      "sha256": "98b612f61e48d8820775b98bbb59a3ebe787d14181a55548ee2fc5dd7c5da937"
+    },
+    {
+      "path": "data/results/scaled_block_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/scaled_block_validation.json",
+      "sha256": "28f56077d3d081e71f915c07f6099fbd5d302a935c73b7a1c08df6f9453d13dc"
+    },
+    {
+      "path": "data/results/squareclass_effect_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/squareclass_effect_validation.json",
+      "sha256": "e8a8e6dd8ed13d61a51ed192d3b1f3f1e9c004dd7462959a55c52c0414b87b47"
+    },
+    {
+      "path": "data/results/squareclass_outcomes.jsonl",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/squareclass_outcomes.jsonl",
+      "sha256": "62b82cbc0a383ac75585446b693a4f68731256df86738bb204295e24db282b46"
+    },
+    {
+      "path": "data/results/squareclass_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/squareclass_protocol.json",
+      "sha256": "d2bed1535cceb02d927ddd156f144fe1acff1610bd76dc78ae0185931387fe03"
+    },
+    {
+      "path": "data/results/squareclass_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/squareclass_validation.json",
+      "sha256": "dfbaaa59c862359f68e43eb3080cd168048224785c5150017a875c16a2e72a84"
+    },
+    {
+      "path": "data/results/ternary_degree_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/ternary_degree_protocol.json",
+      "sha256": "d214064aaa1ba79ad30319fc127cf7c8cfc1b30ec6e2084d1c03f0e8898e5374"
+    },
+    {
+      "path": "data/results/ternary_degree_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/ternary_degree_validation.json",
+      "sha256": "2b0773ec8541faa85fd8773005bea9e04f6162bcbdc17735c8d0920325bea5c7"
+    },
+    {
+      "path": "data/results/ternary_degree_witnesses.jsonl",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/ternary_degree_witnesses.jsonl",
+      "sha256": "23539e7759f844a34fce591042074ff5bec88032d19b5ddbe04bd0e43dfa14f9"
+    },
+    {
+      "path": "data/results/theta_audit_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_audit_validation.json",
+      "sha256": "ff0b8c200adb8c86ce00def452a4067d55a0c274d7fa5662ca63795fbc73f872"
+    },
+    {
+      "path": "data/results/theta_frozen_inputs.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_frozen_inputs.json",
+      "sha256": "78acae2982a1c5dca1c7a5c119cc70ddf1945c6613408f3dc1ea1bd458867656"
+    },
+    {
+      "path": "data/results/theta_progress.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_progress.json",
+      "sha256": "408b6ccfdd5d752975c9e407a2224d963d6396cab72afb6076930636a6a9a952"
+    },
+    {
+      "path": "data/results/theta_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_protocol.json",
+      "sha256": "4bf3ac211e58ae57b1d04f916645c43aabb9c7078cbfcef07887a8fc9693fec3"
+    },
+    {
+      "path": "data/results/theta_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_validation.json",
+      "sha256": "3ecb9822a3155af198bfd47400da6d3d316f254ba4c928dc263ea84034450d81"
+    },
+    {
+      "path": "data/results/unit_block_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/unit_block_validation.json",
+      "sha256": "c90ae96a1819d2c979b12fc9c318eb3fa82cd689e29d49e0d57cb85b6370b2b6"
+    },
+    {
+      "path": "data/lattice_public/binary_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r1.json",
+      "sha256": "db989aa66a7b7cb4accd8674a56f2eecf05aa7d42bde2e7d5f7e965c7b202de5"
+    },
+    {
+      "path": "data/lattice_public/binary_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r12.json",
+      "sha256": "101338a3efe24690b3fc9d59559e36b832ec1032507f25fe77c023d87bb9581c"
+    },
+    {
+      "path": "data/lattice_public/binary_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r16.json",
+      "sha256": "2d50f082eeaabc83c9949be10b3a62815a8ea17a66adf4941bd3ac78e6fddb53"
+    },
+    {
+      "path": "data/lattice_public/binary_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r2.json",
+      "sha256": "353beb996a04261873f4985266ca00d73179e4ee9faacc5655e111ad7c1aad3d"
+    },
+    {
+      "path": "data/lattice_public/binary_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r24.json",
+      "sha256": "591f0195164356ee1caef1b6aa80937096b31e36caa59d51377073ff623ffebf"
+    },
+    {
+      "path": "data/lattice_public/binary_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r32.json",
+      "sha256": "25b5be6af2b403973a08dfb51578997a69ede316cd9973fa8beb08d4301d118b"
+    },
+    {
+      "path": "data/lattice_public/binary_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r4.json",
+      "sha256": "14dd4d2a7e4791f07b9644bf964a159eb112b58580844d27ff19eaf19dbd3d4f"
+    },
+    {
+      "path": "data/lattice_public/binary_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/binary_r8.json",
+      "sha256": "6d2a397b0f69c619fb7e80255d954d17c3c65e38016073a85b8129e9e4d64482"
+    },
+    {
+      "path": "data/lattice_public/dense_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r1.json",
+      "sha256": "91817ddc9294d2109cbbb7dd64431476ef4416cbbfc511fd8acd0a8f7f6496cd"
+    },
+    {
+      "path": "data/lattice_public/dense_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r12.json",
+      "sha256": "26c8379d046c2c182e68eb4bc29693221bf3ff5fc6c2a88120d0a9c191d7815e"
+    },
+    {
+      "path": "data/lattice_public/dense_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r16.json",
+      "sha256": "3846e7d67b7799cb97c389534c7ce5b414b8283821425a8f394e5274e8be8006"
+    },
+    {
+      "path": "data/lattice_public/dense_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r2.json",
+      "sha256": "e7b2ad0a7e11b42795f216b95c3794a1573b2d6cea904b3b2a0b094a207bca93"
+    },
+    {
+      "path": "data/lattice_public/dense_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r24.json",
+      "sha256": "eaa0d3b43effd391163f9af177c9212cd67dc9b1c36855412daff9870e7b48f6"
+    },
+    {
+      "path": "data/lattice_public/dense_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r32.json",
+      "sha256": "2c3610d3a8ca9b3b77c2aa8f95981914fe5fd71365614d2eed0024ef590e430f"
+    },
+    {
+      "path": "data/lattice_public/dense_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r4.json",
+      "sha256": "b5d78baf1dc13e1cc48f05b9739ea22dd145c63d60719ef733a61845fff33c14"
+    },
+    {
+      "path": "data/lattice_public/dense_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/dense_r8.json",
+      "sha256": "0ccb6beb4ab7874c99d1abde63aa0b9de14ff8aae6831e9cf6b0fd3f83353ad7"
+    },
+    {
+      "path": "data/lattice_public/empty_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r1.json",
+      "sha256": "dc8e16491e2a58e3f2b4a8611c1513fc061424a684f70a8ce5c319a725944f6a"
+    },
+    {
+      "path": "data/lattice_public/empty_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r12.json",
+      "sha256": "d7062f665d5aa2176f097aad8122d9422c118e3fc800fcc7ad5dd1c969bf7afc"
+    },
+    {
+      "path": "data/lattice_public/empty_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r16.json",
+      "sha256": "39c951673b3ce099f1ce7681f0ae07842101fbede213aae86cd52574bb792577"
+    },
+    {
+      "path": "data/lattice_public/empty_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r2.json",
+      "sha256": "4c66d2a13b9a6b1d0d72cb2165563a15b6383bb085ae3c97ea74e6ce494e2c68"
+    },
+    {
+      "path": "data/lattice_public/empty_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r24.json",
+      "sha256": "7598782e4d6858136e1576066d47bb45c67a052340367f50255fa2e021c82d27"
+    },
+    {
+      "path": "data/lattice_public/empty_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r32.json",
+      "sha256": "4047ad3457c789ffee9dbabe8105be799fff4fd9d59dcedfc3e874278ee0dbc7"
+    },
+    {
+      "path": "data/lattice_public/empty_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r4.json",
+      "sha256": "fd4701271f8fc374ba431d8bdbd687137090d0b23b6123ba2cdc4ea238afe269"
+    },
+    {
+      "path": "data/lattice_public/empty_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/empty_r8.json",
+      "sha256": "de19c710dc9e8a8ff56d2592152bb3d5581686035ef8c91378d164805b5e3201"
+    },
+    {
+      "path": "data/lattice_public/equal_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r1.json",
+      "sha256": "91817ddc9294d2109cbbb7dd64431476ef4416cbbfc511fd8acd0a8f7f6496cd"
+    },
+    {
+      "path": "data/lattice_public/equal_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r12.json",
+      "sha256": "d3f051da67638e277cc1a8712a656d64a9a9d62b0cff72e9e9e347bba28701a9"
+    },
+    {
+      "path": "data/lattice_public/equal_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r16.json",
+      "sha256": "be56ea4faedee0108e72b395be65631d7f52137346a01359be372d469adad4d3"
+    },
+    {
+      "path": "data/lattice_public/equal_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r2.json",
+      "sha256": "07a4e50af402f868922ff28110308e194209707ec8dc4593e98411ac80ca5b3c"
+    },
+    {
+      "path": "data/lattice_public/equal_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r24.json",
+      "sha256": "cd5b60391304251a564cbf425c7c4658328c32afc1c4ab3eccaf6b5aed51a67a"
+    },
+    {
+      "path": "data/lattice_public/equal_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r32.json",
+      "sha256": "463952d6b46fb10a22d75253e1d4e545cbfbdc84bfcfe07684e034a7360ad2f7"
+    },
+    {
+      "path": "data/lattice_public/equal_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r4.json",
+      "sha256": "61a5468bc97f2a2588840a620a6789a7122951bb44a83ae6649e0455f19de400"
+    },
+    {
+      "path": "data/lattice_public/equal_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/lattice_public/equal_r8.json",
+      "sha256": "cb5b19ca299d16dbe462be0a78f50c51353c72405871865f4759a29fbb77dd66"
+    },
+    {
+      "path": "data/theta_public/glued_3_3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/glued_3_3.json",
+      "sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503"
+    },
+    {
+      "path": "data/theta_public/glued_3_4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/glued_3_4.json",
+      "sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293"
+    },
+    {
+      "path": "data/theta_public/glued_3_C6.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/glued_3_C6.json",
+      "sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110"
+    },
+    {
+      "path": "data/theta_public/theta3_asymmetric_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_asymmetric_N1.json",
+      "sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0"
+    },
+    {
+      "path": "data/theta_public/theta3_asymmetric_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_asymmetric_N2.json",
+      "sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b"
+    },
+    {
+      "path": "data/theta_public/theta3_asymmetric_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_asymmetric_N32.json",
+      "sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4"
+    },
+    {
+      "path": "data/theta_public/theta3_asymmetric_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_asymmetric_N8.json",
+      "sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c"
+    },
+    {
+      "path": "data/theta_public/theta3_mixed_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_mixed_N1.json",
+      "sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a"
+    },
+    {
+      "path": "data/theta_public/theta3_mixed_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_mixed_N2.json",
+      "sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555"
+    },
+    {
+      "path": "data/theta_public/theta3_mixed_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_mixed_N32.json",
+      "sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223"
+    },
+    {
+      "path": "data/theta_public/theta3_mixed_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_mixed_N8.json",
+      "sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb"
+    },
+    {
+      "path": "data/theta_public/theta3_positive_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_positive_N1.json",
+      "sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db"
+    },
+    {
+      "path": "data/theta_public/theta3_positive_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_positive_N2.json",
+      "sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2"
+    },
+    {
+      "path": "data/theta_public/theta3_positive_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_positive_N32.json",
+      "sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462"
+    },
+    {
+      "path": "data/theta_public/theta3_positive_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta3_positive_N8.json",
+      "sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669"
+    },
+    {
+      "path": "data/theta_public/theta4_asymmetric_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_asymmetric_N1.json",
+      "sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef"
+    },
+    {
+      "path": "data/theta_public/theta4_asymmetric_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_asymmetric_N2.json",
+      "sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1"
+    },
+    {
+      "path": "data/theta_public/theta4_asymmetric_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_asymmetric_N32.json",
+      "sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6"
+    },
+    {
+      "path": "data/theta_public/theta4_asymmetric_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_asymmetric_N8.json",
+      "sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf"
+    },
+    {
+      "path": "data/theta_public/theta4_mixed_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_mixed_N1.json",
+      "sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63"
+    },
+    {
+      "path": "data/theta_public/theta4_mixed_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_mixed_N2.json",
+      "sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de"
+    },
+    {
+      "path": "data/theta_public/theta4_mixed_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_mixed_N32.json",
+      "sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5"
+    },
+    {
+      "path": "data/theta_public/theta4_mixed_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_mixed_N8.json",
+      "sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f"
+    },
+    {
+      "path": "data/theta_public/theta4_positive_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_positive_N1.json",
+      "sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982"
+    },
+    {
+      "path": "data/theta_public/theta4_positive_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_positive_N2.json",
+      "sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e"
+    },
+    {
+      "path": "data/theta_public/theta4_positive_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_positive_N32.json",
+      "sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2"
+    },
+    {
+      "path": "data/theta_public/theta4_positive_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_public/theta4_positive_N8.json",
+      "sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b"
+    },
+    {
+      "path": "data/rur_public_v3/c4_irrational.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/c4_irrational.json",
+      "sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e"
+    },
+    {
+      "path": "data/rur_public_v3/c4_irrational_bounded.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/c4_irrational_bounded.json",
+      "sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e"
+    },
+    {
+      "path": "data/rur_public_v3/c4_irrational_outside_budget.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/c4_irrational_outside_budget.json",
+      "sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302"
+    },
+    {
+      "path": "data/rur_public_v3/c4_irrational_outside_budget_bounded.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/c4_irrational_outside_budget_bounded.json",
+      "sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302"
+    },
+    {
+      "path": "data/rur_public_v3/c4_tangent.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/c4_tangent.json",
+      "sha256": "be2017fe11a077a35775630b96eca84c0298ede0b0dc1a8169003a827733b7f3"
+    },
+    {
+      "path": "data/rur_public_v3/glued_3_3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/glued_3_3.json",
+      "sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503"
+    },
+    {
+      "path": "data/rur_public_v3/glued_3_4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/glued_3_4.json",
+      "sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293"
+    },
+    {
+      "path": "data/rur_public_v3/glued_3_C6.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/glued_3_C6.json",
+      "sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110"
+    },
+    {
+      "path": "data/rur_public_v3/inconsistent_margins.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/inconsistent_margins.json",
+      "sha256": "5863fc4600cf302e3250fdc88e1960044ee722394e08a6e5a551eed275c809ea"
+    },
+    {
+      "path": "data/rur_public_v3/nonactual_forest.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/nonactual_forest.json",
+      "sha256": "30e8a7a6e4dd7f9f13f5f2e8dfcfc7262dbd14c709982d9f6cba7620aaae452e"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_asymmetric_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_asymmetric_N1.json",
+      "sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_asymmetric_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_asymmetric_N2.json",
+      "sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_asymmetric_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_asymmetric_N32.json",
+      "sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_asymmetric_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_asymmetric_N8.json",
+      "sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_c4_irrational.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_c4_irrational.json",
+      "sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_c4_irrational_bounded.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_c4_irrational_bounded.json",
+      "sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_c4_tangent.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_c4_tangent.json",
+      "sha256": "92584163732bb071ed718838186e818cc2c8e506634918029b74893284cd6802"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_mixed_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_mixed_N1.json",
+      "sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_mixed_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_mixed_N2.json",
+      "sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_mixed_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_mixed_N32.json",
+      "sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_mixed_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_mixed_N8.json",
+      "sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_positive_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_positive_N1.json",
+      "sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_positive_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_positive_N2.json",
+      "sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_positive_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_positive_N32.json",
+      "sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462"
+    },
+    {
+      "path": "data/rur_public_v3/theta3_positive_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta3_positive_N8.json",
+      "sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_asymmetric_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_asymmetric_N1.json",
+      "sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_asymmetric_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_asymmetric_N2.json",
+      "sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_asymmetric_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_asymmetric_N32.json",
+      "sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_asymmetric_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_asymmetric_N8.json",
+      "sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_mixed_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_mixed_N1.json",
+      "sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_mixed_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_mixed_N2.json",
+      "sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_mixed_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_mixed_N32.json",
+      "sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_mixed_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_mixed_N8.json",
+      "sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_positive_N1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_positive_N1.json",
+      "sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_positive_N2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_positive_N2.json",
+      "sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_positive_N32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_positive_N32.json",
+      "sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2"
+    },
+    {
+      "path": "data/rur_public_v3/theta4_positive_N8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_public_v3/theta4_positive_N8.json",
+      "sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--cycle_mitm--1.json",
+      "sha256": "96785d329b239a2f0985bd3d6645d863a0c400f6cc24cf4a8ee9cc6b3ff8d131"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--cycle_mitm--2.json",
+      "sha256": "96785d329b239a2f0985bd3d6645d863a0c400f6cc24cf4a8ee9cc6b3ff8d131"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--cycle_mitm--3.json",
+      "sha256": "96785d329b239a2f0985bd3d6645d863a0c400f6cc24cf4a8ee9cc6b3ff8d131"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.json",
+      "sha256": "7153c4891a9aa234c942eddc96c5b30d18928796359c9382d4e2d6bd9f29aa06"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--1.msolve.out",
+      "sha256": "d059af765d5e373ebb3ded87d09102489b1bfa2f6becc13ad42ad7d3221525d8"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.json",
+      "sha256": "e5dbc401b2fd9f158889881bb90ee914d1289821a485543a3cd134526ed5048a"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--2.msolve.out",
+      "sha256": "d059af765d5e373ebb3ded87d09102489b1bfa2f6becc13ad42ad7d3221525d8"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.json",
+      "sha256": "d775ba5b5f92c809ecd809c3fff4495fa0049c42998567546455adaae31a95e0"
+    },
+    {
+      "path": "data/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/C8_N4_83--msolve_reduced--3.msolve.out",
+      "sha256": "d059af765d5e373ebb3ded87d09102489b1bfa2f6becc13ad42ad7d3221525d8"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--1.json",
+      "sha256": "375bc7fbd499810547d4c0c382b8b0c9fd3e612e8bda523b5aafc3240b186cc4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--2.json",
+      "sha256": "375bc7fbd499810547d4c0c382b8b0c9fd3e612e8bda523b5aafc3240b186cc4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--cycle_mitm--3.json",
+      "sha256": "375bc7fbd499810547d4c0c382b8b0c9fd3e612e8bda523b5aafc3240b186cc4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.json",
+      "sha256": "72a8efc533563aa999ca7fb01d807a03a1ad1becb985bba1d4820427ff6cb5d5"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--1.msolve.out",
+      "sha256": "0882d36c38915e61a466bc245ccce9ea8766ad1b3e2bab988d9cea98a5b79014"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.json",
+      "sha256": "1b193c195c0021380021a14759c712e0e0c7ca54aa6c4235542dc4d02ac36135"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--2.msolve.out",
+      "sha256": "0882d36c38915e61a466bc245ccce9ea8766ad1b3e2bab988d9cea98a5b79014"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.json",
+      "sha256": "6f405579eae411af34f160e0ede5a07c8b7ac58375a12b6659467ca051252c17"
+    },
+    {
+      "path": "data/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/two_C6_N1_0--msolve_reduced--3.msolve.out",
+      "sha256": "0882d36c38915e61a466bc245ccce9ea8766ad1b3e2bab988d9cea98a5b79014"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--1.json",
+      "sha256": "6a24a9602206eccad816d698dcd8073d6a4e2dd9c40a62843c1725802f8e0592"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--2.json",
+      "sha256": "6a24a9602206eccad816d698dcd8073d6a4e2dd9c40a62843c1725802f8e0592"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--cycle_mitm--3.json",
+      "sha256": "6a24a9602206eccad816d698dcd8073d6a4e2dd9c40a62843c1725802f8e0592"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.json",
+      "sha256": "04297ab449d1aadc1579dd5c7d3ef6398406f0c63c514e9073ce35a2fadced5c"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--1.msolve.out",
+      "sha256": "e876295dfbf3053854d8816aba9aeeeb575d696be654ddfe2e1fd375f53c9986"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.json",
+      "sha256": "f1ef35138422d72f50f9649436b6c5a016b19d1388e414ef4810c56bd2136580"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--2.msolve.out",
+      "sha256": "e876295dfbf3053854d8816aba9aeeeb575d696be654ddfe2e1fd375f53c9986"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.json",
+      "sha256": "6ea7dfd9e873d8383846e45858d374ebd481a3cc49831e7a3e3c21ab9f06e984"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-01-flower-r2-k33--msolve_reduced--3.msolve.out",
+      "sha256": "e876295dfbf3053854d8816aba9aeeeb575d696be654ddfe2e1fd375f53c9986"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--1.json",
+      "sha256": "b9990b6c38b0815afd453511b4bc78fba67aad4ead83da3d93b9369b28af2b07"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--2.json",
+      "sha256": "b9990b6c38b0815afd453511b4bc78fba67aad4ead83da3d93b9369b28af2b07"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--cycle_mitm--3.json",
+      "sha256": "b9990b6c38b0815afd453511b4bc78fba67aad4ead83da3d93b9369b28af2b07"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.json",
+      "sha256": "9601a0f3ce64c8cdba81c8be17b8222820846b6a92f6a82a10ef90cde7c60631"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--1.msolve.out",
+      "sha256": "bc6b397b97f6408b74e9ef5a016ae3d1c27ebf0e58ed72a6c09d257ac8ed48d4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.json",
+      "sha256": "fbf14592ad4c7db8ead27d1d890419dd714088569d30033fa6c59b1aed3cdfa2"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--2.msolve.out",
+      "sha256": "bc6b397b97f6408b74e9ef5a016ae3d1c27ebf0e58ed72a6c09d257ac8ed48d4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.json",
+      "sha256": "162d80a92aefa73a25274f0e58b1e471a0fca120a90c1075809515df8922748f"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-02-flower-r2-k55--msolve_reduced--3.msolve.out",
+      "sha256": "bc6b397b97f6408b74e9ef5a016ae3d1c27ebf0e58ed72a6c09d257ac8ed48d4"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--1.json",
+      "sha256": "7b3f036eaf29ca5fab64303333f9cd2678aaedce89e7adb5a162e18d7798aaea"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--2.json",
+      "sha256": "7b3f036eaf29ca5fab64303333f9cd2678aaedce89e7adb5a162e18d7798aaea"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--cycle_mitm--3.json",
+      "sha256": "7b3f036eaf29ca5fab64303333f9cd2678aaedce89e7adb5a162e18d7798aaea"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.json",
+      "sha256": "c9e2f3e2c32616f5e7c05a27d84f368f844309d2a8c0957e458545b30e1fae16"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--1.msolve.out",
+      "sha256": "e86764e1379c22bebd3c828ddc9c6ed29fdf4954e8a98c263728ebaad6bf7a74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.json",
+      "sha256": "a3e7b944bb778debc7eca70c1fdc86f59fb0507ad191cdb1339d0c126857121c"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--2.msolve.out",
+      "sha256": "e86764e1379c22bebd3c828ddc9c6ed29fdf4954e8a98c263728ebaad6bf7a74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.json",
+      "sha256": "de7fb54e3085ec0ce317b4ea9924c0b94d082cd08f70f294f682e3124c6befe3"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-03-flower-r4-k3333--msolve_reduced--3.msolve.out",
+      "sha256": "e86764e1379c22bebd3c828ddc9c6ed29fdf4954e8a98c263728ebaad6bf7a74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--1.json",
+      "sha256": "901860b3afd2f88d35c87c2e025041906f831a0b9a294834ed4ca7b6952428cd"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--2.json",
+      "sha256": "901860b3afd2f88d35c87c2e025041906f831a0b9a294834ed4ca7b6952428cd"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--cycle_mitm--3.json",
+      "sha256": "901860b3afd2f88d35c87c2e025041906f831a0b9a294834ed4ca7b6952428cd"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.json",
+      "sha256": "46db4486cd6bf706ef30008a4b3f2f1c07ce7d18127e60014c7db38e37c4b4f6"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--1.msolve.out",
+      "sha256": "168b46a3762783201a5c94d75be80cfdf0be8cc73308862960827bcac183e59e"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.json",
+      "sha256": "e345ffc65f64b2537087624efab3854e272f9325625d3819fdd51678621daa40"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--2.msolve.out",
+      "sha256": "168b46a3762783201a5c94d75be80cfdf0be8cc73308862960827bcac183e59e"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.json",
+      "sha256": "50bb2b41e24b746229f36ee6407f82e591f0c163ec4caf3714ab77b1f8512f58"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-04-flower-r4-k5555--msolve_reduced--3.msolve.out",
+      "sha256": "168b46a3762783201a5c94d75be80cfdf0be8cc73308862960827bcac183e59e"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--1.json",
+      "sha256": "040d3c86867a088aaddef641d10f587deb7ce1bc81785d8cb1c59695c82f1d9d"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--2.json",
+      "sha256": "040d3c86867a088aaddef641d10f587deb7ce1bc81785d8cb1c59695c82f1d9d"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--cycle_mitm--3.json",
+      "sha256": "040d3c86867a088aaddef641d10f587deb7ce1bc81785d8cb1c59695c82f1d9d"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.json",
+      "sha256": "724ff6f3bd491b909945ab5693638e7a048ada4015d5b03f03cc69fe1123a121"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--1.msolve.out",
+      "sha256": "378c2d18d34619b7d5c80f3a48999193636938c766b13589a2793abfefe3d408"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.json",
+      "sha256": "5b6105f153ea5f8a362135c9ae3d5c26750c6084f660c54fa9b3a1a648a5e767"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--2.msolve.out",
+      "sha256": "378c2d18d34619b7d5c80f3a48999193636938c766b13589a2793abfefe3d408"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.json",
+      "sha256": "ef164780903474fb180ffba6c848f0a20f5ea699f66d0a910d5e1ca64ef186bb"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-05-flower-r8-k33333333--msolve_reduced--3.msolve.out",
+      "sha256": "378c2d18d34619b7d5c80f3a48999193636938c766b13589a2793abfefe3d408"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--1.json",
+      "sha256": "c3ae08f76578b152934de1fac2faff8d926cefc075256d044d0dfc4c8fc36729"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--2.json",
+      "sha256": "c3ae08f76578b152934de1fac2faff8d926cefc075256d044d0dfc4c8fc36729"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--cycle_mitm--3.json",
+      "sha256": "c3ae08f76578b152934de1fac2faff8d926cefc075256d044d0dfc4c8fc36729"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--1.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--2.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-06-flower-r8-k55555555--msolve_reduced--3.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--1.json",
+      "sha256": "f7cb3a259148bc712531f92683d12939d698db5f0c1c9fafadaa682c432762d9"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--2.json",
+      "sha256": "f7cb3a259148bc712531f92683d12939d698db5f0c1c9fafadaa682c432762d9"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--cycle_mitm--3.json",
+      "sha256": "f7cb3a259148bc712531f92683d12939d698db5f0c1c9fafadaa682c432762d9"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--1.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--2.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-07-flower-r12-k333333333333--msolve_reduced--3.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--1.json",
+      "sha256": "7b556d3fe6f5ae104b4f98e10295ef87742d01bfc67089ee97b56b39a908ed3f"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--2.json",
+      "sha256": "7b556d3fe6f5ae104b4f98e10295ef87742d01bfc67089ee97b56b39a908ed3f"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--cycle_mitm--3.json",
+      "sha256": "7b556d3fe6f5ae104b4f98e10295ef87742d01bfc67089ee97b56b39a908ed3f"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--1.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--2.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-08-flower-r12-k555555555555--msolve_reduced--3.msolve.out",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--1.json",
+      "sha256": "952c2f9fb147eade512192456be59dc2a53bc5a3f939ea1eb1ee8199474cfde1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--2.json",
+      "sha256": "952c2f9fb147eade512192456be59dc2a53bc5a3f939ea1eb1ee8199474cfde1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--cycle_mitm--3.json",
+      "sha256": "952c2f9fb147eade512192456be59dc2a53bc5a3f939ea1eb1ee8199474cfde1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.json",
+      "sha256": "406a995295326c9d4c5767ac3d91895ca951af4ef852e1eff924c3ffb6925660"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--1.msolve.out",
+      "sha256": "c1c4b8316fd1ab02299f6d55eb59b27fa8dd454d428f3bf0b220d6f2dc9a5755"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.json",
+      "sha256": "8d785dc88da3d2757a976c632e31cf3714a4a696af28ed5b0087638b13017dd7"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--2.msolve.out",
+      "sha256": "c1c4b8316fd1ab02299f6d55eb59b27fa8dd454d428f3bf0b220d6f2dc9a5755"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.json",
+      "sha256": "7b9c52c2f3a3751013731336c49810a253c02b13d9a6832acab781e938bce176"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-09-chain-r3-k234--msolve_reduced--3.msolve.out",
+      "sha256": "c1c4b8316fd1ab02299f6d55eb59b27fa8dd454d428f3bf0b220d6f2dc9a5755"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--1.json",
+      "sha256": "fffc301a683ae6d00449f641e71d64af7f92120a2b0c4f88d6a9fadc3b8aaf74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--2.json",
+      "sha256": "fffc301a683ae6d00449f641e71d64af7f92120a2b0c4f88d6a9fadc3b8aaf74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--cycle_mitm--3.json",
+      "sha256": "fffc301a683ae6d00449f641e71d64af7f92120a2b0c4f88d6a9fadc3b8aaf74"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.json",
+      "sha256": "48ca7c999940173a25d44049abb3b54ca96f97669905a95d7baa064009c0a904"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--1.msolve.out",
+      "sha256": "92eeb911b527a5c33ab34588dfdd12e613fb48401f324d8dccae278d43222268"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.json",
+      "sha256": "53e49fadaa168218f41d79bedcf95922ae11dd67366bfb544235cb89665cfdc0"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--2.msolve.out",
+      "sha256": "92eeb911b527a5c33ab34588dfdd12e613fb48401f324d8dccae278d43222268"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.json",
+      "sha256": "59a9374bd66813f9de2f01ea3117eed1dc5187012c4db66e8aaa8ae8daee46e2"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-10-bridge-r3-k234--msolve_reduced--3.msolve.out",
+      "sha256": "92eeb911b527a5c33ab34588dfdd12e613fb48401f324d8dccae278d43222268"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--1.json",
+      "sha256": "a2ddc167cb7385d2c015a183b0728de9301b3a2e66b3905bb5f186472d0fddc1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--2.json",
+      "sha256": "a2ddc167cb7385d2c015a183b0728de9301b3a2e66b3905bb5f186472d0fddc1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--cycle_mitm--3.json",
+      "sha256": "a2ddc167cb7385d2c015a183b0728de9301b3a2e66b3905bb5f186472d0fddc1"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.json",
+      "sha256": "0c923a2f5be290936bf9e494023d4c235274da00e67fd7886ec695360f41cffd"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--1.msolve.out",
+      "sha256": "d8f016416875ffa10954d8b4624bf945550d719ebfa34b45ac6444754034cc92"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.json",
+      "sha256": "dfbc6e40c9b6063e2f1deb5a85af76bf988a62495484e81b0bb35f96e387fed9"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--2.msolve.out",
+      "sha256": "d8f016416875ffa10954d8b4624bf945550d719ebfa34b45ac6444754034cc92"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.json",
+      "sha256": "33880b74b6a56a8aad32a7131211dea0853a6b895d8037cc00f4521ce3d669d0"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-11-disjoint-r3-k234--msolve_reduced--3.msolve.out",
+      "sha256": "d8f016416875ffa10954d8b4624bf945550d719ebfa34b45ac6444754034cc92"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--1.json",
+      "sha256": "6ccde876076e9bb648215175ac78970bb016bfffe2c6b2dd1f99c3e98b33314a"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--2.json",
+      "sha256": "6ccde876076e9bb648215175ac78970bb016bfffe2c6b2dd1f99c3e98b33314a"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--cycle_mitm--3.json",
+      "sha256": "6ccde876076e9bb648215175ac78970bb016bfffe2c6b2dd1f99c3e98b33314a"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.json",
+      "sha256": "3545c1a0418f4286a31794e4841adb3d96ba876cef33f8d84cfee8fdad936b9a"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--1.msolve.out",
+      "sha256": "0e01ed79145349d541b28194e236ab39b3705440781fd6cd186f3df996ac7691"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.json",
+      "sha256": "a6bcdd2df43b587de7167361b2d33aac0449a0ff4c2e87e7d5e8e5391b646cbf"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--2.msolve.out",
+      "sha256": "0e01ed79145349d541b28194e236ab39b3705440781fd6cd186f3df996ac7691"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.cas-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.cas-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.json",
+      "sha256": "e54e220919555fa673ab16d987ba6465df73950c119fd0690f2ae3c5467574fc"
+    },
+    {
+      "path": "data/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.msolve.out",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/outputs/validation-12-zero_path-r3-k234--msolve_reduced--3.msolve.out",
+      "sha256": "0e01ed79145349d541b28194e236ab39b3705440781fd6cd186f3df996ac7691"
+    },
+    {
+      "path": "data/uniform_linux/protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/protocol.json",
+      "sha256": "8d8c4c0d0c5660645af75e3193ab32320ea593870a781b20c6f6743bd3e30355"
+    },
+    {
+      "path": "data/uniform_linux/public/C8_N4_83.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/C8_N4_83.json",
+      "sha256": "49ff89afd0af3723deafc5fed91d86c231549e0b5b44313a44028ebade378a32"
+    },
+    {
+      "path": "data/uniform_linux/public/two_C6_N1_0.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/two_C6_N1_0.json",
+      "sha256": "700e9e5094f455d0f18d08efe27139dea5e834436cb46d0f96f3c0754a690d7c"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-01-flower-r2-k33.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-01-flower-r2-k33.json",
+      "sha256": "61efc22e7765df29fa4abc3626dbc4b066734e8f7ecd04fa068f6e0bbb0161df"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-02-flower-r2-k55.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-02-flower-r2-k55.json",
+      "sha256": "6eb73386b0f3c2fc81e39443a15f598bbba6e2e092525d4ddb5142ff10a4cd33"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-03-flower-r4-k3333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-03-flower-r4-k3333.json",
+      "sha256": "498460d23fa73162fda1e2dff0483afd9bc06f464807318caff976f8604b06d4"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-04-flower-r4-k5555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-04-flower-r4-k5555.json",
+      "sha256": "1b6ebe0ff2c34a67bd305c8e368eb1d6104e69cf56603f85464f4e0371f4399c"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-05-flower-r8-k33333333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-05-flower-r8-k33333333.json",
+      "sha256": "4c01820fafcdf242bbec11bef1506c4d271ac7e62c8e95318dcdb6f06c311bc5"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-06-flower-r8-k55555555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-06-flower-r8-k55555555.json",
+      "sha256": "c11d8db2008b447ba1608bcb026bfae6eebed1aa6c5afe7f4cd9e6c96acbbc9c"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-07-flower-r12-k333333333333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-07-flower-r12-k333333333333.json",
+      "sha256": "60228e8383ae56775f77c6e660ea3a1a1158f36a796e3ad72ef183d23ecff6f8"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-08-flower-r12-k555555555555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-08-flower-r12-k555555555555.json",
+      "sha256": "8c48cce4b5da49c0f33b62c7be55f71728f7dfb0b9c55e4ba583bcedede20828"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-09-chain-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-09-chain-r3-k234.json",
+      "sha256": "518e7497d68d8e655beafe9a59731c82fd11e3c59c4b0757e113915ead685373"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-10-bridge-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-10-bridge-r3-k234.json",
+      "sha256": "6e9dca6258dc270a8fabf986a24ef448c0266877fd3f29a18a335a1e4df20665"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-11-disjoint-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-11-disjoint-r3-k234.json",
+      "sha256": "56b501d21abdba707f42301b7efdccb65a1c9a7476410b5ade59c7709c89ecba"
+    },
+    {
+      "path": "data/uniform_linux/public/validation-12-zero_path-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/public/validation-12-zero_path-r3-k234.json",
+      "sha256": "688d1b8c2b2d3c84e6c972cb5a79cd5ff2e7326f0fe9c11777e5cfe2277b99c5"
+    },
+    {
+      "path": "data/uniform_linux/results.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/results.json",
+      "sha256": "afd80ed912d1814666f8b23d75b4464004fcec6a4e94b3469fdc1994ff126634"
+    },
+    {
+      "path": "data/uniform_linux/runner_v1.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/runner_v1.py",
+      "sha256": "d91bf14095e11bbee1dfb69fdb7b079c0c29cedcad4b03b4edb399a9f4033082"
+    },
+    {
+      "path": "data/uniform_linux/runtime.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/runtime.json",
+      "sha256": "8296240cc5e3d3d193ca6cb3c2b2acfc6678f678ac70ea1918a9adddc769616b"
+    },
+    {
+      "path": "data/uniform_linux/sources/exact_cactus_decoder.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/sources/exact_cactus_decoder.py",
+      "sha256": "2a0a4c46f08ca1e676102b4d0de69110d68be710f5b8f133b0661896c0d32806"
+    },
+    {
+      "path": "data/uniform_linux/sources/msolve_decoder_worker.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/sources/msolve_decoder_worker.py",
+      "sha256": "2716a24f88a03649aa3c75b63e39d17723789881d3f0c146b270fc7c4c4d99c6"
+    },
+    {
+      "path": "data/uniform_linux/sources/msolve_runtime.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/sources/msolve_runtime.py",
+      "sha256": "7d9116043d84d639508ed2c775614c50dd09757e6583c760a98680d7a76f3760"
+    },
+    {
+      "path": "data/uniform_linux/sources/polynomial_solver_baseline.py",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_linux/sources/polynomial_solver_baseline.py",
+      "sha256": "b1372d082ff5616eebae74e242d6304015227d0e9f58682e26ae4d5db6cb4408"
+    },
+    {
+      "path": "data/initial_protocols/theta_initial_v1/theta_frozen_inputs.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/theta_initial_v1/theta_frozen_inputs.json",
+      "sha256": "9fa1f6adc5f5cfe48c757d7fdde393522e498bc4a1516655a25833b8cf38a632"
+    },
+    {
+      "path": "data/initial_protocols/rur_initial_v1/rur_protocol.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/rur_initial_v1/rur_protocol.json",
+      "sha256": "64ea075e4651b69d2f6150b2d273eb12f90a1335447273e00d93d761a59b8d89"
+    },
+    {
+      "path": "data/baselines/squareclass_outcomes.jsonl",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/squareclass_outcomes.jsonl",
+      "sha256": "62b82cbc0a383ac75585446b693a4f68731256df86738bb204295e24db282b46"
+    },
+    {
+      "path": "data/baselines/lattice_outcomes.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_outcomes.json",
+      "sha256": "52a0ecdb9d9d15d1e7689268835bc5774db62dd97f390aa11abdb73249484af1"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r1.json",
+      "sha256": "db989aa66a7b7cb4accd8674a56f2eecf05aa7d42bde2e7d5f7e965c7b202de5"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r12.json",
+      "sha256": "101338a3efe24690b3fc9d59559e36b832ec1032507f25fe77c023d87bb9581c"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r16.json",
+      "sha256": "2d50f082eeaabc83c9949be10b3a62815a8ea17a66adf4941bd3ac78e6fddb53"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r2.json",
+      "sha256": "353beb996a04261873f4985266ca00d73179e4ee9faacc5655e111ad7c1aad3d"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r24.json",
+      "sha256": "591f0195164356ee1caef1b6aa80937096b31e36caa59d51377073ff623ffebf"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r32.json",
+      "sha256": "25b5be6af2b403973a08dfb51578997a69ede316cd9973fa8beb08d4301d118b"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r4.json",
+      "sha256": "14dd4d2a7e4791f07b9644bf964a159eb112b58580844d27ff19eaf19dbd3d4f"
+    },
+    {
+      "path": "data/baselines/lattice_public/binary_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/binary_r8.json",
+      "sha256": "6d2a397b0f69c619fb7e80255d954d17c3c65e38016073a85b8129e9e4d64482"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r1.json",
+      "sha256": "91817ddc9294d2109cbbb7dd64431476ef4416cbbfc511fd8acd0a8f7f6496cd"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r12.json",
+      "sha256": "26c8379d046c2c182e68eb4bc29693221bf3ff5fc6c2a88120d0a9c191d7815e"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r16.json",
+      "sha256": "3846e7d67b7799cb97c389534c7ce5b414b8283821425a8f394e5274e8be8006"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r2.json",
+      "sha256": "e7b2ad0a7e11b42795f216b95c3794a1573b2d6cea904b3b2a0b094a207bca93"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r24.json",
+      "sha256": "eaa0d3b43effd391163f9af177c9212cd67dc9b1c36855412daff9870e7b48f6"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r32.json",
+      "sha256": "2c3610d3a8ca9b3b77c2aa8f95981914fe5fd71365614d2eed0024ef590e430f"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r4.json",
+      "sha256": "b5d78baf1dc13e1cc48f05b9739ea22dd145c63d60719ef733a61845fff33c14"
+    },
+    {
+      "path": "data/baselines/lattice_public/dense_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/dense_r8.json",
+      "sha256": "0ccb6beb4ab7874c99d1abde63aa0b9de14ff8aae6831e9cf6b0fd3f83353ad7"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r1.json",
+      "sha256": "dc8e16491e2a58e3f2b4a8611c1513fc061424a684f70a8ce5c319a725944f6a"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r12.json",
+      "sha256": "d7062f665d5aa2176f097aad8122d9422c118e3fc800fcc7ad5dd1c969bf7afc"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r16.json",
+      "sha256": "39c951673b3ce099f1ce7681f0ae07842101fbede213aae86cd52574bb792577"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r2.json",
+      "sha256": "4c66d2a13b9a6b1d0d72cb2165563a15b6383bb085ae3c97ea74e6ce494e2c68"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r24.json",
+      "sha256": "7598782e4d6858136e1576066d47bb45c67a052340367f50255fa2e021c82d27"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r32.json",
+      "sha256": "4047ad3457c789ffee9dbabe8105be799fff4fd9d59dcedfc3e874278ee0dbc7"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r4.json",
+      "sha256": "fd4701271f8fc374ba431d8bdbd687137090d0b23b6123ba2cdc4ea238afe269"
+    },
+    {
+      "path": "data/baselines/lattice_public/empty_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/empty_r8.json",
+      "sha256": "de19c710dc9e8a8ff56d2592152bb3d5581686035ef8c91378d164805b5e3201"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r1.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r1.json",
+      "sha256": "91817ddc9294d2109cbbb7dd64431476ef4416cbbfc511fd8acd0a8f7f6496cd"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r12.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r12.json",
+      "sha256": "d3f051da67638e277cc1a8712a656d64a9a9d62b0cff72e9e9e347bba28701a9"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r16.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r16.json",
+      "sha256": "be56ea4faedee0108e72b395be65631d7f52137346a01359be372d469adad4d3"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r2.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r2.json",
+      "sha256": "07a4e50af402f868922ff28110308e194209707ec8dc4593e98411ac80ca5b3c"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r24.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r24.json",
+      "sha256": "cd5b60391304251a564cbf425c7c4658328c32afc1c4ab3eccaf6b5aed51a67a"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r32.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r32.json",
+      "sha256": "463952d6b46fb10a22d75253e1d4e545cbfbdc84bfcfe07684e034a7360ad2f7"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r4.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r4.json",
+      "sha256": "61a5468bc97f2a2588840a620a6789a7122951bb44a83ae6649e0455f19de400"
+    },
+    {
+      "path": "data/baselines/lattice_public/equal_r8.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/lattice_public/equal_r8.json",
+      "sha256": "cb5b19ca299d16dbe462be0a78f50c51353c72405871865f4759a29fbb77dd66"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/C8_N4_83.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/C8_N4_83.json",
+      "sha256": "49ff89afd0af3723deafc5fed91d86c231549e0b5b44313a44028ebade378a32"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/two_C6_N1_0.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/two_C6_N1_0.json",
+      "sha256": "700e9e5094f455d0f18d08efe27139dea5e834436cb46d0f96f3c0754a690d7c"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-01-flower-r2-k33.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-01-flower-r2-k33.json",
+      "sha256": "61efc22e7765df29fa4abc3626dbc4b066734e8f7ecd04fa068f6e0bbb0161df"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-02-flower-r2-k55.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-02-flower-r2-k55.json",
+      "sha256": "6eb73386b0f3c2fc81e39443a15f598bbba6e2e092525d4ddb5142ff10a4cd33"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-03-flower-r4-k3333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-03-flower-r4-k3333.json",
+      "sha256": "498460d23fa73162fda1e2dff0483afd9bc06f464807318caff976f8604b06d4"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-04-flower-r4-k5555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-04-flower-r4-k5555.json",
+      "sha256": "1b6ebe0ff2c34a67bd305c8e368eb1d6104e69cf56603f85464f4e0371f4399c"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-05-flower-r8-k33333333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-05-flower-r8-k33333333.json",
+      "sha256": "4c01820fafcdf242bbec11bef1506c4d271ac7e62c8e95318dcdb6f06c311bc5"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-06-flower-r8-k55555555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-06-flower-r8-k55555555.json",
+      "sha256": "c11d8db2008b447ba1608bcb026bfae6eebed1aa6c5afe7f4cd9e6c96acbbc9c"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-07-flower-r12-k333333333333.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-07-flower-r12-k333333333333.json",
+      "sha256": "60228e8383ae56775f77c6e660ea3a1a1158f36a796e3ad72ef183d23ecff6f8"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-08-flower-r12-k555555555555.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-08-flower-r12-k555555555555.json",
+      "sha256": "8c48cce4b5da49c0f33b62c7be55f71728f7dfb0b9c55e4ba583bcedede20828"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-09-chain-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-09-chain-r3-k234.json",
+      "sha256": "518e7497d68d8e655beafe9a59731c82fd11e3c59c4b0757e113915ead685373"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-10-bridge-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-10-bridge-r3-k234.json",
+      "sha256": "6e9dca6258dc270a8fabf986a24ef448c0266877fd3f29a18a335a1e4df20665"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-11-disjoint-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-11-disjoint-r3-k234.json",
+      "sha256": "56b501d21abdba707f42301b7efdccb65a1c9a7476410b5ade59c7709c89ecba"
+    },
+    {
+      "path": "data/baselines/uniform_linux/public/validation-12-zero_path-r3-k234.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_mainline/uniform_linux/public/validation-12-zero_path-r3-k234.json",
+      "sha256": "688d1b8c2b2d3c84e6c972cb5a79cd5ff2e7326f0fe9c11777e5cfe2277b99c5"
+    },
+    {
+      "path": "data/six_cycle_grids/queries.jsonl",
+      "target": "paper/cactus_global_loss/review4_probability_v1/queries.jsonl",
+      "sha256": "e0b0f2be29079631cca855ab5b82f71446dbd5eeb27a1d9bd1a11e6519bb66c7"
+    },
+    {
+      "path": "data/six_cycle_grids/outcomes.jsonl",
+      "target": "paper/cactus_global_loss/review4_probability_v1/outcomes.jsonl",
+      "sha256": "77bdef8cbe344aab751a7190b967265bb9275cef60836640c416494e7a8855fd"
+    },
+    {
+      "path": "src/energy_coordinates/coordinate_decoder.py",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/coordinate_decoder.py",
+      "sha256": "28e2fa392e579b34d024b5457e8145ae28e641e5bf173e8716fe4f7841b6b3c1"
+    },
+    {
+      "path": "data/energy_coordinates/exploratory_cached.json",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/exploratory_cached.json",
+      "sha256": "050075536398a60ca6f51b1150ab417dc3b07b7d6906a169c2cabb16cba19734"
+    },
+    {
+      "path": "src/energy_coordinates/make_protocol.py",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/make_protocol.py",
+      "sha256": "ad10b31ece2418b7a837c2d73ed268f575fe29fe75a089a33d2420a6401ef015"
+    },
+    {
+      "path": "data/energy_coordinates/outcomes.jsonl",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/outcomes.jsonl",
+      "sha256": "88902cfe194a46420501c96c6b6734864a61e71c46e3c054d0a93df511657f39"
+    },
+    {
+      "path": "data/energy_coordinates/prospective_inputs.jsonl",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/prospective_inputs.jsonl",
+      "sha256": "2adb56f19ce559648ab56493d9ec201a82f644531835c0517439cbe9d09c275e"
+    },
+    {
+      "path": "data/energy_coordinates/prospective_outcomes.jsonl",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/prospective_outcomes.jsonl",
+      "sha256": "64cd9588b2b856ac18d7de879b6d6a70831e4049e48f8a45d7606cebce5625cd"
+    },
+    {
+      "path": "data/energy_coordinates/protocol.json",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/protocol.json",
+      "sha256": "de873d54c4e5b5a72a70b1ff61001519f713824c78f6ee3b40cbd268d06ee216"
+    },
+    {
+      "path": "src/energy_coordinates/replay_study.py",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/replay_study.py",
+      "sha256": "6d579db6a4b298303cf367579201845e8935730fcc9776a94fa778adc6fa8ab4"
+    },
+    {
+      "path": "data/energy_coordinates/replay_validation.json",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/replay_validation.json",
+      "sha256": "d0d106bda5c0496f050e5f57327ef624d3919d7db35b4240be6c751a0fc22cb0"
+    },
+    {
+      "path": "src/energy_coordinates/run_study.py",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/run_study.py",
+      "sha256": "483dc51c2859fe196fe652ef604a511f3ef74b71b56d64ed704e2e4df30a378e"
+    },
+    {
+      "path": "data/energy_coordinates/validation.json",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/validation.json",
+      "sha256": "00618a09fabf3cbe81d5658c0d863db2c40554533563a2af7f015fc562fb5711"
+    },
+    {
+      "path": "src/energy_coordinates/verify_coordinate.py",
+      "target": "paper/cactus_global_loss/energy_constraints_v1/verify_coordinate.py",
+      "sha256": "c83b81574135d73b20dd32727ad5a84a0f13765569b5cf262c9ce6581565976a"
+    },
+    {
+      "path": "data/results/uniform_validation.json",
+      "target": "paper/cactus_global_loss/revisions/20261026_energy_constraints/uniform_validation.json",
+      "sha256": "1ab8e6922563e60752364fb75b15e94a1e4b4127d4446e7ca6c1d84c1592417b"
+    }
+  ],
+  "scope": "original source bytes and synthetic inputs/results; compatibility paths are materialized only in a temporary workspace"
+}

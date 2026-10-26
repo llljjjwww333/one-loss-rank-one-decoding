@@ -1,0 +1,189 @@
+{
+  "format_version": 1,
+  "public_sha256": "0b6bd6d00670030921679c9a5de3c1f7ea58efc5020d77cc4f190d555648d24c",
+  "bounded": false,
+  "search": "mitm",
+  "arithmetic": "QQ real algebraic",
+  "cycles": [
+    {
+      "edges": [
+        4,
+        3,
+        2,
+        1,
+        0,
+        5
+      ],
+      "coefficients": [
+        "2",
+        "19/960",
+        "59/921600",
+        "1/14745600"
+      ],
+      "degree": 3,
+      "roots": [
+        {
+          "expression": "-1/240",
+          "multiplicity": 1,
+          "interval": [
+            "-1/240",
+            "-1/240"
+          ]
+        },
+        {
+          "expression": "-1/320",
+          "multiplicity": 1,
+          "interval": [
+            "-1/320",
+            "-1/320"
+          ]
+        },
+        {
+          "expression": "-1/384",
+          "multiplicity": 1,
+          "interval": [
+            "-1/384",
+            "-1/384"
+          ]
+        }
+      ]
+    },
+    {
+      "edges": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        11
+      ],
+      "coefficients": [
+        "2",
+        "13/960",
+        "3/102400",
+        "1/49152000"
+      ],
+      "degree": 3,
+      "roots": [
+        {
+          "expression": "-1/320",
+          "multiplicity": 1,
+          "interval": [
+            "-1/320",
+            "-1/320"
+          ]
+        },
+        {
+          "expression": "-1/480",
+          "multiplicity": 1,
+          "interval": [
+            "-1/480",
+            "-1/480"
+          ]
+        },
+        {
+          "expression": "-1/640",
+          "multiplicity": 1,
+          "interval": [
+            "-1/640",
+            "-1/640"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "roots": [
+        1,
+        2
+      ],
+      "energy_sign": 0,
+      "admissible": true
+    },
+    {
+      "roots": [
+        2,
+        1
+      ],
+      "energy_sign": 0,
+      "admissible": true
+    }
+  ],
+  "candidates": [
+    {
+      "roots": [
+        1,
+        2
+      ],
+      "values": [
+        "9/64",
+        "3/64",
+        "1/32",
+        "-1/32",
+        "-1/32",
+        "3/32",
+        "9/64",
+        "3/64",
+        "3/64",
+        "-3/64",
+        "-1/64",
+        "3/64"
+      ]
+    },
+    {
+      "roots": [
+        2,
+        1
+      ],
+      "values": [
+        "5/32",
+        "1/32",
+        "3/64",
+        "-3/64",
+        "-1/64",
+        "5/64",
+        "1/8",
+        "1/16",
+        "1/32",
+        "-1/32",
+        "-1/32",
+        "1/16"
+      ]
+    }
+  ],
+  "norm": "1/16",
+  "base": [
+    "1/128",
+    "-1/640",
+    "1/240",
+    "-1/240",
+    "1/480",
+    "0",
+    "1/160",
+    "0",
+    "1/320",
+    "-1/320",
+    "1/960",
+    "0"
+  ],
+  "tuple_bound": 9,
+  "energy_search": {
+    "groups": [
+      [
+        0
+      ],
+      [
+        1
+      ]
+    ],
+    "partial_sizes": [
+      3,
+      3
+    ],
+    "exact_comparisons": 14,
+    "energy_matches": 2
+  },
+  "status": "Ambiguous",
+  "complete": true
+}

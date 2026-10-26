@@ -1,0 +1,375 @@
+{
+  "complete": true,
+  "controls": [
+    {
+      "id": "colliding_projection",
+      "quotient_dimension": 3,
+      "complex_points": 3,
+      "real_points": 3,
+      "projection_trials": [
+        {
+          "offset": 1,
+          "distinct_projected_values": 1,
+          "separating": false
+        },
+        {
+          "offset": 2,
+          "distinct_projected_values": 3,
+          "separating": true
+        }
+      ],
+      "certificate": {
+        "empty": false,
+        "quotient_dimension": 3,
+        "distinct_complex_points": 3,
+        "projection_weights": [
+          "1",
+          "2"
+        ],
+        "projection_bound": 4,
+        "trials": [
+          {
+            "offset": 1,
+            "distinct_projected_values": 1,
+            "separating": false
+          },
+          {
+            "offset": 2,
+            "distinct_projected_values": 3,
+            "separating": true
+          }
+        ],
+        "polynomial": [
+          "1",
+          "0",
+          "-1",
+          "0"
+        ],
+        "coordinates": [
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "characteristic": [
+          "1",
+          "0",
+          "-1",
+          "0"
+        ],
+        "standard_monomials": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "nilpotence_exponent": 3,
+        "groebner": [
+          "y**3 - y",
+          "x + y"
+        ],
+        "method": "classical multiplicity-weighted trace RUR; nilpotence-certified coverage"
+      }
+    },
+    {
+      "id": "nonradical_algebraic",
+      "quotient_dimension": 4,
+      "complex_points": 2,
+      "real_points": 2,
+      "projection_trials": [
+        {
+          "offset": 1,
+          "distinct_projected_values": 2,
+          "separating": true
+        }
+      ],
+      "certificate": {
+        "empty": false,
+        "quotient_dimension": 4,
+        "distinct_complex_points": 2,
+        "projection_weights": [
+          "1",
+          "1"
+        ],
+        "projection_bound": 7,
+        "trials": [
+          {
+            "offset": 1,
+            "distinct_projected_values": 2,
+            "separating": true
+          }
+        ],
+        "polynomial": [
+          "1",
+          "0",
+          "-8"
+        ],
+        "coordinates": [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "1/2",
+            "0"
+          ]
+        ],
+        "characteristic": [
+          "1",
+          "0",
+          "-16",
+          "0",
+          "64"
+        ],
+        "standard_monomials": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "nilpotence_exponent": 4,
+        "groebner": [
+          "y**4 - 4*y**2 + 4",
+          "x - y"
+        ],
+        "method": "classical multiplicity-weighted trace RUR; nilpotence-certified coverage"
+      }
+    },
+    {
+      "id": "nongorenstein_local",
+      "quotient_dimension": 3,
+      "complex_points": 1,
+      "real_points": 1,
+      "projection_trials": [
+        {
+          "offset": 1,
+          "distinct_projected_values": 1,
+          "separating": true
+        }
+      ],
+      "certificate": {
+        "empty": false,
+        "quotient_dimension": 3,
+        "distinct_complex_points": 1,
+        "projection_weights": [
+          "1",
+          "1"
+        ],
+        "projection_bound": 4,
+        "trials": [
+          {
+            "offset": 1,
+            "distinct_projected_values": 1,
+            "separating": true
+          }
+        ],
+        "polynomial": [
+          "1",
+          "0"
+        ],
+        "coordinates": [
+          [
+            "0"
+          ],
+          [
+            "0"
+          ]
+        ],
+        "characteristic": [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        "standard_monomials": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "nilpotence_exponent": 3,
+        "groebner": [
+          "x**2",
+          "x*y",
+          "y**2"
+        ],
+        "method": "classical multiplicity-weighted trace RUR; nilpotence-certified coverage"
+      }
+    },
+    {
+      "id": "rational_nonradical",
+      "quotient_dimension": 2,
+      "complex_points": 1,
+      "real_points": 1,
+      "projection_trials": [
+        {
+          "offset": 1,
+          "distinct_projected_values": 1,
+          "separating": true
+        }
+      ],
+      "certificate": {
+        "empty": false,
+        "quotient_dimension": 2,
+        "distinct_complex_points": 1,
+        "projection_weights": [
+          "1",
+          "1"
+        ],
+        "projection_bound": 2,
+        "trials": [
+          {
+            "offset": 1,
+            "distinct_projected_values": 1,
+            "separating": true
+          }
+        ],
+        "polynomial": [
+          "1",
+          "-2/3"
+        ],
+        "coordinates": [
+          [
+            "1/3"
+          ],
+          [
+            "1/3"
+          ]
+        ],
+        "characteristic": [
+          "1",
+          "-4/3",
+          "4/9"
+        ],
+        "standard_monomials": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "nilpotence_exponent": 2,
+        "groebner": [
+          "y**2 - 2*y/3 + 1/9",
+          "x - y"
+        ],
+        "method": "classical multiplicity-weighted trace RUR; nilpotence-certified coverage"
+      }
+    },
+    {
+      "id": "nonsplit_quintic",
+      "quotient_dimension": 5,
+      "complex_points": 5,
+      "real_points": 1,
+      "projection_trials": [
+        {
+          "offset": 1,
+          "distinct_projected_values": 5,
+          "separating": true
+        }
+      ],
+      "certificate": {
+        "empty": false,
+        "quotient_dimension": 5,
+        "distinct_complex_points": 5,
+        "projection_weights": [
+          "1"
+        ],
+        "projection_bound": 1,
+        "trials": [
+          {
+            "offset": 1,
+            "distinct_projected_values": 5,
+            "separating": true
+          }
+        ],
+        "polynomial": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "-1",
+          "-1"
+        ],
+        "coordinates": [
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "characteristic": [
+          "1",
+          "0",
+          "0",
+          "0",
+          "-1",
+          "-1"
+        ],
+        "standard_monomials": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ]
+        ],
+        "nilpotence_exponent": 5,
+        "groebner": [
+          "x**5 - x - 1"
+        ],
+        "method": "classical multiplicity-weighted trace RUR; nilpotence-certified coverage"
+      }
+    }
+  ],
+  "rejected_corruptions": [
+    "collapsed_projection_mean",
+    "deleted_real_root"
+  ],
+  "verifier_sha256": "4fad82a0c41a91171df61badfa55719876059089cf552e66cafb789316e5dede",
+  "solver_sha256": "4b43391e37d67f47dc4f6f6d3e4b6f358b1f73f80027d3b8c9688e643b2d78eb",
+  "scope": "exact synthetic quotient-algebra controls; separate from native loss/gradient experiments"
+}

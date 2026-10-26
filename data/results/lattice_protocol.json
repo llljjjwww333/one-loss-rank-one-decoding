@@ -1,0 +1,667 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "dense_r1",
+      "r": 1,
+      "kind": "dense",
+      "items": [
+        1
+      ],
+      "target": 0
+    },
+    {
+      "id": "binary_r1",
+      "r": 1,
+      "kind": "binary",
+      "items": [
+        1
+      ],
+      "target": 1
+    },
+    {
+      "id": "empty_r1",
+      "r": 1,
+      "kind": "empty",
+      "items": [
+        4
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r1",
+      "r": 1,
+      "kind": "equal",
+      "items": [
+        1
+      ],
+      "target": 0
+    },
+    {
+      "id": "dense_r2",
+      "r": 2,
+      "kind": "dense",
+      "items": [
+        1,
+        8
+      ],
+      "target": 4
+    },
+    {
+      "id": "binary_r2",
+      "r": 2,
+      "kind": "binary",
+      "items": [
+        1,
+        2
+      ],
+      "target": 1
+    },
+    {
+      "id": "empty_r2",
+      "r": 2,
+      "kind": "empty",
+      "items": [
+        4,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r2",
+      "r": 2,
+      "kind": "equal",
+      "items": [
+        1,
+        1
+      ],
+      "target": 1
+    },
+    {
+      "id": "dense_r4",
+      "r": 4,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4
+      ],
+      "target": 9
+    },
+    {
+      "id": "binary_r4",
+      "r": 4,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "target": 9
+    },
+    {
+      "id": "empty_r4",
+      "r": 4,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r4",
+      "r": 4,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 2
+    },
+    {
+      "id": "dense_r8",
+      "r": 8,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5
+      ],
+      "target": 21
+    },
+    {
+      "id": "binary_r8",
+      "r": 8,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "target": 73
+    },
+    {
+      "id": "empty_r8",
+      "r": 8,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r8",
+      "r": 8,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 4
+    },
+    {
+      "id": "dense_r12",
+      "r": 12,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6
+      ],
+      "target": 30
+    },
+    {
+      "id": "binary_r12",
+      "r": 12,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "target": 585
+    },
+    {
+      "id": "empty_r12",
+      "r": 12,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r12",
+      "r": 12,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 6
+    },
+    {
+      "id": "dense_r16",
+      "r": 16,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7
+      ],
+      "target": 41
+    },
+    {
+      "id": "binary_r16",
+      "r": 16,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768
+      ],
+      "target": 37449
+    },
+    {
+      "id": "empty_r16",
+      "r": 16,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r16",
+      "r": 16,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 8
+    },
+    {
+      "id": "dense_r24",
+      "r": 24,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2,
+        9
+      ],
+      "target": 60
+    },
+    {
+      "id": "binary_r24",
+      "r": 24,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288,
+        1048576,
+        2097152,
+        4194304,
+        8388608
+      ],
+      "target": 2396745
+    },
+    {
+      "id": "empty_r24",
+      "r": 24,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r24",
+      "r": 24,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 12
+    },
+    {
+      "id": "dense_r32",
+      "r": 32,
+      "kind": "dense",
+      "items": [
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2,
+        9,
+        7,
+        5,
+        3,
+        1,
+        8,
+        6,
+        4,
+        2
+      ],
+      "target": 78
+    },
+    {
+      "id": "binary_r32",
+      "r": 32,
+      "kind": "binary",
+      "items": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384,
+        32768,
+        65536,
+        131072,
+        262144,
+        524288,
+        1048576,
+        2097152,
+        4194304,
+        8388608,
+        16777216,
+        33554432,
+        67108864,
+        134217728,
+        268435456,
+        536870912,
+        1073741824,
+        2147483648
+      ],
+      "target": 1227133513
+    },
+    {
+      "id": "empty_r32",
+      "r": 32,
+      "kind": "empty",
+      "items": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "target": 2
+    },
+    {
+      "id": "equal_r32",
+      "r": 32,
+      "kind": "equal",
+      "items": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 16
+    }
+  ],
+  "enumeration_tuple_cap": 65536,
+  "mitm_half_tuple_cap": 131072,
+  "dp_cell_cap": 200000,
+  "timing": "same Python process after imports; preprocessing and combination separately; operation counts primary",
+  "methods": "exact capped-count decision and singleton recovery, not complete list printing",
+  "source_hashes": {
+    "run_lattice_study.py": "9f3f437009101f97e18d1c047568b1d5814d0cbf10daf87fb60857f7339c6e02",
+    "lattice_decoder.py": "955031e9d64ad582de4f8d2049076d2aaa320cdfbb1be1e614ed4fce14d8f9d9",
+    "hardness_family.py": "a12e95209a548573ea1cd52363437c1d3fffb1880222ed66acc4889ca60a4712"
+  }
+}

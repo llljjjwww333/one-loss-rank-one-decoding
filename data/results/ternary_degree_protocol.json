@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "native_r": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "integer_slice_r": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "policy": "all 3^r branch configurations; every positive compensation retained",
+  "scope": "exact constructed algebraic line witnesses; nonzero outside perturbations are proved analytically; not full-grid probabilities"
+}

@@ -1,0 +1,2189 @@
+{
+  "complete": true,
+  "scope": "all 27 prescribed exact public inputs, with all unresolved cases and timeouts retained",
+  "cases": 27,
+  "statuses": {
+    "complete": 25,
+    "timeout": 2
+  },
+  "records": [
+    {
+      "id": "theta3_positive_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 1,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/560",
+              "1/280",
+              "1/560",
+              "3/1120",
+              "9/1120",
+              "3/1120",
+              "1/280",
+              "1/280",
+              "1/1120"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(2)/224"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 3/17920",
+          "t1 - 1/17920"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/560",
+          "1/280",
+          "1/560",
+          "3/1120",
+          "9/1120",
+          "3/1120",
+          "1/280",
+          "1/280",
+          "1/1120"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(2)/224",
+        "public_sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-173/107520",
+            "2507/1926758400",
+            "-3497/5754585088000",
+            "3753/20624432955392000",
+            "-2007/57748412275097600000",
+            "16497/4139406191878995968000000",
+            "-4131/18544539739617901936640000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.438040699999874
+    },
+    {
+      "id": "theta3_positive_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/560",
+              "1/280",
+              "1/560",
+              "3/1120",
+              "9/1120",
+              "3/1120",
+              "1/280",
+              "1/280",
+              "1/1120"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(2)/224"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 3/35840",
+          "t1 - 1/35840"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/560",
+          "1/280",
+          "1/560",
+          "3/1120",
+          "9/1120",
+          "3/1120",
+          "1/280",
+          "1/280",
+          "1/1120"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(2)/224",
+        "public_sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-373/430080",
+            "379/1101004800",
+            "-168643/2209760673792000",
+            "279031/26399274182901760000",
+            "-1791/1930918340235100160000",
+            "8271/169550077619363674849280000",
+            "-27/21702409935278550380707840000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4178683000000092
+    },
+    {
+      "id": "theta3_positive_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/560",
+              "1/280",
+              "1/560",
+              "3/1120",
+              "9/1120",
+              "3/1120",
+              "1/280",
+              "1/280",
+              "1/1120"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(2)/224"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/71680",
+          "t1 - 1/358400"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/560",
+          "1/280",
+          "1/560",
+          "3/1120",
+          "9/1120",
+          "3/1120",
+          "1/280",
+          "1/280",
+          "1/1120"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(2)/224",
+        "public_sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-137/1075200",
+            "221/20643840000",
+            "-17159/41433012633600000",
+            "46019/2784298448977920000000",
+            "-1867973/6652617094091243520000000000",
+            "4515269/1788223474891726258176000000000000",
+            "-38599/1907438373217841342054400000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.428480000000036
+    },
+    {
+      "id": "theta3_positive_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "positive",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/560",
+              "1/280",
+              "1/560",
+              "3/1120",
+              "9/1120",
+              "3/1120",
+              "1/280",
+              "1/280",
+              "1/1120"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(2)/224"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/1075200",
+          "t1 - 1/1612800"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/560",
+          "1/280",
+          "1/560",
+          "3/1120",
+          "9/1120",
+          "3/1120",
+          "1/280",
+          "1/280",
+          "1/1120"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(2)/224",
+        "public_sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-148943/6547968000",
+            "16522271/63803400192000000",
+            "-350448048329/200535658919236730880000000",
+            "139115697817/18481366325996857117900800000000",
+            "-1125703555891/55639262206393098164867432448000000000",
+            "11770164551/373895842026961619667909146050560000000000",
+            "-38888515129/1929661484867467840641292386401098137600000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4549010999999155
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 1,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Ambiguous",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/336",
+              "-1/168",
+              "-1/336",
+              "-1/224",
+              "-1/224",
+              "1/672",
+              "-1/672",
+              "1/336",
+              "-1/336"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "5*sqrt(6)/672"
+          },
+          {
+            "values": [
+              "1/672",
+              "-1/224",
+              "-1/224",
+              "-1/336",
+              "-1/168",
+              "1/336",
+              "-1/672",
+              "1/336",
+              "-1/336"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(14)/224"
+          }
+        ],
+        "complete_count": 2,
+        "norm_ideal": [
+          "t0**2 - t0/3584 + 1/57802752",
+          "t1 + 1/5376"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "public_sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 5,
+          "complex_degree": 7,
+          "real_algebraic_closure_points": 5,
+          "nonactual_real_points": 0,
+          "projection_offset": 1,
+          "zero_supports_checked": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 4.739040399999794
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/336",
+              "-1/168",
+              "-1/336",
+              "-1/224",
+              "-1/224",
+              "1/672",
+              "-1/672",
+              "1/336",
+              "-1/336"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "5*sqrt(6)/672"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/43008",
+          "t1 + 1/21504"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/336",
+          "-1/168",
+          "-1/336",
+          "-1/224",
+          "-1/224",
+          "1/672",
+          "-1/672",
+          "1/336",
+          "-1/336"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "5*sqrt(6)/672",
+        "public_sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 3,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-13/86016",
+            "337/11098128384",
+            "-167/79551384256512",
+            "751/10264037802312204288",
+            "-7633/882871475603686564036608",
+            "-421/4218948491418150194009604096",
+            "3365/816518415235103115947842738323456"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4477208000002975
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/336",
+              "-1/168",
+              "-1/336",
+              "-1/224",
+              "-1/224",
+              "1/672",
+              "-1/672",
+              "1/336",
+              "-1/336"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "5*sqrt(6)/672"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/86016",
+          "t1 + 1/21504"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/336",
+          "-1/168",
+          "-1/336",
+          "-1/224",
+          "-1/224",
+          "1/672",
+          "-1/672",
+          "1/336",
+          "-1/336"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "5*sqrt(6)/672",
+        "public_sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 3,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "12869/54190080",
+            "10432663/435046632652800",
+            "3151596839/2357521182718584422400",
+            "8116840433/182506087847449581909442560",
+            "13870364407/15698443652286223237522611240960",
+            "393398397839/40509519875851553339962347855072460800",
+            "52965835571/1161488953880415737363400437700637596057600"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4787771999999677
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "mixed",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "1/336",
+              "-1/168",
+              "-1/336",
+              "-1/224",
+              "-1/224",
+              "1/672",
+              "-1/672",
+              "1/336",
+              "-1/336"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "5*sqrt(6)/672"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/1161216",
+          "t1 + 1/494592"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/336",
+          "-1/168",
+          "-1/336",
+          "-1/224",
+          "-1/224",
+          "1/672",
+          "-1/672",
+          "1/336",
+          "-1/336"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "5*sqrt(6)/672",
+        "public_sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 5,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "307967/26921631744",
+            "1621023071/30198927323314520064",
+            "3092055188815/22583455568391475962530758656",
+            "62666782105327/301579104325010675740020350600085504",
+            "375948495058135/2013641266945261681830709960793966109523968",
+            "19537110868611407/215121066084214026999843132200666005785002530308096",
+            "29981248102319111/1641556156886592439503698965667187788912474988396473745408"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.471937600000274
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 1,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "-3/2464",
+              "-9/4928",
+              "3/2464",
+              "1/616",
+              "-3/616",
+              "-3/1232",
+              "-5/2464",
+              "5/448",
+              "-1/224"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(255)/2464"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/19712",
+          "t1 + 1/3584"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/2464",
+          "-9/4928",
+          "3/2464",
+          "1/616",
+          "-3/616",
+          "-3/1232",
+          "-5/2464",
+          "5/448",
+          "-1/224"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(255)/2464",
+        "public_sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 5,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "263/118272",
+            "19825/9325510656",
+            "17609/15318705504256",
+            "5614289/14494191499194925056",
+            "11861615/142854751416065181351936",
+            "39844125/3754603813217969139745816576",
+            "6572625/10572964338021801097524219478016"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4485289999997804
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "-3/2464",
+              "-9/4928",
+              "3/2464",
+              "1/616",
+              "-3/616",
+              "-3/1232",
+              "-5/2464",
+              "5/448",
+              "-1/224"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(255)/2464"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/78848",
+          "t1 + 1/7168"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/2464",
+          "-9/4928",
+          "3/2464",
+          "1/616",
+          "-3/616",
+          "-3/1232",
+          "-5/2464",
+          "5/448",
+          "-1/224"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(255)/2464",
+        "public_sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 3,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "817/946176",
+            "23033/74604085248",
+            "58109/980397152272384",
+            "12362813/1855256511896950407168",
+            "265082815/585133061800202982817529856",
+            "283470909/15378857218940801596398864695296",
+            "32333575/86613723857074594590918405963907072"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4190965000002507
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "-3/2464",
+              "-9/4928",
+              "3/2464",
+              "1/616",
+              "-3/616",
+              "-3/1232",
+              "-5/2464",
+              "5/448",
+              "-1/224"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(255)/2464"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/315392",
+          "t1 + 1/86016"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/2464",
+          "-9/4928",
+          "3/2464",
+          "1/616",
+          "-3/616",
+          "-3/1232",
+          "-5/2464",
+          "5/448",
+          "-1/224"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(255)/2464",
+        "public_sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 5,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "3483/22077440",
+            "487889/44762451148800",
+            "322086439/768631367381549056000",
+            "61678453313/6545344973972441036488704000",
+            "1111799892293/9289572489140022555211103993856000",
+            "164868195293/219739263487113749529985538312267366400",
+            "967083851/630036416270252542652374535448932992942080"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4575181999998676
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "blocks": [
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 2,
+        "simple_cycles": 3,
+        "candidates": [
+          {
+            "values": [
+              "-3/2464",
+              "-9/4928",
+              "3/2464",
+              "1/616",
+              "-3/616",
+              "-3/1232",
+              "-5/2464",
+              "5/448",
+              "-1/224"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(255)/2464"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 1/827904",
+          "t1 + 1/86016"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/2464",
+          "-9/4928",
+          "3/2464",
+          "1/616",
+          "-3/616",
+          "-3/1232",
+          "-5/2464",
+          "5/448",
+          "-1/224"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(255)/2464",
+        "public_sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 7,
+          "complex_degree": 7,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "170425/2453907456",
+            "1028248796899/513848473822924111872",
+            "103128744092280667/3362497603115451471586343780352",
+            "184595274351260987/695956303902423683783055090282135552",
+            "9717748885366526341/7763334842287591444193366790264470259105792",
+            "122880263710187829085/44406772151314929466638486415787346808181713010688",
+            "1370426513578372612225/808819974405569178033253128066672166581379204424814034944"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4636807000001681
+    },
+    {
+      "id": "theta4_positive_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 1,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/792",
+              "1/396",
+              "1/792",
+              "1/528",
+              "1/176",
+              "1/528",
+              "1/396",
+              "1/396",
+              "1/1584",
+              "1/1584",
+              "1/792",
+              "1/792"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(589)/1584"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/13200",
+          "t1 - 1/39600",
+          "t2 - 1/19800"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/792",
+          "1/396",
+          "1/792",
+          "1/528",
+          "1/176",
+          "1/528",
+          "1/396",
+          "1/396",
+          "1/1584",
+          "1/1584",
+          "1/792",
+          "1/792"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(589)/1584",
+        "public_sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-1079/475200",
+            "93193/37635840000",
+            "-849743/496793088000000",
+            "147706667/177057056563200000000",
+            "-6387489161/21034378319708160000000000",
+            "8861416081/104120172682555392000000000000",
+            "-102709297459/5497545117638924697600000000000000",
+            "132117021953/40819272498469015879680000000000000000",
+            "-2859989819299/6465772763757492115341312000000000000000000",
+            "1245624419/26342037185678671581020160000000000000000000",
+            "-9843313917443/2534841554303487208898407956480000000000000000000000",
+            "135262911167/570339349718284622002141790208000000000000000000000000",
+            "-3369931150957/331253094316379708458843951752806400000000000000000000000000",
+            "15330104633/55898959665889075802429916858286080000000000000000000000000000",
+            "-117591697/33539375799533445481457950114971648000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 2.80769650000002
+    },
+    {
+      "id": "theta4_positive_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/792",
+              "1/396",
+              "1/792",
+              "1/528",
+              "1/176",
+              "1/528",
+              "1/396",
+              "1/396",
+              "1/1584",
+              "1/1584",
+              "1/792",
+              "1/792"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(589)/1584"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/52800",
+          "t1 - 1/158400",
+          "t2 - 1/79200"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/792",
+          "1/396",
+          "1/792",
+          "1/528",
+          "1/176",
+          "1/528",
+          "1/396",
+          "1/396",
+          "1/1584",
+          "1/1584",
+          "1/792",
+          "1/792"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(589)/1584",
+        "public_sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 1,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-943/1900800",
+            "261479/1806520320000",
+            "-8167681/286152818688000000",
+            "193784297/45326606480179200000000",
+            "-239723239/478648964430692352000000000",
+            "20496119/430784067987623116800000000000",
+            "-27700517783/7505981600616345187123200000000000000",
+            "70474686823/297236871384407269410078720000000000000000",
+            "-23646707333/1883292817091604458982258769920000000000000000",
+            "6827380489/12429732592804589429282907881472000000000000000000",
+            "-69081376037/3543965356860444538077142695165296640000000000000000000",
+            "62072936069/112272822505338882966283880582836597555200000000000000000000",
+            "-42569918717/3556803016969135812371873336864263410548736000000000000000000000",
+            "17122169/93899599647985185446617456093216554038486630400000000000000000000",
+            "-27371813/16526329538045392638604672272406113510773646950400000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 2.8109435999999732
+    },
+    {
+      "id": "theta4_positive_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/792",
+              "1/396",
+              "1/792",
+              "1/528",
+              "1/176",
+              "1/528",
+              "1/396",
+              "1/396",
+              "1/1584",
+              "1/1584",
+              "1/792",
+              "1/792"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(589)/1584"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/105600",
+          "t1 - 1/475200",
+          "t2 - 1/396000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/792",
+          "1/396",
+          "1/792",
+          "1/528",
+          "1/176",
+          "1/528",
+          "1/396",
+          "1/396",
+          "1/1584",
+          "1/1584",
+          "1/792",
+          "1/792"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(589)/1584",
+        "public_sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 5,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-2617/11404800",
+            "1303324093/53111697408000000",
+            "-424818966427/261734444826624000000000",
+            "2182689034760747/29383879182905769984000000000000",
+            "-11136218155797767539/4468230204069383006846976000000000000000",
+            "538011492023620935731/8493211971895083219414731980800000000000000000",
+            "-22787859914305146569681/18345337859293379753935821078528000000000000000000000",
+            "8076172924386400582630181/426198889147103798443436995296362496000000000000000000000000",
+            "-585655256698085924506827829/2603953441577619321689844773547833032704000000000000000000000000000",
+            "1699473539475132549053461493/824932450291789801111342824259953504760627200000000000000000000000000000",
+            "-130821348924576958714464651083/9146851008835365314722569235394364460785834393600000000000000000000000000000000",
+            "659686625049514249441081050059/9055382498747011661575343543040420816177976049664000000000000000000000000000000000000",
+            "-4915557987247241555293627699609/19124967837353688629247125562901368763767885416890368000000000000000000000000000000000000000",
+            "5671410382535904485608528811497/10097983018122747596242482297211922707269443500118114304000000000000000000000000000000000000000000",
+            "-381892244640298716461522326453/666466879196101341352003831615986898679783271007795544064000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.1432706000000508
+    },
+    {
+      "id": "theta4_positive_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "positive",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/792",
+              "1/396",
+              "1/792",
+              "1/528",
+              "1/176",
+              "1/528",
+              "1/396",
+              "1/396",
+              "1/1584",
+              "1/1584",
+              "1/792",
+              "1/792"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(589)/1584"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/277200",
+          "t1 - 1/2772000",
+          "t2 - 1/2079000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/792",
+          "1/396",
+          "1/792",
+          "1/528",
+          "1/176",
+          "1/528",
+          "1/396",
+          "1/396",
+          "1/1584",
+          "1/1584",
+          "1/792",
+          "1/792"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(589)/1584",
+        "public_sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 3,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-110098739/1594191456000",
+            "138756976014529981/62265436760393298432000000",
+            "-3870673649884442959745437/86855148876586401114958522368000000000",
+            "4988853575449297362341491397779/8077051281171952281023252092284611788800000000000",
+            "-116610024752500321076574505709963423/18555369522979920115433311915344977239351296000000000000000",
+            "89083876848973575194141382416002049431/1837130025731195930788821346114475506513693114368000000000000000000",
+            "-11589113896244191290289550146394686934457049/40110963131880252271327586697396801299030504418627016458240000000000000000000",
+            "7983472779381429934301249478481929620839447/5956478025084217462292146624563424992906029906166111944048640000000000000000000000",
+            "-41960474259334264282215139317197315442607776739/8668462469905061672873760982727152392176145322443542712173985792000000000000000000000000000",
+            "1297493080184186682577051870695979714348670174911/96115911866307323828824261776478665724449099335254001592585154461696000000000000000000000000000000",
+            "-585068927856713039814711422738348308843244060287/20494869822569530896423142588030681645244069489024930185742003705217024000000000000000000000000000000000",
+            "290476772834471517094384624049302533099320023697/6555205286326469959025186683156274944686526225797358439408865492791721984000000000000000000000000000000000000",
+            "-109779147077035876921548641153840996061839381469781/2303177932556091546573458366313640358090555675960127685044744299757864310800384000000000000000000000000000000000000000",
+            "3895643490277396354932940810741216911290205332029/122629709081305849067978421924060716881191266914986294222214284733326288010346496000000000000000000000000000000000000000000",
+            "-5195425844944585801834065232959440034852499757927/525345673704314257407219559522676111119023387463801284447965995797569817836324388864000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.75239240000019
+    },
+    {
+      "id": "theta4_mixed_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 1,
+      "status": "timeout",
+      "timeout_seconds": 30,
+      "result": {
+        "complete": true,
+        "status": "Ambiguous",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/504",
+              "-1/252",
+              "-1/504",
+              "-1/336",
+              "-1/336",
+              "1/1008",
+              "-1/1008",
+              "1/504",
+              "-1/504",
+              "1/504",
+              "1/504",
+              "1/1008"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(209)/1008"
+          },
+          {
+            "values": [
+              "1/1008",
+              "-1/336",
+              "-1/336",
+              "-1/504",
+              "-1/252",
+              "1/504",
+              "-1/1008",
+              "1/504",
+              "-1/504",
+              "1/504",
+              "1/504",
+              "1/1008"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(209)/1008"
+          }
+        ],
+        "complete_count": 2,
+        "norm_ideal": [
+          "t0**2 - t0/8400 + 1/317520000",
+          "t1 + 1/12600",
+          "t2 - 1/25200"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "public_sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63",
+        "gradient_phase": "pending"
+      },
+      "norm_certificate_recovered": true,
+      "hidden_truth_comparison": true,
+      "gradient_audit_timeout": true,
+      "elapsed_seconds": 30.02673709999999
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/504",
+              "-1/252",
+              "-1/504",
+              "-1/336",
+              "-1/336",
+              "1/1008",
+              "-1/1008",
+              "1/504",
+              "-1/504",
+              "1/504",
+              "1/504",
+              "1/1008"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(209)/1008"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/25200",
+          "t1 + 1/12600",
+          "t2 - 1/50400"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/504",
+          "-1/252",
+          "-1/504",
+          "-1/336",
+          "-1/336",
+          "1/1008",
+          "-1/1008",
+          "1/504",
+          "-1/504",
+          "1/504",
+          "1/504",
+          "1/1008"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(209)/1008",
+        "public_sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 9,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "11/241920",
+            "-2131/731566080000",
+            "1/210691031040000",
+            "-15989/3716589787545600000000",
+            "-452503/374632250584596480000000000",
+            "2631329/75525861717854650368000000000000",
+            "517333/140981608539995347353600000000000000",
+            "-409867/5329104802811824129966080000000000000000",
+            "-17729/4263283842249459303972864000000000000000000",
+            "301177/3867651101688709480564182220800000000000000000000",
+            "787763/454835769558592234914347829166080000000000000000000000",
+            "-14941/424513384921352752586724640555008000000000000000000000000",
+            "-1331/8023302975013567023889095706489651200000000000000000000000000",
+            "197/34506621434938349056342222814470691880960000000000000000000000000",
+            "-1/38647416007130950943103289552207174906675200000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 2.8402400999998463
+    },
+    {
+      "id": "theta4_mixed_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 8,
+      "status": "timeout",
+      "timeout_seconds": 30,
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/504",
+              "-1/252",
+              "-1/504",
+              "-1/336",
+              "-1/336",
+              "1/1008",
+              "-1/1008",
+              "1/504",
+              "-1/504",
+              "1/504",
+              "1/504",
+              "1/1008"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(209)/1008"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/504000",
+          "t1 + 1/302400",
+          "t2 - 1/604800"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/504",
+          "-1/252",
+          "-1/504",
+          "-1/336",
+          "-1/336",
+          "1/1008",
+          "-1/1008",
+          "1/504",
+          "-1/504",
+          "1/504",
+          "1/504",
+          "1/1008"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(209)/1008",
+        "public_sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f",
+        "gradient_phase": "pending"
+      },
+      "norm_certificate_recovered": true,
+      "hidden_truth_comparison": true,
+      "gradient_audit_timeout": true,
+      "elapsed_seconds": 30.031893800000034
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "mixed",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "1/504",
+              "-1/252",
+              "-1/504",
+              "-1/336",
+              "-1/336",
+              "1/1008",
+              "-1/1008",
+              "1/504",
+              "-1/504",
+              "1/504",
+              "1/504",
+              "1/1008"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(209)/1008"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 - 1/6854400",
+          "t1 + 1/5443200",
+          "t2 - 1/2419200"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "1/504",
+          "-1/252",
+          "-1/504",
+          "-1/336",
+          "-1/336",
+          "1/1008",
+          "-1/1008",
+          "1/504",
+          "-1/504",
+          "1/504",
+          "1/504",
+          "1/1008"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(209)/1008",
+        "public_sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 3,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-2839399/288707328000",
+            "713317143503/13891986873483264000000",
+            "-14642541034294097/83556633559467233378304000000000",
+            "374735485872298430011/893459718949219038970465222656000000000000",
+            "-905999896963468375558969/1240136385257019213595629256490090496000000000000000",
+            "4324095978273178004049500867/4590211053117084748741735834870265199722496000000000000000000",
+            "-955000233782327273505897506963/1061881064183893917434918201095547670243003334656000000000000000000000",
+            "9819420408000803621925239599117753/15721684343298898130158351165992935413973466843262746624000000000000000000000000",
+            "-139115111630627862442324240878209951/461840199268748431471531723852208470720884561987686444826624000000000000000000000000000",
+            "824948605390470017451458744319933038513/9230998838806240169146409911888036694824118009163368472995587266969600000000000000000000000000000",
+            "-55801344102290043264904227677157942132619/5979294572647425052155030873454286399134730058549887625392940092776702279680000000000000000000000000000000",
+            "-28863265633900484962284657339203213323013749/8852646971250974219938151821705093109953484242078059543730567611536583670861135872000000000000000000000000000000000",
+            "11475623342501462734392234845072097084098551/10502235588417001908428780973466509844534355028848051192863869687089369846576060144025600000000000000000000000000000000000",
+            "-2997041837747216122774607520688837301879831/199347296170833686440064038997156801755503553226961458113013838599590273873027236880271278080000000000000000000000000000000000000",
+            "-1023369653924376336501423611198061130725269/47298672930231776088511440538919247067601199989038313716956071144897246765836542431727627062476800000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.7256797000000006
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 1,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "-3/6400",
+              "-9/12800",
+              "3/6400",
+              "1/1600",
+              "-3/1600",
+              "-3/3200",
+              "-1/1280",
+              "11/2560",
+              "-11/6400",
+              "3/3200",
+              "27/3200",
+              "9/3200"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(1235)/6400"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/80000",
+          "t1 + 11/160000",
+          "t2 - 9/80000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/6400",
+          "-9/12800",
+          "3/6400",
+          "1/1600",
+          "-3/1600",
+          "-3/3200",
+          "-1/1280",
+          "11/2560",
+          "-11/6400",
+          "3/3200",
+          "27/3200",
+          "9/3200"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(1235)/6400",
+        "public_sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 7,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-991/1920000",
+            "44677/460800000000",
+            "-6444949/884736000000000000",
+            "28900927/141557760000000000000000",
+            "351459/419430400000000000000000000",
+            "-308804753/3623878656000000000000000000000000",
+            "-935306993/289910292480000000000000000000000000000",
+            "4023760741/30923764531200000000000000000000000000000000",
+            "3181154209/3710851743744000000000000000000000000000000000000",
+            "-167934278953/2374945115996160000000000000000000000000000000000000000",
+            "37458846457/126663739519795200000000000000000000000000000000000000000000",
+            "198942400313/15199648742375424000000000000000000000000000000000000000000000000",
+            "-7345701601/75998243711877120000000000000000000000000000000000000000000000000000",
+            "-5605416441/7205759403792793600000000000000000000000000000000000000000000000000000000",
+            "2409981703/432345564227567616000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 2.972418899999866
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 2,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "-3/6400",
+              "-9/12800",
+              "3/6400",
+              "1/1600",
+              "-3/1600",
+              "-3/3200",
+              "-1/1280",
+              "11/2560",
+              "-11/6400",
+              "3/3200",
+              "27/3200",
+              "9/3200"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(1235)/6400"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/160000",
+          "t1 + 11/160000",
+          "t2 - 9/160000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/6400",
+          "-9/12800",
+          "3/6400",
+          "1/1600",
+          "-3/1600",
+          "-3/3200",
+          "-1/1280",
+          "11/2560",
+          "-11/6400",
+          "3/3200",
+          "27/3200",
+          "9/3200"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(1235)/6400",
+        "public_sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 9,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "727/2560000",
+            "985483/29491200000000",
+            "19093129/9437184000000000000",
+            "1160772139/18119393280000000000000000",
+            "2249947883/1288490188800000000000000000000",
+            "11000009501279/59373627899904000000000000000000000000",
+            "222851729416357/12666373951979520000000000000000000000000000",
+            "663178606262797/675539944105574400000000000000000000000000000000",
+            "45926542421917411/1297036692682702848000000000000000000000000000000000000",
+            "2902646032900178039/3320413933267719290880000000000000000000000000000000000000000",
+            "31970021788306220819/2125064917291340346163200000000000000000000000000000000000000000000",
+            "161830541435794639/906694364710971881029632000000000000000000000000000000000000000000000",
+            "911924640562778534959/652819942591899754341335040000000000000000000000000000000000000000000000000000",
+            "7552751659265187841/1160568786830044007717928960000000000000000000000000000000000000000000000000000000",
+            "9152806080516531979/668487621214105348445527080960000000000000000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.0956143000003067
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "-3/6400",
+              "-9/12800",
+              "3/6400",
+              "1/1600",
+              "-3/1600",
+              "-3/3200",
+              "-1/1280",
+              "11/2560",
+              "-11/6400",
+              "3/3200",
+              "27/3200",
+              "9/3200"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(1235)/6400"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/1600000",
+          "t1 + 11/1280000",
+          "t2 - 9/320000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/6400",
+          "-9/12800",
+          "3/6400",
+          "1/1600",
+          "-3/1600",
+          "-3/3200",
+          "-1/1280",
+          "11/2560",
+          "-11/6400",
+          "3/3200",
+          "27/3200",
+          "9/3200"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(1235)/6400",
+        "public_sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 9,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "-12287/37632000",
+            "73488994531/1517322240000000000",
+            "-27994838675488651/6423735435264000000000000000",
+            "15070959666309510947971/56405536109966131200000000000000000000",
+            "-314702728085799892047100789/26533164186128068116480000000000000000000000000",
+            "24330564467800310340397774973/61635557694590830824652800000000000000000000000000000",
+            "-52442102000172549678201449462463911/5218805941116394827585001881600000000000000000000000000000000000",
+            "3298989727003291768834294969083800467/16700179011572463448272006021120000000000000000000000000000000000000000",
+            "-40113102753576957409396319277653932247/13360143209257970758617604816896000000000000000000000000000000000000000000000",
+            "4791982175692562277263560006768375584821/136807866462801620568244273325015040000000000000000000000000000000000000000000000000",
+            "-269901675484707672326630162091457838081807/875570345361930371636763349280096256000000000000000000000000000000000000000000000000000000",
+            "111079347185626962181398448081496530925293169/56036502103163543784752854353926160384000000000000000000000000000000000000000000000000000000000000",
+            "-1577613643292869831128339399180473828069174323/179316806730123340111209133932563713228800000000000000000000000000000000000000000000000000000000000000000",
+            "9222904556384768835955850529610417110252399233/382542521024263125570579485722802588221440000000000000000000000000000000000000000000000000000000000000000000000",
+            "-451903377054460142714994016867644998014761944111/14689632807331704021910252251755619387703296000000000000000000000000000000000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.653739200000018
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "blocks": [
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 32,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "-3/6400",
+              "-9/12800",
+              "3/6400",
+              "1/1600",
+              "-3/1600",
+              "-3/3200",
+              "-1/1280",
+              "11/2560",
+              "-11/6400",
+              "3/3200",
+              "27/3200",
+              "9/3200"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "3*sqrt(1235)/6400"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 3/17920000",
+          "t1 + 11/13440000",
+          "t2 - 1/1680000"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/6400",
+          "-9/12800",
+          "3/6400",
+          "1/1600",
+          "-3/1600",
+          "-3/3200",
+          "-1/1280",
+          "11/2560",
+          "-11/6400",
+          "3/3200",
+          "27/3200",
+          "9/3200"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "3*sqrt(1235)/6400",
+        "public_sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6",
+        "gradient_phase": "complete",
+        "gradient": {
+          "complete": true,
+          "real_actual_candidates": 9,
+          "complex_degree": 15,
+          "projection_offset": 1,
+          "separating_polynomial": [
+            "1",
+            "29177/9891840000",
+            "21773376461/8483464827371520000000",
+            "-8877283042754359/6419656368925982274355200000000000",
+            "-1925723392999419946453/385549154342409073040314859520000000000000000",
+            "-289349726083252621324542881/56730134384994934505313733582415462400000000000000000000",
+            "-1176709875365653036095264983831/397492167198031707497071843366582068707328000000000000000000000000",
+            "-330307618434602428545543929027467/309457368638865858394875914039277545828112138240000000000000000000000000000",
+            "-5617458824295123463429397987406523/24954642207038142820962793708127341295578962827673600000000000000000000000000000000",
+            "-210236007314925373546141113713351/12776776810003529124332950378561198743336428967768883200000000000000000000000000000000000",
+            "242023724553309020132401721765357/54514247722681724263820588281861114638235430262480568320000000000000000000000000000000000000000",
+            "79005973782931508352758785382887/59809917501456520335163159714956194345949729202264394956800000000000000000000000000000000000000000000",
+            "224955766321352520396408115428581/2143587443252201688812247644184030005358838294609155915251712000000000000000000000000000000000000000000000000",
+            "-595577424857761549171119147923/67747948823773287942708073692729837206402790545672088185733120000000000000000000000000000000000000000000000000000",
+            "-5983793628411122864619543383897/2809642933619525797559989232184891808623936529510112841238723952640000000000000000000000000000000000000000000000000000000",
+            "-160810746177215839827206649361/1438537182013197208350714486878664606015455503109177774714226663751680000000000000000000000000000000000000000000000000000000000"
+          ],
+          "all_branches_nonzero": true
+        }
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 3.6161941000000297
+    },
+    {
+      "id": "glued_3_C6",
+      "blocks": [
+        3,
+        "C6"
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 3,
+        "simple_cycles": 4,
+        "candidates": [
+          {
+            "values": [
+              "-3/18760",
+              "-9/37520",
+              "3/18760",
+              "1/4690",
+              "-3/4690",
+              "-3/9380",
+              "-1/3752",
+              "11/7504",
+              "-11/18760",
+              "3/9380",
+              "27/9380",
+              "-9/2680",
+              "-27/5360",
+              "27/4690",
+              "1/2345"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(248269)/37520"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 1/3151680",
+          "t1 + 11/31516800",
+          "t2 - 1/1181880"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-3/18760",
+          "-9/37520",
+          "3/18760",
+          "1/4690",
+          "-3/4690",
+          "-3/9380",
+          "-1/3752",
+          "11/7504",
+          "-11/18760",
+          "3/9380",
+          "27/9380",
+          "-9/2680",
+          "-27/5360",
+          "27/4690",
+          "1/2345"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(248269)/37520",
+        "public_sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110",
+        "gradient_phase": "not_requested"
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.3477268999999978
+    },
+    {
+      "id": "glued_3_3",
+      "blocks": [
+        3,
+        3
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 4,
+        "simple_cycles": 6,
+        "candidates": [
+          {
+            "values": [
+              "-1/12320",
+              "-3/24640",
+              "1/12320",
+              "1/9240",
+              "-1/3080",
+              "-1/6160",
+              "-1/7392",
+              "1/1344",
+              "-1/3360",
+              "-1/5280",
+              "-3/1760",
+              "9/6160",
+              "1/4620",
+              "9/3080",
+              "27/12320",
+              "-3/12320",
+              "57/12320",
+              "-19/6160"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(189357)/36960"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 1/8279040",
+          "t1 + 1/5644800",
+          "t2 - 27/22077440",
+          "t3 + 19/4139520"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-1/12320",
+          "-3/24640",
+          "1/12320",
+          "1/9240",
+          "-1/3080",
+          "-1/6160",
+          "-1/7392",
+          "1/1344",
+          "-1/3360",
+          "-1/5280",
+          "-3/1760",
+          "9/6160",
+          "1/4620",
+          "9/3080",
+          "27/12320",
+          "-3/12320",
+          "57/12320",
+          "-19/6160"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(189357)/36960",
+        "public_sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503",
+        "gradient_phase": "not_requested"
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 1.4133553000001484
+    },
+    {
+      "id": "glued_3_4",
+      "blocks": [
+        3,
+        4
+      ],
+      "kind": "asymmetric",
+      "N": 8,
+      "exit_code": 0,
+      "status": "complete",
+      "result": {
+        "complete": true,
+        "status": "Unique",
+        "variables": 5,
+        "simple_cycles": 9,
+        "candidates": [
+          {
+            "values": [
+              "-1/22464",
+              "-1/14976",
+              "1/22464",
+              "1/16848",
+              "-1/5616",
+              "-1/11232",
+              "-5/67392",
+              "55/134784",
+              "-11/67392",
+              "-7/67392",
+              "-7/7488",
+              "1/1248",
+              "1/8424",
+              "1/624",
+              "1/832",
+              "-1/7488",
+              "19/7488",
+              "-19/11232",
+              "5/33696",
+              "-85/22464",
+              "-17/7488"
+            ],
+            "unit_factor_budget_passed": true,
+            "budget": "sqrt(878)/2808"
+          }
+        ],
+        "complete_count": 1,
+        "norm_ideal": [
+          "t0 + 1/9704448",
+          "t1 + 11/38817792",
+          "t2 - 1/898560",
+          "t3 + 19/8087040",
+          "t4 + 17/13478400"
+        ],
+        "original_reply_checked": true,
+        "truth_passed_to_solver": false,
+        "candidate_class": "all actual real arrays without factor budget",
+        "values": [
+          "-1/22464",
+          "-1/14976",
+          "1/22464",
+          "1/16848",
+          "-1/5616",
+          "-1/11232",
+          "-5/67392",
+          "55/134784",
+          "-11/67392",
+          "-7/67392",
+          "-7/7488",
+          "1/1248",
+          "1/8424",
+          "1/624",
+          "1/832",
+          "-1/7488",
+          "19/7488",
+          "-19/11232",
+          "5/33696",
+          "-85/22464",
+          "-17/7488"
+        ],
+        "unit_factor_budget_passed": true,
+        "budget": "sqrt(878)/2808",
+        "public_sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293",
+        "gradient_phase": "not_requested"
+      },
+      "hidden_truth_comparison": true,
+      "elapsed_seconds": 2.7682381999998142
+    }
+  ],
+  "norm_statuses": {
+    "Unique": 25,
+    "Ambiguous": 2
+  },
+  "protocol_sha256": "4bf3ac211e58ae57b1d04f916645c43aabb9c7078cbfcef07887a8fc9693fec3",
+  "frozen_inputs_sha256": "78acae2982a1c5dca1c7a5c119cc70ddf1945c6613408f3dc1ea1bd458867656",
+  "source_hashes": {
+    "run_theta_study.py": "103a5bd2368c05e539853cc1766a0ade2a5b2f0478955a6639f74cd715c8220f",
+    "normalized_block_decoder.py": "637b60016926e7706ff124aaa51eff45f1bcf871e4801a8930489c8917053bac"
+  },
+  "truth_passed_to_solver": false
+}

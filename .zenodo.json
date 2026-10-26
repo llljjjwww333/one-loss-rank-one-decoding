@@ -1,0 +1,20 @@
+{
+  "title": "One Loss Resolves Signed Rank-One Gradient Fibers: computational artifacts",
+  "upload_type": "software",
+  "description": "Exact symbolic reconstruction code, synthetic public inputs and complete saved computational results accompanying the manuscript One Loss Resolves Signed Rank-One Gradient Fibers: Exact Decoding on Cycle and Theta Blocks. This is a software and data archive, not the journal article. Version maps to manuscript jsc-coordinate-2026.10.26.6. Classical algorithms and shared arithmetic backends are documented in README.",
+  "creators": [
+    {
+      "name": "楼俊文"
+    }
+  ],
+  "version": "v1.0.0",
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "symbolic computation",
+    "rank-one recovery",
+    "exact decoding",
+    "cactus graphs",
+    "theta blocks"
+  ]
+}

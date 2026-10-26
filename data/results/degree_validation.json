@@ -1,0 +1,312 @@
+{
+  "complete": true,
+  "native_witnesses": 1367,
+  "native_rows": [
+    {
+      "r": 1,
+      "cycles": 2,
+      "witnesses": 1
+    },
+    {
+      "r": 2,
+      "cycles": 3,
+      "witnesses": 3
+    },
+    {
+      "r": 3,
+      "cycles": 4,
+      "witnesses": 7
+    },
+    {
+      "r": 4,
+      "cycles": 5,
+      "witnesses": 15
+    },
+    {
+      "r": 6,
+      "cycles": 7,
+      "witnesses": 63
+    },
+    {
+      "r": 8,
+      "cycles": 9,
+      "witnesses": 255
+    },
+    {
+      "r": 10,
+      "cycles": 11,
+      "witnesses": 1023
+    }
+  ],
+  "integer_slice_controls": [
+    {
+      "r": 1,
+      "cycles": 2,
+      "constructed_real_collisions": 1,
+      "integer_members": 1,
+      "integer_parameters": [
+        1
+      ]
+    },
+    {
+      "r": 2,
+      "cycles": 3,
+      "constructed_real_collisions": 3,
+      "integer_members": 1,
+      "integer_parameters": [
+        1
+      ]
+    },
+    {
+      "r": 3,
+      "cycles": 4,
+      "constructed_real_collisions": 7,
+      "integer_members": 1,
+      "integer_parameters": [
+        1
+      ]
+    },
+    {
+      "r": 4,
+      "cycles": 5,
+      "constructed_real_collisions": 15,
+      "integer_members": 2,
+      "integer_parameters": [
+        1,
+        16
+      ]
+    },
+    {
+      "r": 5,
+      "cycles": 6,
+      "constructed_real_collisions": 31,
+      "integer_members": 3,
+      "integer_parameters": [
+        1,
+        16,
+        35
+      ]
+    },
+    {
+      "r": 6,
+      "cycles": 7,
+      "constructed_real_collisions": 63,
+      "integer_members": 4,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80
+      ]
+    },
+    {
+      "r": 7,
+      "cycles": 8,
+      "constructed_real_collisions": 127,
+      "integer_members": 4,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80
+      ]
+    },
+    {
+      "r": 8,
+      "cycles": 9,
+      "constructed_real_collisions": 255,
+      "integer_members": 5,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320
+      ]
+    },
+    {
+      "r": 9,
+      "cycles": 10,
+      "constructed_real_collisions": 511,
+      "integer_members": 6,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576
+      ]
+    },
+    {
+      "r": 10,
+      "cycles": 11,
+      "constructed_real_collisions": 1023,
+      "integer_members": 7,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280
+      ]
+    },
+    {
+      "r": 11,
+      "cycles": 12,
+      "constructed_real_collisions": 2047,
+      "integer_members": 7,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280
+      ]
+    },
+    {
+      "r": 12,
+      "cycles": 13,
+      "constructed_real_collisions": 4095,
+      "integer_members": 8,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120
+      ]
+    },
+    {
+      "r": 13,
+      "cycles": 14,
+      "constructed_real_collisions": 8191,
+      "integer_members": 9,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496
+      ]
+    },
+    {
+      "r": 14,
+      "cycles": 15,
+      "constructed_real_collisions": 16383,
+      "integer_members": 10,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496,
+        20480
+      ]
+    },
+    {
+      "r": 15,
+      "cycles": 16,
+      "constructed_real_collisions": 32767,
+      "integer_members": 10,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496,
+        20480
+      ]
+    },
+    {
+      "r": 16,
+      "cycles": 17,
+      "constructed_real_collisions": 65535,
+      "integer_members": 11,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496,
+        20480,
+        81920
+      ]
+    },
+    {
+      "r": 17,
+      "cycles": 18,
+      "constructed_real_collisions": 131071,
+      "integer_members": 13,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496,
+        20480,
+        81920,
+        147776,
+        164880
+      ]
+    },
+    {
+      "r": 18,
+      "cycles": 19,
+      "constructed_real_collisions": 262143,
+      "integer_members": 14,
+      "integer_parameters": [
+        1,
+        16,
+        35,
+        80,
+        320,
+        576,
+        1280,
+        5120,
+        10496,
+        20480,
+        81920,
+        147776,
+        164880,
+        327680
+      ]
+    }
+  ],
+  "protocol_sha256": "959757d24f5e60391cf7776296cb129cf8934afec98e0fa3d8bf1eb9887e9f5e",
+  "witnesses_sha256": "0c030f7820835e54771046122bc7b4cae36e8927e147d24ed4c1e30b5f16043e",
+  "verifier_sha256": "31e9b6a44be1cc64777c9e102075272b835fd54922d2baab62e989ed1e3cb4c1",
+  "arithmetic": "standard-library rational pairs in real quadratic fields",
+  "all_native_loss_and_gradients_checked": true,
+  "all_factor_norms_checked": true,
+  "all_simple_roots_and_transversal_derivatives_checked": true,
+  "full_independent_grid_probability_estimated": false,
+  "scope": "exact finite identity controls; arbitrary-r theorem and open-slice argument are proved in the article"
+}

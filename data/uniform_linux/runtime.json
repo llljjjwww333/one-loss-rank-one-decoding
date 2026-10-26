@@ -1,0 +1,13 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "cpu": "model name\t: AMD Ryzen 7 5800U with Radeon Graphics",
+  "affinity": [
+    0
+  ],
+  "imports_seconds": 6.019715949,
+  "msolve_sha256": "c2722288d22c3a1eab00c0b818d0204d4a98104d059b2fd4ecb7343e8ef759fa",
+  "native_manifest_sha256": "b5334e651538ed69b224004a11f48865daeeb5e6534c3840def6f2b18a37473b",
+  "parent_pid": 537
+}

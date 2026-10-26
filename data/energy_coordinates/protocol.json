@@ -1,0 +1,44 @@
+{
+  "version": "coordinate-propagation-2026.10.26.1",
+  "status": "frozen_before_native_run",
+  "exploratory_cache_disclosed": true,
+  "exploratory_sha256": "050075536398a60ca6f51b1150ab417dc3b07b7d6906a169c2cabb16cba19734",
+  "development_cohort_previously_observed": true,
+  "no_claim_of_heldout_old_cohort": true,
+  "queries_sha256": "e0b0f2be29079631cca855ab5b82f71446dbd5eeb27a1d9bd1a11e6519bb66c7",
+  "reference_sha256": "77bdef8cbe344aab751a7190b967265bb9275cef60836640c416494e7a8855fd",
+  "prior_outcomes_sha256": "62b82cbc0a383ac75585446b693a4f68731256df86738bb204295e24db282b46",
+  "source_hashes": {
+    "coordinate_decoder.py": "28e2fa392e579b34d024b5457e8145ae28e641e5bf173e8716fe4f7841b6b3c1",
+    "verify_coordinate.py": "c83b81574135d73b20dd32727ad5a84a0f13765569b5cf262c9ce6581565976a",
+    "run_study.py": "483dc51c2859fe196fe652ef604a511f3ef74b71b56d64ed704e2e4df30a378e",
+    "make_protocol.py": "ad10b31ece2418b7a837c2d73ed268f575fe29fe75a089a33d2420a6401ef015"
+  },
+  "shared_library_hashes": {
+    "exact_cactus_decoder.py": "2a0a4c46f08ca1e676102b4d0de69110d68be710f5b8f133b0661896c0d32806",
+    "cubic_probability_decoder.py": "0586eac364424b2843e7f7f73224098d843c555719ac7ff1436455fe72ded3fd"
+  },
+  "frozen_queries": 1605,
+  "additional_public_inputs": 46,
+  "prospective_inputs": 96,
+  "prospective_seed": 2026102607,
+  "prospective_inputs_sha256": "2adb56f19ce559648ab56493d9ec201a82f644531835c0517439cbe9d09c275e",
+  "vector_oracles": 500,
+  "sturm_controls": 6,
+  "radical_controls": 3,
+  "empty_mask_controls": 2,
+  "corrupted_certificates": 4,
+  "no_input_exclusions": true,
+  "no_cartesian_join_by_decoder": true,
+  "no_new_comparative_timing_study": true,
+  "candidate_class": "all actual real targets; no factor budget",
+  "prior_art": [
+    {
+      "title": "Finite Domain Bounds Consistency Revisited",
+      "authors": "Chiu Wo Choi; Warwick Harvey; Jimmy Ho-Man Lee; Peter J. Stuckey",
+      "year": 2004,
+      "url": "https://arxiv.org/abs/cs/0412021",
+      "scope": "classical bounds propagation; no priority claim for that operation"
+    }
+  ]
+}

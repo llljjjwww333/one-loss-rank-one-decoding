@@ -1,0 +1,248 @@
+{
+  "version": 1,
+  "complete": false,
+  "per_worker_seconds": 90,
+  "max_quotient_dimension": 64,
+  "platform": "Windows; exact reference certificates, no timing ranking",
+  "cases": [
+    {
+      "id": "theta3_positive_N1",
+      "bounded": false,
+      "public_sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_positive_N2",
+      "bounded": false,
+      "public_sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_positive_N8",
+      "bounded": false,
+      "public_sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_positive_N32",
+      "bounded": false,
+      "public_sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "bounded": false,
+      "public_sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "bounded": false,
+      "public_sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "bounded": false,
+      "public_sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "bounded": false,
+      "public_sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "bounded": false,
+      "public_sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "bounded": false,
+      "public_sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "bounded": false,
+      "public_sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "bounded": false,
+      "public_sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_positive_N1",
+      "bounded": false,
+      "public_sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_positive_N2",
+      "bounded": false,
+      "public_sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_positive_N8",
+      "bounded": false,
+      "public_sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_positive_N32",
+      "bounded": false,
+      "public_sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_mixed_N1",
+      "bounded": false,
+      "public_sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "bounded": false,
+      "public_sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_mixed_N8",
+      "bounded": false,
+      "public_sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "bounded": false,
+      "public_sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "bounded": false,
+      "public_sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "bounded": false,
+      "public_sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "bounded": false,
+      "public_sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "bounded": false,
+      "public_sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "glued_3_C6",
+      "bounded": false,
+      "public_sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "glued_3_3",
+      "bounded": false,
+      "public_sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "glued_3_4",
+      "bounded": false,
+      "public_sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293",
+      "cohort": "unchanged_theta27"
+    },
+    {
+      "id": "c4_irrational",
+      "bounded": false,
+      "public_sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2
+    },
+    {
+      "id": "c4_tangent",
+      "bounded": false,
+      "public_sha256": "be2017fe11a077a35775630b96eca84c0298ede0b0dc1a8169003a827733b7f3",
+      "cohort": "new_native_algebraic",
+      "expected_count": 1
+    },
+    {
+      "id": "theta3_c4_irrational",
+      "bounded": false,
+      "public_sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2
+    },
+    {
+      "id": "theta3_c4_tangent",
+      "bounded": false,
+      "public_sha256": "92584163732bb071ed718838186e818cc2c8e506634918029b74893284cd6802",
+      "cohort": "new_native_algebraic",
+      "expected_count": 1
+    },
+    {
+      "id": "c4_irrational_outside_budget",
+      "bounded": false,
+      "public_sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2
+    },
+    {
+      "id": "nonactual_forest",
+      "bounded": false,
+      "public_sha256": "30e8a7a6e4dd7f9f13f5f2e8dfcfc7262dbd14c709982d9f6cba7620aaae452e",
+      "cohort": "new_native_algebraic",
+      "expected_count": 0
+    },
+    {
+      "id": "inconsistent_margins",
+      "bounded": false,
+      "public_sha256": "5863fc4600cf302e3250fdc88e1960044ee722394e08a6e5a551eed275c809ea",
+      "cohort": "new_native_algebraic",
+      "expected_count": 0
+    },
+    {
+      "id": "c4_irrational_bounded",
+      "bounded": true,
+      "public_sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+      "cohort": "optional_budget",
+      "expected_count": 2
+    },
+    {
+      "id": "c4_irrational_outside_budget_bounded",
+      "bounded": true,
+      "public_sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+      "cohort": "optional_budget",
+      "expected_count": 0
+    },
+    {
+      "id": "theta3_c4_irrational_bounded",
+      "bounded": true,
+      "public_sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+      "cohort": "optional_budget",
+      "expected_count": 2
+    }
+  ],
+  "source_hashes": {
+    "exact_rur_decoder.py": "9cc170402d329183cfdaff499c023b999ccdc869ea91b354af74d22de6c91154",
+    "normalized_block_decoder.py": "637b60016926e7706ff124aaa51eff45f1bcf871e4801a8930489c8917053bac",
+    "run_rur_study.py": "ec12051472716db1b3f9f9428b9a8578c019a267e4bf9800633eb28ba0aab0ca"
+  },
+  "truth_passed_to_solver": false,
+  "old_native_timings_repeated": false
+}

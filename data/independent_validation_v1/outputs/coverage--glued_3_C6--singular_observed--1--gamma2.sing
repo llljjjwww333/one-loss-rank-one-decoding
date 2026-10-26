@@ -1,0 +1,51 @@
+LIB "primdec.lib";
+ring r=0,(c(1..15)),dp;
+option(redSB);
+ideal I=(1/1008)*c(1)+(1/882)*c(4)+(1/378)*c(7)+(1/756)*c(10)+(1/504)*c(15)-(257/397111680),
+(1/1680)*c(2)+(1/1680)*c(3)-(-1/21011200),
+(1/882)*c(5)+(1/1008)*c(6)-(-23/22061760),
+(1/630)*c(8)+(1/1680)*c(9)-(187/94550400),
+(1/1008)*c(11)+(1/504)*c(12)-(-1/262640),
+(1/252)*c(13)+(1/336)*c(14)-(-3/1050560),
+(1/1680)*c(3)+(1/1008)*c(6)+(1/1680)*c(9)-(-3/5252800),
+(1/1008)*c(1)+(1/1680)*c(2)-(-19/63033600),
+(1/882)*c(4)+(1/882)*c(5)-(-1/2068290),
+(1/378)*c(7)+(1/630)*c(8)-(23/14182560),
+(1/756)*c(10)+(1/1008)*c(11)-(31/9455040),
+(1/504)*c(12)+(1/252)*c(13)-(-1/37520),
+(1/336)*c(14)+(1/504)*c(15)-(17/945504),
+c(1)*c(3)*c(5)-c(2)*c(6)*c(4),
+c(1)*c(3)*c(8)-c(2)*c(9)*c(7),
+c(4)*c(6)*c(8)-c(5)*c(9)*c(7),
+c(10)*c(12)*c(14)-c(11)*c(13)*c(15),
+c(1)^2+c(2)^2+c(3)^2+c(4)^2+c(5)^2+c(6)^2+c(7)^2+c(8)^2+c(9)^2+c(10)^2+c(11)^2+c(12)^2+c(13)^2+c(14)^2+c(15)^2-(16409/201107200);
+ideal B=std(I);
+print("RAW_DIM|"+string(dim(B)));
+print("RAW_VDIM|"+string(vdim(B)));
+ideal R=std(radical(I));
+int pointCount=vdim(R);
+ring s=0,(c(1..15),zz),lp;
+ideal J=imap(r,R);
+J[size(J)+1]=zz-((1)*c(1)+(2)*c(2)+(4)*c(3)+(8)*c(4)+(16)*c(5)+(32)*c(6)+(64)*c(7)+(128)*c(8)+(256)*c(9)+(512)*c(10)+(1024)*c(11)+(2048)*c(12)+(4096)*c(13)+(8192)*c(14)+(16384)*c(15));
+ideal G=std(J);
+print("POINT_COUNT|"+string(pointCount));
+print("BEGIN_BASIS");
+print("DIM|"+string(dim(G)));
+print("VDIM|"+string(vdim(G)));
+int i; poly p;
+for(i=1;i<=size(G);i++){
+ print("POLY"); p=G[i];
+ while(p!=0){ print("TERM|"+string(leadcoef(p))+"|"+string(leadexp(p))); p=p-lead(p); }
+}
+print("END_BASIS");
+list FF=factorize(G[1]);
+ideal factors=FF[1]; intvec powers=FF[2];
+print("BEGIN_FACTORS");
+for(i=1;i<=size(factors);i++){
+ if(deg(factors[i])>0){
+  print("FACTOR|"+string(powers[i])); p=factors[i];
+  while(p!=0){ print("TERM|"+string(leadcoef(p))+"|"+string(leadexp(p))); p=p-lead(p); }
+ }
+}
+print("END_FACTORS");
+quit;

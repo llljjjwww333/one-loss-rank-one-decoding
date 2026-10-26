@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "outcome": "complete",
+  "arrays": [
+    [
+      "125/55296",
+      "-5/2304",
+      "-25/13824",
+      "625/331776",
+      "133/82944",
+      "-19/18432",
+      "3/2048",
+      "5/2048",
+      "35/13824",
+      "-49/20736",
+      "-1/1728",
+      "7/4608",
+      "35/18432",
+      "-145/55296",
+      "-725/331776",
+      "-575/331776",
+      "-23/55296",
+      "-1/6912"
+    ]
+  ],
+  "cas_seconds": 0.06875563300002341,
+  "root_extraction": "msolve exact rational parametrization; SymPy real-root isolation and actual-support filtering",
+  "dimension": 0,
+  "parametrization_degree": 1,
+  "real_parameter_roots": 1,
+  "equations_replayed": 4
+}

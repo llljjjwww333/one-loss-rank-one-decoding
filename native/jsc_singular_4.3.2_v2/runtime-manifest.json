@@ -1,0 +1,81 @@
+{
+  "complete": true,
+  "scope": "Local unpacked runtime; no packages installed into Ubuntu",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "packages": {
+    "libflint18t64": {
+      "version": "3.0.1-3.1build1",
+      "sha256": "6a19b0ebc9b2367a605ccd2256052649ccde3ca23d6b821fc884715e1cdd70b7",
+      "repository_file": "pool/universe/f/flint/libflint18t64_3.0.1-3.1build1_amd64.deb",
+      "bytes": 3989238,
+      "local_file": "packages/libflint18t64_3.0.1-3.1build1_amd64.deb"
+    },
+    "libgf2x3": {
+      "version": "1.3.0-2build1",
+      "sha256": "40dbc67475da23eb73e75bfcb04b2b279f1688fe5a32e3fc67a5f513fe69910d",
+      "repository_file": "pool/universe/g/gf2x/libgf2x3_1.3.0-2build1_amd64.deb",
+      "bytes": 28202,
+      "local_file": "packages/libgf2x3_1.3.0-2build1_amd64.deb"
+    },
+    "libntl44": {
+      "version": "11.5.1-1",
+      "sha256": "4e87ada92ecd936cc7bbdbce972e02b23a246a9451cd437263738e924325eb69",
+      "repository_file": "pool/universe/n/ntl/libntl44_11.5.1-1_amd64.deb",
+      "bytes": 838496,
+      "local_file": "packages/libntl44_11.5.1-1_amd64.deb"
+    },
+    "libsingular4m3n0t64": {
+      "version": "1:4.3.2-p10+ds-1.1build1",
+      "sha256": "d072e717e0f09cdeacabe29a6b56f36a4fb0ed698bba903f68d950d997bbb606",
+      "repository_file": "pool/universe/s/singular/libsingular4m3n0t64_4.3.2-p10+ds-1.1build1_amd64.deb",
+      "bytes": 3026058,
+      "local_file": "packages/libsingular4m3n0t64_1%3a4.3.2-p10+ds-1.1build1_amd64.deb"
+    },
+    "singular-data": {
+      "version": "1:4.3.2-p10+ds-1.1build1",
+      "sha256": "162f83de2e1acc19d1db7d15323b6c3b617183f91cabff0f48e4b65b36114558",
+      "repository_file": "pool/universe/s/singular/singular-data_4.3.2-p10+ds-1.1build1_all.deb",
+      "bytes": 4920922,
+      "local_file": "packages/singular-data_1%3a4.3.2-p10+ds-1.1build1_all.deb"
+    },
+    "singular-ui": {
+      "version": "1:4.3.2-p10+ds-1.1build1",
+      "sha256": "d0acb9c0aee585200a7104557c6faa300f2ced6cbe42d7445e7effe7da0cfb50",
+      "repository_file": "pool/universe/s/singular/singular-ui_4.3.2-p10+ds-1.1build1_amd64.deb",
+      "bytes": 11346,
+      "local_file": "packages/singular-ui_1%3a4.3.2-p10+ds-1.1build1_amd64.deb"
+    },
+    "singular-modules": {
+      "version": "1:4.3.2-p10+ds-1.1build1",
+      "sha256": "e0a0f9639ffd01ae26a7c7c10735a975567a31865c32c94ff8f946638717de38",
+      "repository_file": "pool/universe/s/singular/singular-modules_4.3.2-p10+ds-1.1build1_amd64.deb",
+      "bytes": 1025968,
+      "local_file": "packages/singular-modules_1%3a4.3.2-p10+ds-1.1build1_amd64.deb"
+    },
+    "libgmpxx4ldbl": {
+      "version": "2:6.3.0+dfsg-2ubuntu6.1",
+      "sha256": "6f59344240b6dc139ed23ef236b8aa146e5d25e23aa90e79f814e2e4cc4b5752",
+      "repository_file": "pool/main/g/gmp/libgmpxx4ldbl_6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "bytes": 9888,
+      "local_file": "packages/libgmpxx4ldbl_2%3a6.3.0+dfsg-2ubuntu6.1_amd64.deb"
+    },
+    "libgmp-dev": {
+      "version": "2:6.3.0+dfsg-2ubuntu6.1",
+      "sha256": "a9847b5ecfff791a46cb198f29a06d9d23a20afdfdd434812f2b44ccfb61d46a",
+      "repository_file": "pool/main/g/gmp/libgmp-dev_6.3.0+dfsg-2ubuntu6.1_amd64.deb",
+      "bytes": 340090,
+      "local_file": "packages/libgmp-dev_2%3a6.3.0+dfsg-2ubuntu6.1_amd64.deb"
+    },
+    "libcdd0t64": {
+      "version": "094m-1.1build1",
+      "sha256": "f4f9636837191c27af0400dfc07c21bddd57cac2dfb111cb3fbe7100cbf617a6",
+      "repository_file": "pool/universe/c/cddlib/libcdd0t64_094m-1.1build1_amd64.deb",
+      "bytes": 118656,
+      "local_file": "packages/libcdd0t64_094m-1.1build1_amd64.deb"
+    }
+  },
+  "binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "setup_source_sha256": "c9b0770bfc4375a5336fedb6e8874fdb06c33d4ed11b7110b3ba4ef3f3ec2a97",
+  "version_stdout": "Singular for x86_64-Linux version 4.3.2 (4330, 64 bit) Apr  1 2024 04:44:00\nwith\n\tGMP(6.3.0),NTL(11.5.1),FLINT(3.0.1),\n\tomalloc,static readline(8),Plural,vspace(2),DBM,\n\tdynamic modules,OM_NDEBUG,SING_NDEBUG,\n\tCC:OPTIMIZE,GenericAdd,TableMult,no invTable,\n\teigenvalues,Gauss-Manin system,random=1792806415\nbuilt-in modules: {}\nAC_CONFIGURE_ARGS =  '--build=x86_64-linux-gnu' '--prefix=/usr' '--includedir=${prefix}/include' '--mandir=${prefix}/share/man' '--infodir=${prefix}/share/info' '--sysconfdir=/etc' '--localstatedir=/var' '--disable-option-checking' '--disable-silent-rules' '--libdir=${prefix}/lib/x86_64-linux-gnu' '--runstatedir=/run' '--disable-maintainer-mode' '--disable-dependency-tracking' '--libexecdir=/usr/libexec/x86_64-linux-gnu' '--htmldir=/usr/share/doc/singular/html' '--with-libparse' '--enable-streamio' 'build_alias=x86_64-linux-gnu' 'CFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=/usr/src/singular-1:4.3.2-p10+ds-1.1build1' 'LDFLAGS=-Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=3' 'CXXFLAGS=-g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=/usr/src/singular-1:4.3.2-p10+ds-1.1build1' 'PYTHON=/usr/bin/python3' --enable-omalloc  OMALLOC_LIBS='/build/singular-HDHwVv/singular-4.3.2-p10+ds/omalloc/libsingular-omalloc.la' OMALLOC_INCLUDES='-I/build/singular-HDHwVv/singular-4.3.2-p10+ds'  --with-Singular RESOURCES_LIBS='/build/singular-HDHwVv/singular-4.3.2-p10+ds/resources/libsingular-resources.la' RESOURCES_INCLUDES='-I/build/singular-HDHwVv/singular-4.3.2-p10+ds ' FACTORY_LIBS='/build/singular-HDHwVv/singular-4.3.2-p10+ds/factory/libsingular-factory.la' FACTORY_INCLUDES='-I/build/singular-HDHwVv/singular-4.3.2-p10+ds -I/build/singular-HDHwVv/singular-4.3.2-p10+ds/factory -I/build/singular-HDHwVv/singular-4.3.2-p10+ds/factory/include',\nCC = gcc,FLAGS :  -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=/usr/src/singular-1:4.3.2-p10+ds-1.1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-specs -fconserve-space -funroll-loops -pthread -pthread,\nCXX = g++,FLAGS : -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/singular-HDHwVv/singular-4.3.2-p10+ds=/usr/src/singular-1:4.3.2-p10+ds-1.1build1 -pipe -fno-common -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-specs -fconserve-space -funroll-loops -fno-rtti -fno-delete-null-pointer-checks -pthread,\nDEFS : ,CPPFLAGS : -Wdate-time -D_FORTIFY_SOURCE=3,\nLDFLAGS : -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -Wl,-z,now -pipe -fno-common -g -O3 -Wno-unused-function -Wno-trigraphs -Wno-unused-parameter -Wunknown-pragmas -Wno-unused-variable -fomit-frame-pointer -fwrapv -fvisibility=default -finline-functions -fno-exceptions -fno-threadsafe-statics -fno-enforce-eh-specs -fconserve-space -funroll-loops  -rdynamic -Wl,-undefined,dynamic_lookup,LIBS : -lreadline -lncurses  -lgmp -lrt  -lpthread (ver: 13.2.0)\nargv[0]   :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/Singular\nSearchPath:\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/share/singular/LIB:/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/../share/singular/LIB:/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/../share/singular/factory:/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin\nSingular  :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/Singular\nBinDir    :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin\nProcDir   :\t\nRootDir   :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/..\nDataDir   :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/../share\nDefaultDir:\t/usr\nInfoFile  :\t\nIdxFile   :\t\nHtmlDir   :\t\nManualUrl :\thttps://www.singular.uni-kl.de/Manual/\nExDir     :\t\nPath      :\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/usr/lib/linux-tools/6.18.54.1-microsoft-standard-WSL2/bin:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/powershell:/mnt/c/Users/junwe/.codex/tmp/arg0-windows/codex-arg0VFLvrL:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/libheif/libheif/bin:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/jxrlib/jxrlib/bin:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/e/VMware/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/e/JAVA/jdk/jdk-8u141/bin:/mnt/d/python3.9/Scripts:/mnt/d/xftp:/mnt/d/xshell:/mnt/d/node.js:/mnt/c/Program Files/Git/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/f/tailscale:/mnt/c/Program Files/Tailscale:/mnt/c/Program Files/GitHub CLI:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/WSL:/mnt/c/Users/junwe/AppData/Local/Programs/Python/Python312/Scripts:/mnt/c/Users/junwe/AppData/Local/Programs/Python/Python312:/mnt/c/Users/junwe/AppData/Roaming/npm:/mnt/c/Users/junwe/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/junwe/AppData/Local/Programs/Python/Python311:/mnt/d/VSCODE/Microsoft VS Code/bin:/mnt/c/Users/junwe/AppData/Local/Microsoft/WindowsApps:/mnt/d/latex/miktex/miktex/bin/x64:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin:/mnt/c/Users/junwe/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/git/cmd:/mnt/c/Users/junwe/AppData/Local/OpenAI/Codex/bin/2d8a5d5756dbf318:/mnt/c/Users/junwe/AppData/Local/OpenAI/Codex/bin/37f54d68e5533a51\nemacs     :\t\nxemacs    :\t\nSingularEmacs:\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/Singular\nEmacsLoad :\t\nEmacsDir  :\t\nSingularXterm:\t/mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/bin/Singular\nxterm     :\t\nEmacsDir  :\t\nAvailable HelpBrowsers: dummy, emacs, \nCurrent HelpBrowser: dummy \n                     SINGULAR                                 /  Development\n A Computer Algebra System for Polynomial Computations       /   version 4.3.2\n                                                           0<\n by: W. Decker, G.-M. Greuel, G. Pfister, H. Schoenemann     \\   Feb 2023\nFB Mathematik der Universitaet, D-67653 Kaiserslautern        \\  Debian 1:4.3.2-p10+ds-1.1build1\nAuf Wiedersehen.\n",
+  "version_stderr": ""
+}

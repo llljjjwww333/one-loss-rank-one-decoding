@@ -1,8 +1,8 @@
 {
   "complete": true,
   "mode": "full",
-  "manifest_sha256": "a67678a10c7c4ed43ac5ff39e0a8fbcfb0c94bcefc6097c959c5817753e54bec",
-  "snapshot_files_verified": 420,
+  "manifest_sha256": "1718692decd511b16699473e36a8d20c261816d4d2bf03747659d16c3d2b750e",
+  "snapshot_files_verified": 1115,
   "tasks": [
     {
       "name": "grid",
@@ -73,10 +73,18 @@
       "name": "energy-coordinates",
       "passed": true,
       "scientific_results_equal": true
+    },
+    {
+      "name": "independent-native",
+      "passed": true,
+      "scientific_results_equal": true
+    },
+    {
+      "name": "phase-audit",
+      "passed": true,
+      "scientific_results_equal": true
     }
   ],
   "native_solver_timings_repeated": false,
-  "scope": "exact local replay using shared SymPy and incidence reduction; saved Linux outcomes audited, timed native solvers not rerun",
-  "environment": "Windows; Python 3.11; SymPy 1.14.0",
-  "performance_benchmark": false
+  "scope": "exact local replay using shared SymPy and incidence reduction; saved Linux outcomes audited, timed native solvers not rerun"
 }

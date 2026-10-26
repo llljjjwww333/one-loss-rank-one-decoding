@@ -1,0 +1,632 @@
+{
+  "complete": true,
+  "source_sha256": "6a2f3a7baf833b9f4b0040697f375fffe1a9030b374b9f0616b15523e4e610f1",
+  "matplotlib": "3.10.9",
+  "numpy": "2.4.4",
+  "results_sha256": "650c3feba14b9604f3488b34f818a6c66175f25bf58eb711bced49a87631085e",
+  "validation_sha256": "f84af2d5fbb115a90be954e826e2f273182c45c0f22a9d64c84452b365680b94",
+  "phase_results_sha256": "20bdba3b61b27da9946903bed94e8e16c6ba61b077e95bb459188dd5a1fd69f6",
+  "all_phase_scientific_results_unchanged": true,
+  "profiles": [
+    {
+      "r": 1,
+      "inputs": 16,
+      "unique": 16,
+      "unresolved": 0,
+      "phases": {
+        "reduction": 0.19269989418746292,
+        "real_roots": 0.001685641437497054,
+        "coordinates": 1.7316750003715242e-05,
+        "propagate": 6.699081250616246e-05,
+        "rational_candidate": 0.0002900831875081167,
+        "other": 0.0008871835000121564
+      },
+      "total_seconds": 0.19564710987499012,
+      "maximum_cartesian_before": 3,
+      "maximum_rounds": 1
+    },
+    {
+      "r": 2,
+      "inputs": 16,
+      "unique": 16,
+      "unresolved": 0,
+      "phases": {
+        "reduction": 0.19349419787498334,
+        "real_roots": 0.002677928562491161,
+        "coordinates": 2.9724500009820076e-05,
+        "propagate": 0.00011002493751277598,
+        "rational_candidate": 0.000456682750026971,
+        "other": 0.001524873749971789
+      },
+      "total_seconds": 0.19829343237499586,
+      "maximum_cartesian_before": 9,
+      "maximum_rounds": 2
+    },
+    {
+      "r": 4,
+      "inputs": 16,
+      "unique": 16,
+      "unresolved": 0,
+      "phases": {
+        "reduction": 0.2045890812500133,
+        "real_roots": 0.004654824249918477,
+        "coordinates": 4.78562500489943e-05,
+        "propagate": 0.00026485737500792084,
+        "rational_candidate": 0.0008039256874710077,
+        "other": 0.002738137937569718
+      },
+      "total_seconds": 0.2130986827500294,
+      "maximum_cartesian_before": 81,
+      "maximum_rounds": 4
+    },
+    {
+      "r": 8,
+      "inputs": 16,
+      "unique": 13,
+      "unresolved": 3,
+      "phases": {
+        "reduction": 0.23095576143752083,
+        "real_roots": 0.00932863118747207,
+        "coordinates": 0.00011429256250039543,
+        "propagate": 0.0008342686249562803,
+        "rational_candidate": 0.0011667155624977,
+        "other": 0.00589419737506347
+      },
+      "total_seconds": 0.24829386675001075,
+      "maximum_cartesian_before": 6561,
+      "maximum_rounds": 4
+    },
+    {
+      "r": 12,
+      "inputs": 16,
+      "unique": 15,
+      "unresolved": 1,
+      "phases": {
+        "reduction": 0.24427737568750985,
+        "real_roots": 0.01296006262494842,
+        "coordinates": 0.00018464893746283906,
+        "propagate": 0.0016302506875049971,
+        "rational_candidate": 0.0018772930624848527,
+        "other": 0.008210246687575307
+      },
+      "total_seconds": 0.26913987768748626,
+      "maximum_cartesian_before": 531441,
+      "maximum_rounds": 4
+    },
+    {
+      "r": 24,
+      "inputs": 16,
+      "unique": 8,
+      "unresolved": 8,
+      "phases": {
+        "reduction": 0.2965326076875101,
+        "real_roots": 0.025149963749939275,
+        "coordinates": 0.0005813076875256229,
+        "propagate": 0.006288935499995318,
+        "rational_candidate": 0.0018732814999822267,
+        "other": 0.01691322225006786
+      },
+      "total_seconds": 0.3473393183750204,
+      "maximum_cartesian_before": 94143178827,
+      "maximum_rounds": 5
+    }
+  ],
+  "comparison_inputs": [
+    {
+      "id": "validation-01-flower-r2-k33",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.3905886280000175,
+          0.3183889779999731,
+          0.2701205560000517
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.34951106299999424,
+          0.36973502399996505,
+          0.31318231400007335
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.3852672969999844,
+          0.46312399400000004,
+          0.3990478210000674
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 9,
+      "partial_sizes": [
+        3,
+        3
+      ],
+      "exact_comparisons": 12
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.3819012760000078,
+          0.45350411300000815,
+          0.3890402189999804
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.36163517899998965,
+          0.4181233560000237,
+          0.3546078239999133
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.4112461799999778,
+          0.4824698749999925,
+          0.41230155699997795
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 9,
+      "partial_sizes": [
+        3,
+        3
+      ],
+      "exact_comparisons": 9
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.312214804000007,
+          0.33397838799999136,
+          0.31953376300009495
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.35441330899999457,
+          0.42128767600001993,
+          0.35728613399999176
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.7439195880000113,
+          0.8482426099999998,
+          0.7434590620000563
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 27,
+      "partial_sizes": [
+        9,
+        3
+      ],
+      "exact_comparisons": 30
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.656000344000006,
+          0.720265009000002,
+          0.6768807370000332
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.43202386600000864,
+          0.4782450590000167,
+          0.444026000000008
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "root_tuples": 225,
+      "partial_sizes": [
+        15,
+        15
+      ],
+      "exact_comparisons": 101
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.5540205839999999,
+          0.5816136509999978,
+          0.578445358999943
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          8.522022086999982,
+          8.544761257999994,
+          8.627351986999997
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "root_tuples": 6561,
+      "partial_sizes": [
+        81,
+        81
+      ],
+      "exact_comparisons": 902
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          2.532937282000006,
+          2.6025229719999743,
+          2.4573724800000036
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "singular_observed": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "root_tuples": 140625,
+      "partial_sizes": [
+        375,
+        375
+      ],
+      "exact_comparisons": 5488
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          1.0845530209999765,
+          0.913735642000006,
+          0.9171077940000032
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "singular_observed": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "root_tuples": 59049,
+      "partial_sizes": [
+        243,
+        243
+      ],
+      "exact_comparisons": 3362
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          10.34445207799996,
+          10.143758016999982,
+          10.207796185000007
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "singular_observed": {
+        "completed": 0,
+        "times": [
+          null,
+          null,
+          null
+        ],
+        "timeouts": 3
+      },
+      "root_tuples": 6834375,
+      "partial_sizes": [
+        3375,
+        2025
+      ],
+      "exact_comparisons": 44324
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.29145451300001923,
+          0.24479280799994285,
+          0.2590972729999521
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.3609788809999941,
+          0.34151051499998175,
+          0.357871939000006
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.4168574209999747,
+          0.4033715220000431,
+          0.415395449000016
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 3,
+      "partial_sizes": [
+        3,
+        1
+      ],
+      "exact_comparisons": 4
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.2865759890000277,
+          0.2742814209999551,
+          0.2722775109999702
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.37636764199999106,
+          0.35416037699997105,
+          0.35423238200007745
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.5509367199999815,
+          0.4022170150000193,
+          0.42646107800010213
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 9,
+      "partial_sizes": [
+        3,
+        3
+      ],
+      "exact_comparisons": 12
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.35997964400002047,
+          0.2951495040000509,
+          0.3274094570000443
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.41543040499999506,
+          0.35318701100004546,
+          0.3423065009999391
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.4837623379999627,
+          0.4046956350000528,
+          0.4146011159999716
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 9,
+      "partial_sizes": [
+        3,
+        3
+      ],
+      "exact_comparisons": 10
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.2706226949999859,
+          0.2474232370000209,
+          0.2553810800000065
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.3987625249999951,
+          0.342411310999978,
+          0.3566452019999815
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.46000917100002425,
+          0.4255460960000619,
+          0.409409225000104
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 3,
+      "partial_sizes": [
+        3,
+        1
+      ],
+      "exact_comparisons": 6
+    },
+    {
+      "id": "two_C6_N1_0",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.23237766199997623,
+          0.21386608099999194,
+          0.20621250800002144
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.3737790079999854,
+          0.3527122950000603,
+          0.3564177800000152
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.4754644579999763,
+          0.41555623499994,
+          0.4465121679999129
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 9,
+      "partial_sizes": [
+        3,
+        3
+      ],
+      "exact_comparisons": 14
+    },
+    {
+      "id": "C8_N4_83",
+      "cycle_mitm": {
+        "completed": 3,
+        "times": [
+          0.24459588100000929,
+          0.21964099100000567,
+          0.25244272899999487
+        ],
+        "timeouts": 0
+      },
+      "msolve_reduced": {
+        "completed": 3,
+        "times": [
+          0.3534534879999569,
+          0.3073913719999837,
+          0.34283186999994086
+        ],
+        "timeouts": 0
+      },
+      "singular_observed": {
+        "completed": 3,
+        "times": [
+          0.47929331900002126,
+          0.4115696899999648,
+          0.44354567899995345
+        ],
+        "timeouts": 0
+      },
+      "root_tuples": 3,
+      "partial_sizes": [
+        3,
+        1
+      ],
+      "exact_comparisons": 7
+    }
+  ],
+  "coverage_jobs": 37,
+  "complex_rur_bijections": 35,
+  "native_coverage_arrays": 41,
+  "native_nonrational_occurrences": 10,
+  "generated": {
+    "independent_summary.tex": "037a481b81cc0db3fdedfad0d95c5350da9c0e6d387fb8e485850de1f94c8b98",
+    "strengthened_solver_summary.tex": "31d26df08ba819efc783c5552d6b6c1b3c50da5e2105363c96ecbd3ac5f91dd2",
+    "uniform_protocol_details.tex": "56544f037dfc246384a2aa57ae77e521f31e6f82fa6b6048d6ef3d9657facb88",
+    "strengthened_mechanism_figure.tex": "d2658c233849732fab90d6b96651e81c847e6717946479831193bede7b3f054e",
+    "figures/coordinate_mechanism.pdf": "a789f00155055f3f18a80f29d2a9482fca72914180c1183ebe79057ca7fd270e",
+    "figures/coordinate_mechanism.png": "6259a2d507920db7d36cfbfbbca7f970710c13dc85b4a2468184cba53ac88d34"
+  }
+}

@@ -1,0 +1,38 @@
+LIB "primdec.lib";
+ring r=0,(c(1..1)),dp;
+option(redSB);
+ideal I=(1/4)*c(1)-(0),
+0-(-1/2),
+(1/4)*c(1)-(0),
+0-(0),
+c(1)^2-(-1/2);
+ideal B=std(I);
+print("RAW_DIM|"+string(dim(B)));
+print("RAW_VDIM|"+string(vdim(B)));
+ideal R=std(radical(I));
+int pointCount=vdim(R);
+ring s=0,(c(1..1),zz),lp;
+ideal J=imap(r,R);
+J[size(J)+1]=zz-((1)*c(1));
+ideal G=std(J);
+print("POINT_COUNT|"+string(pointCount));
+print("BEGIN_BASIS");
+print("DIM|"+string(dim(G)));
+print("VDIM|"+string(vdim(G)));
+int i; poly p;
+for(i=1;i<=size(G);i++){
+ print("POLY"); p=G[i];
+ while(p!=0){ print("TERM|"+string(leadcoef(p))+"|"+string(leadexp(p))); p=p-lead(p); }
+}
+print("END_BASIS");
+list FF=factorize(G[1]);
+ideal factors=FF[1]; intvec powers=FF[2];
+print("BEGIN_FACTORS");
+for(i=1;i<=size(factors);i++){
+ if(deg(factors[i])>0){
+  print("FACTOR|"+string(powers[i])); p=factors[i];
+  while(p!=0){ print("TERM|"+string(leadcoef(p))+"|"+string(leadexp(p))); p=p-lead(p); }
+ }
+}
+print("END_FACTORS");
+quit;

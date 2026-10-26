@@ -18,6 +18,8 @@ TASKS=[
  ('degree-binary','check_certificate_degree.py','degree_validation.json'),
  ('degree-ternary','check_ternary_degree.py','ternary_degree_validation.json'),
  ('energy-coordinates','../../energy_constraints_v1/replay_study.py','../../energy_constraints_v1/replay_validation.json'),
+ ('independent-native','../../independent_validation_v1/verify_study.py','../../independent_validation_v1/validation.json'),
+ ('phase-audit','../../independent_validation_v1/audit_phases.py','../../independent_validation_v1/phase_validation.json'),
 ]
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def semantic(name,obj):
@@ -43,7 +45,7 @@ def main():
  receipt.write_text(json.dumps(report,indent=2)+'\n')
  for name,script,result in selected:
   result_path=current/result;before=json.loads(result_path.read_text());start=time.monotonic()
-  run=subprocess.run([sys.executable,'-X','utf8',str(current/script)],capture_output=True,text=True,encoding='utf-8',timeout=600)
+  run=subprocess.run([sys.executable,'-X','utf8',str(current/script)]+(['final'] if name=='independent-native' else []),capture_output=True,text=True,encoding='utf-8',timeout=600)
   (output/(name+'.log')).write_text(run.stdout+run.stderr,encoding='utf-8')
   assert run.returncode==0,(name,run.stdout,run.stderr)
   after=json.loads(result_path.read_text());assert semantic(name,before)==semantic(name,after),name

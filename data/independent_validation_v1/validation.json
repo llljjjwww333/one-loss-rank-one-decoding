@@ -1,0 +1,1091 @@
+{
+  "complete": true,
+  "source_sha256": "66c30ad135990589727e6e9e72c67131f03ef020aa664b07391a5cc059807b6e",
+  "results_sha256": "650c3feba14b9604f3488b34f818a6c66175f25bf58eb711bced49a87631085e",
+  "reference_sha256": "cd63c8e57c872419c9b0c0ff0e070fa3caa9b22ba303ec8e790a0441173e5b37",
+  "coverage": [
+    {
+      "id": "theta3_positive_N1",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_positive_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_positive_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_positive_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "points": 2,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 10,
+        "actual": 2
+      }
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 10,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_positive_N1",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_positive_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_positive_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_positive_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_mixed_N1",
+      "points": 2,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 13,
+        "actual": 2
+      }
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_mixed_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 13,
+        "actual": 1
+      }
+    },
+    {
+      "id": "glued_3_C6",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 16,
+        "actual": 1
+      }
+    },
+    {
+      "id": "glued_3_3",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 19,
+        "actual": 1
+      }
+    },
+    {
+      "id": "glued_3_4",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 22,
+        "actual": 1
+      }
+    },
+    {
+      "id": "c4_irrational",
+      "points": 2,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 5,
+        "actual": 2
+      }
+    },
+    {
+      "id": "c4_tangent",
+      "points": 1,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 1,
+        "real_embeddings": 1,
+        "polynomial_identities": 5,
+        "actual": 1
+      }
+    },
+    {
+      "id": "theta3_c4_irrational",
+      "points": 14,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 14,
+        "real_embeddings": 2,
+        "polynomial_identities": 14,
+        "actual": 2
+      }
+    },
+    {
+      "id": "theta3_c4_tangent",
+      "points": 13,
+      "real_points": 1,
+      "actual": 1,
+      "cross_rur": {
+        "complex_points": 13,
+        "real_embeddings": 1,
+        "polynomial_identities": 14,
+        "actual": 1
+      }
+    },
+    {
+      "id": "c4_irrational_outside_budget",
+      "points": 2,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 5,
+        "actual": 2
+      }
+    },
+    {
+      "id": "nonactual_forest",
+      "points": 1,
+      "real_points": 1,
+      "actual": 0,
+      "cross_rur": {
+        "empty_actual_list": true,
+        "native_closure_points": 1
+      }
+    },
+    {
+      "id": "inconsistent_margins",
+      "points": 0,
+      "real_points": 0,
+      "actual": 0,
+      "cross_rur": {
+        "empty_actual_list": true,
+        "native_closure_points": 0
+      }
+    },
+    {
+      "id": "c4_irrational_bounded",
+      "points": 2,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 5,
+        "actual": 2
+      }
+    },
+    {
+      "id": "c4_irrational_outside_budget_bounded",
+      "points": 2,
+      "real_points": 2,
+      "actual": 0,
+      "cross_rur": {
+        "complex_points": 2,
+        "real_embeddings": 2,
+        "polynomial_identities": 5,
+        "actual": 0
+      }
+    },
+    {
+      "id": "theta3_c4_irrational_bounded",
+      "points": 14,
+      "real_points": 2,
+      "actual": 2,
+      "cross_rur": {
+        "complex_points": 14,
+        "real_embeddings": 2,
+        "polynomial_identities": 14,
+        "actual": 2
+      }
+    }
+  ],
+  "comparison_list_agreements": [
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 1
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "cycle_mitm",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "msolve_reduced",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "singular_observed",
+      "repeat": 1,
+      "arrays": 2
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 1
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "msolve_reduced",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "singular_observed",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "cycle_mitm",
+      "repeat": 2,
+      "arrays": 2
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-01-flower-r2-k33",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 1
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 2
+    },
+    {
+      "id": "two_C6_N1_0",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "singular_observed",
+      "repeat": 3,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "cycle_mitm",
+      "repeat": 3,
+      "arrays": 2
+    },
+    {
+      "id": "C8_N4_83",
+      "method": "msolve_reduced",
+      "repeat": 3,
+      "arrays": 2
+    }
+  ],
+  "native_arrays_rechecked": 74,
+  "outcomes": {
+    "coverage": {
+      "cycle_mitm": {},
+      "msolve_reduced": {},
+      "singular_observed": {
+        "complete": 37
+      }
+    },
+    "comparison": {
+      "cycle_mitm": {
+        "complete": 42
+      },
+      "msolve_reduced": {
+        "complete": 33,
+        "timeout": 9
+      },
+      "singular_observed": {
+        "complete": 27,
+        "timeout": 15
+      }
+    }
+  },
+  "corruption_controls_rejected": [
+    "missing_real_root",
+    "changed_coordinate",
+    "changed_support_decision"
+  ],
+  "scope": "Native equations, rational/Sturm predicates and cross-RUR modular identities are independent of SymPy and the primary incidence reduction; native Groebner/radical computations trust Singular."
+}

@@ -1,0 +1,20 @@
+{
+  "msolve": {
+    "version": "0.6.5-1build2",
+    "sha256": "dbbca584ac7518ed3924e5614a5b83ace6f89de6ab561ca63b336499fb3f575d",
+    "bytes": 581602,
+    "repository_file": "pool/universe/m/msolve/msolve_0.6.5-1build2_amd64.deb"
+  },
+  "libmsolve-0.6.5": {
+    "version": "0.6.5-1build2",
+    "sha256": "e225dde132a052915bec6259395398f905a04d02814c9f7ac9f7795674e39c92",
+    "bytes": 210548,
+    "repository_file": "pool/universe/m/msolve/libmsolve-0.6.5_0.6.5-1build2_amd64.deb"
+  },
+  "libgomp1": {
+    "version": "14-20240412-0ubuntu1",
+    "sha256": "cc2ca1193d2c11d7383bdb03dd333cc621d128237b82dafeb8d7f2bd8302f3dd",
+    "bytes": 147370,
+    "repository_file": "pool/main/g/gcc-14/libgomp1_14-20240412-0ubuntu1_amd64.deb"
+  }
+}

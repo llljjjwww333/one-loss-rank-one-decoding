@@ -1,0 +1,19 @@
+{
+  "inputs": 96,
+  "repetitions": 3,
+  "jobs": 288,
+  "seconds_after_ready": 30,
+  "phases": [
+    "reduction",
+    "real_roots",
+    "coordinates",
+    "propagate",
+    "rational_candidate"
+  ],
+  "timing": "warm shared imports, fresh fork children, clear SymPy cache; time decode only, public parse and output-file writing excluded",
+  "affinity": "same first available CPU as the solver protocol; execute only after that protocol finishes",
+  "decoder_sha256": "28e2fa392e579b34d024b5457e8145ae28e641e5bf173e8716fe4f7841b6b3c1",
+  "inputs_sha256": "2adb56f19ce559648ab56493d9ec201a82f644531835c0517439cbe9d09c275e",
+  "reference_sha256": "64cd9588b2b856ac18d7de879b6d6a70831e4049e48f8a45d7606cebce5625cd",
+  "runner_sha256": "86a0e12cd6814b7a6f865563eedec5a3611779ba48f5824abc7ee31c2d2e2f06"
+}

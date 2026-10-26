@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "source_sha256": "9d1b63e22d2f007162e48561efeb0c1e8fd621a1a385d6556a89bc0b83780853",
+  "records": 288,
+  "distinct_inputs": 96,
+  "outcomes": {
+    "CertifiedUnique": 252,
+    "Unresolved": 36
+  },
+  "phase_results_sha256": "20bdba3b61b27da9946903bed94e8e16c6ba61b077e95bb459188dd5a1fd69f6",
+  "timings_repeated": false,
+  "scope": "Saved timing records and exact scientific outcomes audited; new timing values are machine dependent."
+}

@@ -1,0 +1,275 @@
+{
+  "complete": true,
+  "uses_sympy": false,
+  "public_sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+  "bounded": true,
+  "backend_binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "attempts": [
+    {
+      "gamma": 2,
+      "script": "coverage--c4_irrational_outside_budget_bounded--singular_observed--1--gamma2.sing",
+      "script_sha256": "95447c62d32480f5d64cc2e5e20b056b2eae745d5f0978461ff1d604336b95d2",
+      "stdout_sha256": "77ef6a1d46d7704fba942b815ee6ad5f4b333f2d070af2644fbd5d8b239b0c5a",
+      "points": 2,
+      "dimension": 0,
+      "quotient_dimension": 2,
+      "shape_verified": true
+    }
+  ],
+  "gamma": 2,
+  "separation_trials_bound": 4,
+  "complex_points": 2,
+  "eliminator": [
+    "-50",
+    "0",
+    "1"
+  ],
+  "coordinate_polynomials": [
+    [
+      "0",
+      "-1/5"
+    ],
+    [
+      "0",
+      "1/5"
+    ],
+    [
+      "0",
+      "-1/5"
+    ],
+    [
+      "0",
+      "1/5"
+    ]
+  ],
+  "factor_polynomials": [
+    [
+      "-50",
+      "0",
+      "1"
+    ]
+  ],
+  "basis": [
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      [
+        "-50",
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ]
+  ],
+  "decisions": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -50,
+          0,
+          1
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "-7241/1024",
+          "-28951/4096"
+        ]
+      },
+      "accepted": false,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": 1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 13,
+        "integer_scale_bits": 1,
+        "conjugate_bound_bits": 4,
+        "interval": [
+          "117/64",
+          "469/256"
+        ],
+        "radicands": [
+          [
+            "8"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    },
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -50,
+          0,
+          1
+        ],
+        "real_root_index": 1,
+        "isolating_interval": [
+          "28951/4096",
+          "7241/1024"
+        ]
+      },
+      "accepted": false,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": 1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 13,
+        "integer_scale_bits": 1,
+        "conjugate_bound_bits": 4,
+        "interval": [
+          "117/64",
+          "469/256"
+        ],
+        "radicands": [
+          [
+            "8"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    }
+  ],
+  "candidates": [],
+  "outcome": "complete_list",
+  "status": "Empty",
+  "wall_seconds": 0.22270067900001322,
+  "singular_seconds": 0.20352170699999306
+}

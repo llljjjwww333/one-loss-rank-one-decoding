@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "methods": [
+    "cycle_mitm",
+    "msolve_reduced",
+    "singular_observed"
+  ],
+  "cases": [
+    {
+      "id": "validation-01-flower-r2-k33",
+      "repeats": 3
+    },
+    {
+      "id": "validation-02-flower-r2-k55",
+      "repeats": 3
+    },
+    {
+      "id": "validation-03-flower-r4-k3333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-04-flower-r4-k5555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-05-flower-r8-k33333333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-06-flower-r8-k55555555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-07-flower-r12-k333333333333",
+      "repeats": 3
+    },
+    {
+      "id": "validation-08-flower-r12-k555555555555",
+      "repeats": 3
+    },
+    {
+      "id": "validation-09-chain-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-10-bridge-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-11-disjoint-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "validation-12-zero_path-r3-k234",
+      "repeats": 3
+    },
+    {
+      "id": "two_C6_N1_0",
+      "repeats": 3
+    },
+    {
+      "id": "C8_N4_83",
+      "repeats": 3
+    }
+  ],
+  "repetitions": 3,
+  "comparison_jobs": 126,
+  "controls": [
+    {
+      "id": "theta3_positive_N1",
+      "bounded": false,
+      "public_sha256": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_positive_N1.json"
+    },
+    {
+      "id": "theta3_positive_N2",
+      "bounded": false,
+      "public_sha256": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_positive_N2.json"
+    },
+    {
+      "id": "theta3_positive_N8",
+      "bounded": false,
+      "public_sha256": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_positive_N8.json"
+    },
+    {
+      "id": "theta3_positive_N32",
+      "bounded": false,
+      "public_sha256": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_positive_N32.json"
+    },
+    {
+      "id": "theta3_mixed_N1",
+      "bounded": false,
+      "public_sha256": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_mixed_N1.json"
+    },
+    {
+      "id": "theta3_mixed_N2",
+      "bounded": false,
+      "public_sha256": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_mixed_N2.json"
+    },
+    {
+      "id": "theta3_mixed_N8",
+      "bounded": false,
+      "public_sha256": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_mixed_N8.json"
+    },
+    {
+      "id": "theta3_mixed_N32",
+      "bounded": false,
+      "public_sha256": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_mixed_N32.json"
+    },
+    {
+      "id": "theta3_asymmetric_N1",
+      "bounded": false,
+      "public_sha256": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_asymmetric_N1.json"
+    },
+    {
+      "id": "theta3_asymmetric_N2",
+      "bounded": false,
+      "public_sha256": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_asymmetric_N2.json"
+    },
+    {
+      "id": "theta3_asymmetric_N8",
+      "bounded": false,
+      "public_sha256": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_asymmetric_N8.json"
+    },
+    {
+      "id": "theta3_asymmetric_N32",
+      "bounded": false,
+      "public_sha256": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4",
+      "cohort": "unchanged_theta27",
+      "filename": "theta3_asymmetric_N32.json"
+    },
+    {
+      "id": "theta4_positive_N1",
+      "bounded": false,
+      "public_sha256": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_positive_N1.json"
+    },
+    {
+      "id": "theta4_positive_N2",
+      "bounded": false,
+      "public_sha256": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_positive_N2.json"
+    },
+    {
+      "id": "theta4_positive_N8",
+      "bounded": false,
+      "public_sha256": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_positive_N8.json"
+    },
+    {
+      "id": "theta4_positive_N32",
+      "bounded": false,
+      "public_sha256": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_positive_N32.json"
+    },
+    {
+      "id": "theta4_mixed_N1",
+      "bounded": false,
+      "public_sha256": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_mixed_N1.json"
+    },
+    {
+      "id": "theta4_mixed_N2",
+      "bounded": false,
+      "public_sha256": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_mixed_N2.json"
+    },
+    {
+      "id": "theta4_mixed_N8",
+      "bounded": false,
+      "public_sha256": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_mixed_N8.json"
+    },
+    {
+      "id": "theta4_mixed_N32",
+      "bounded": false,
+      "public_sha256": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_mixed_N32.json"
+    },
+    {
+      "id": "theta4_asymmetric_N1",
+      "bounded": false,
+      "public_sha256": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_asymmetric_N1.json"
+    },
+    {
+      "id": "theta4_asymmetric_N2",
+      "bounded": false,
+      "public_sha256": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_asymmetric_N2.json"
+    },
+    {
+      "id": "theta4_asymmetric_N8",
+      "bounded": false,
+      "public_sha256": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_asymmetric_N8.json"
+    },
+    {
+      "id": "theta4_asymmetric_N32",
+      "bounded": false,
+      "public_sha256": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6",
+      "cohort": "unchanged_theta27",
+      "filename": "theta4_asymmetric_N32.json"
+    },
+    {
+      "id": "glued_3_C6",
+      "bounded": false,
+      "public_sha256": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110",
+      "cohort": "unchanged_theta27",
+      "filename": "glued_3_C6.json"
+    },
+    {
+      "id": "glued_3_3",
+      "bounded": false,
+      "public_sha256": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503",
+      "cohort": "unchanged_theta27",
+      "filename": "glued_3_3.json"
+    },
+    {
+      "id": "glued_3_4",
+      "bounded": false,
+      "public_sha256": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293",
+      "cohort": "unchanged_theta27",
+      "filename": "glued_3_4.json"
+    },
+    {
+      "id": "c4_irrational",
+      "bounded": false,
+      "public_sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2,
+      "filename": "c4_irrational.json"
+    },
+    {
+      "id": "c4_tangent",
+      "bounded": false,
+      "public_sha256": "be2017fe11a077a35775630b96eca84c0298ede0b0dc1a8169003a827733b7f3",
+      "cohort": "new_native_algebraic",
+      "expected_count": 1,
+      "filename": "c4_tangent.json"
+    },
+    {
+      "id": "theta3_c4_irrational",
+      "bounded": false,
+      "public_sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2,
+      "filename": "theta3_c4_irrational.json"
+    },
+    {
+      "id": "theta3_c4_tangent",
+      "bounded": false,
+      "public_sha256": "92584163732bb071ed718838186e818cc2c8e506634918029b74893284cd6802",
+      "cohort": "new_native_algebraic",
+      "expected_count": 1,
+      "filename": "theta3_c4_tangent.json"
+    },
+    {
+      "id": "c4_irrational_outside_budget",
+      "bounded": false,
+      "public_sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+      "cohort": "new_native_algebraic",
+      "expected_count": 2,
+      "filename": "c4_irrational_outside_budget.json"
+    },
+    {
+      "id": "nonactual_forest",
+      "bounded": false,
+      "public_sha256": "30e8a7a6e4dd7f9f13f5f2e8dfcfc7262dbd14c709982d9f6cba7620aaae452e",
+      "cohort": "new_native_algebraic",
+      "expected_count": 0,
+      "filename": "nonactual_forest.json"
+    },
+    {
+      "id": "inconsistent_margins",
+      "bounded": false,
+      "public_sha256": "5863fc4600cf302e3250fdc88e1960044ee722394e08a6e5a551eed275c809ea",
+      "cohort": "new_native_algebraic",
+      "expected_count": 0,
+      "filename": "inconsistent_margins.json"
+    },
+    {
+      "id": "c4_irrational_bounded",
+      "bounded": true,
+      "public_sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+      "cohort": "optional_budget",
+      "expected_count": 2,
+      "filename": "c4_irrational_bounded.json"
+    },
+    {
+      "id": "c4_irrational_outside_budget_bounded",
+      "bounded": true,
+      "public_sha256": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+      "cohort": "optional_budget",
+      "expected_count": 0,
+      "filename": "c4_irrational_outside_budget_bounded.json"
+    },
+    {
+      "id": "theta3_c4_irrational_bounded",
+      "bounded": true,
+      "public_sha256": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+      "cohort": "optional_budget",
+      "expected_count": 2,
+      "filename": "theta3_c4_irrational_bounded.json"
+    }
+  ],
+  "control_jobs": 37,
+  "seconds_after_ready": 30,
+  "execution": "serial fresh process groups, one common parent import, fixed CPU affinity, rotated method order",
+  "timing": "from READY through public IO, equation construction, root work, native executable and Python subworker startup, real support tests and serialization",
+  "exclusions": "shared parent import only; child startup is recorded separately; no pooling of earlier timings",
+  "runner_sha256": "dcfca206050358db5cd09b050d586fce44f3d7a9cfa5a45cb6d8643991ed4cb9",
+  "source_hashes": {
+    "exact_cactus_decoder.py": "2a0a4c46f08ca1e676102b4d0de69110d68be710f5b8f133b0661896c0d32806",
+    "independent_real_algebra.py": "21c5c4a3e4ccdb93d213d465ed6634040fbe63fc8a2a7c0568a28aa8693c4910",
+    "msolve_decoder_worker.py": "2716a24f88a03649aa3c75b63e39d17723789881d3f0c146b270fc7c4c4d99c6",
+    "msolve_runtime.py": "7d9116043d84d639508ed2c775614c50dd09757e6583c760a98680d7a76f3760",
+    "polynomial_solver_baseline.py": "b1372d082ff5616eebae74e242d6304015227d0e9f58682e26ae4d5db6cb4408",
+    "singular_fiber_worker.py": "882d9c9dca40cd8174eff5cd569eea7c5eb774c5ee71239e78a20ccfae773cc0",
+    "singular_real_worker.py": "371bc33e2b1fc400ea21733b5f2ad40b08c01cfe26b4274ded564935c1904f78"
+  },
+  "public_hashes": {
+    "C8_N4_83.json": "49ff89afd0af3723deafc5fed91d86c231549e0b5b44313a44028ebade378a32",
+    "two_C6_N1_0.json": "700e9e5094f455d0f18d08efe27139dea5e834436cb46d0f96f3c0754a690d7c",
+    "validation-01-flower-r2-k33.json": "61efc22e7765df29fa4abc3626dbc4b066734e8f7ecd04fa068f6e0bbb0161df",
+    "validation-02-flower-r2-k55.json": "6eb73386b0f3c2fc81e39443a15f598bbba6e2e092525d4ddb5142ff10a4cd33",
+    "validation-03-flower-r4-k3333.json": "498460d23fa73162fda1e2dff0483afd9bc06f464807318caff976f8604b06d4",
+    "validation-04-flower-r4-k5555.json": "1b6ebe0ff2c34a67bd305c8e368eb1d6104e69cf56603f85464f4e0371f4399c",
+    "validation-05-flower-r8-k33333333.json": "4c01820fafcdf242bbec11bef1506c4d271ac7e62c8e95318dcdb6f06c311bc5",
+    "validation-06-flower-r8-k55555555.json": "c11d8db2008b447ba1608bcb026bfae6eebed1aa6c5afe7f4cd9e6c96acbbc9c",
+    "validation-07-flower-r12-k333333333333.json": "60228e8383ae56775f77c6e660ea3a1a1158f36a796e3ad72ef183d23ecff6f8",
+    "validation-08-flower-r12-k555555555555.json": "8c48cce4b5da49c0f33b62c7be55f71728f7dfb0b9c55e4ba583bcedede20828",
+    "validation-09-chain-r3-k234.json": "518e7497d68d8e655beafe9a59731c82fd11e3c59c4b0757e113915ead685373",
+    "validation-10-bridge-r3-k234.json": "6e9dca6258dc270a8fabf986a24ef448c0266877fd3f29a18a335a1e4df20665",
+    "validation-11-disjoint-r3-k234.json": "56b501d21abdba707f42301b7efdccb65a1c9a7476410b5ade59c7709c89ecba",
+    "validation-12-zero_path-r3-k234.json": "688d1b8c2b2d3c84e6c972cb5a79cd5ff2e7326f0fe9c11777e5cfe2277b99c5"
+  },
+  "control_hashes": {
+    "c4_irrational.json": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+    "c4_irrational_bounded.json": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+    "c4_irrational_outside_budget.json": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+    "c4_irrational_outside_budget_bounded.json": "737a99e5befefe809720b0beb9cdf274fef9bc10862bb561be76b20530207302",
+    "c4_tangent.json": "be2017fe11a077a35775630b96eca84c0298ede0b0dc1a8169003a827733b7f3",
+    "glued_3_3.json": "3cf11d814c088d3dafb896992e14232937355afe5af16d2a0b10a2c3c7e08503",
+    "glued_3_4.json": "e68c6fa9f1884857def5f5ec63ecbe285b142f1d5079b1d019491ded02776293",
+    "glued_3_C6.json": "6452702bd49b3481854710f1a9ffe77b849b183d6c06a1131c0cbf70cdeb8110",
+    "inconsistent_margins.json": "5863fc4600cf302e3250fdc88e1960044ee722394e08a6e5a551eed275c809ea",
+    "nonactual_forest.json": "30e8a7a6e4dd7f9f13f5f2e8dfcfc7262dbd14c709982d9f6cba7620aaae452e",
+    "theta3_asymmetric_N1.json": "a3edbbd2743df61adb2cbc1f161e7b5b2da167b246c3c7249b6a59f6648878f0",
+    "theta3_asymmetric_N2.json": "7abf248e9fc443a867c91b90fdcbcbde502f1a4c32aef4263535c8669ff8073b",
+    "theta3_asymmetric_N32.json": "60cc47463b9fe03dc0e7d843e8ef839b9d7a3c3619c243fc61334638066afdb4",
+    "theta3_asymmetric_N8.json": "c0c4c17a706dd042c7814525473b3de18462b16ed59466484e6fc886a172e38c",
+    "theta3_c4_irrational.json": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+    "theta3_c4_irrational_bounded.json": "76bb350662acbab22cb19e8ab55390dd181f1b0312da5a5ab35a43ce8d53da7f",
+    "theta3_c4_tangent.json": "92584163732bb071ed718838186e818cc2c8e506634918029b74893284cd6802",
+    "theta3_mixed_N1.json": "ed566a83ca05b0d424ec8fadfce2ba5019eab7e22e48ee6fb19450f76aab0e9a",
+    "theta3_mixed_N2.json": "af5724f2bd47887c5c9ef59f813d13a725668175cfaf06785bd93877dc1c9555",
+    "theta3_mixed_N32.json": "3e2fa0e492b654cb04e74c20431403f2225336eb253ac67fa425517153582223",
+    "theta3_mixed_N8.json": "88b7398886069b71314b47f878c3948c6c661ebe0316c5b5dd7818d193d0bccb",
+    "theta3_positive_N1.json": "1efdd633ac48baf02edf96ce93814fd9c7f06ea13f5ee346fca4ce435f6755db",
+    "theta3_positive_N2.json": "32ff56a593df4cc68c7d3f5549bbf5523322de2f2668d108217ba037b20a87f2",
+    "theta3_positive_N32.json": "36ac9af1a64883891b0dac7a4e42a7f71382e40baf2c1d81020dfef507cd3462",
+    "theta3_positive_N8.json": "af555f29fc33a1293db679538288e7f2c45c4c43164c512a279ff68d2de5d669",
+    "theta4_asymmetric_N1.json": "91c232c1e7cab98d9a9debf427258de70f80a0bcc315aa0dae2952caf07082ef",
+    "theta4_asymmetric_N2.json": "e1fbeb9fdc2140a020e17799864d79f0531ce7b49655d39fbbe1f8b4f627a8d1",
+    "theta4_asymmetric_N32.json": "f5d586ecfa6c804a9c6997b643d3e17a36bae08cec6e6be504ccf7a9047591e6",
+    "theta4_asymmetric_N8.json": "cbfe15261ee091ceefb27ebd2a14f8f65d06d3ebc4d3d1a6cf952c572853eecf",
+    "theta4_mixed_N1.json": "e2c5621f4c1c1b689b2fab4bd9295a208eea4d06b9cf3e3ddd60604243fd6f63",
+    "theta4_mixed_N2.json": "d98028f3b6c9e70aa6a2a61b0f948170f8c6331aec92f4d773e949db821896de",
+    "theta4_mixed_N32.json": "59291f756e0a1d660b1025237273e7922434522e63cc5f17d67f1598ba66fcb5",
+    "theta4_mixed_N8.json": "f092c5ca9f7ba9ed70ade0aa4d73962db53068b1d33c668b6c745e5de416b68f",
+    "theta4_positive_N1.json": "37f3f19eaf43d1ad17e94f4b59b8f76f01ad7dfe35a0935f10824aa214b6b982",
+    "theta4_positive_N2.json": "2c04da3e876f7d29f5d4d3689f47d93f0e8bd4a971d6399b60c7e596cd19f58e",
+    "theta4_positive_N32.json": "61a3d023b0ee7f9a35f89164c1d30724807d5f7cdd20276c2ac5ba1079fa49d2",
+    "theta4_positive_N8.json": "029bbfda72836f8a455b1a1565a96bd51730c597b93870bd98332f0ce8b4b35b"
+  },
+  "singular_manifest_sha256": "d7408283097a62fc285584dbb2b740261b0ced7ded6ba8e6e067fdcbec1ca8b8"
+}

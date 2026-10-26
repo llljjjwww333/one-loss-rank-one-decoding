@@ -1,0 +1,380 @@
+{
+  "complete": true,
+  "uses_sympy": false,
+  "public_sha256": "795166fc952d813d7d0a8aaf2df2ebe0e049b74f72856565deec2a4c59ed2c2e",
+  "bounded": true,
+  "backend_binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "attempts": [
+    {
+      "gamma": 2,
+      "script": "coverage--c4_irrational_bounded--singular_observed--1--gamma2.sing",
+      "script_sha256": "12bcf9713aff5706aa186c91e07b829cbbc4769dfe0a57f71634371889d94ca2",
+      "stdout_sha256": "c7fb9ed8157562c1ab9b3bf80e6db5b9d8e248f7a8fc8bef70f5bd5a3ef4dd2c",
+      "points": 2,
+      "dimension": 0,
+      "quotient_dimension": 2,
+      "shape_verified": true
+    }
+  ],
+  "gamma": 2,
+  "separation_trials_bound": 4,
+  "complex_points": 2,
+  "eliminator": [
+    "-25/128",
+    "0",
+    "1"
+  ],
+  "coordinate_polynomials": [
+    [
+      "0",
+      "-1/5"
+    ],
+    [
+      "0",
+      "1/5"
+    ],
+    [
+      "0",
+      "-1/5"
+    ],
+    [
+      "0",
+      "1/5"
+    ]
+  ],
+  "factor_polynomials": [
+    [
+      "-25/128",
+      "0",
+      "1"
+    ]
+  ],
+  "basis": [
+    [
+      [
+        "128",
+        [
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      [
+        "-25",
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "5",
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ]
+  ],
+  "decisions": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -25,
+          0,
+          128
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "-57/128",
+          "-113/256"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": -1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 55,
+        "integer_scale_bits": 13,
+        "conjugate_bound_bits": 14,
+        "interval": [
+          "-211/256",
+          "-105/128"
+        ],
+        "radicands": [
+          [
+            "1/32"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    },
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -25,
+          0,
+          128
+        ],
+        "real_root_index": 1,
+        "isolating_interval": [
+          "113/256",
+          "57/128"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": -1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 55,
+        "integer_scale_bits": 13,
+        "conjugate_bound_bits": 14,
+        "interval": [
+          "-211/256",
+          "-105/128"
+        ],
+        "radicands": [
+          [
+            "1/32"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -25,
+          0,
+          128
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "-57/128",
+          "-113/256"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": -1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 55,
+        "integer_scale_bits": 13,
+        "conjugate_bound_bits": 14,
+        "interval": [
+          "-211/256",
+          "-105/128"
+        ],
+        "radicands": [
+          [
+            "1/32"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    },
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -25,
+          0,
+          128
+        ],
+        "real_root_index": 1,
+        "isolating_interval": [
+          "113/256",
+          "57/128"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "algebraic_radical_integer_norm_gap",
+        "sign": -1,
+        "components": 1,
+        "precision_bits": 8,
+        "nonzero_gap_bits": 55,
+        "integer_scale_bits": 13,
+        "conjugate_bound_bits": 14,
+        "interval": [
+          "-211/256",
+          "-105/128"
+        ],
+        "radicands": [
+          [
+            "1/32"
+          ]
+        ]
+      },
+      "values": [
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ],
+        [
+          "0",
+          "-1/5"
+        ],
+        [
+          "0",
+          "1/5"
+        ]
+      ]
+    }
+  ],
+  "outcome": "complete_list",
+  "status": "Ambiguous",
+  "wall_seconds": 0.22855653299998835,
+  "singular_seconds": 0.20871302099999411
+}

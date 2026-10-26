@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "packages": {
+    "msolve": {
+      "version": "0.6.5-1build2",
+      "sha256": "dbbca584ac7518ed3924e5614a5b83ace6f89de6ab561ca63b336499fb3f575d",
+      "bytes": 581602,
+      "repository_file": "pool/universe/m/msolve/msolve_0.6.5-1build2_amd64.deb"
+    },
+    "libmsolve-0.6.5": {
+      "version": "0.6.5-1build2",
+      "sha256": "e225dde132a052915bec6259395398f905a04d02814c9f7ac9f7795674e39c92",
+      "bytes": 210548,
+      "repository_file": "pool/universe/m/msolve/libmsolve-0.6.5_0.6.5-1build2_amd64.deb"
+    },
+    "libgomp1": {
+      "version": "14-20240412-0ubuntu1",
+      "sha256": "cc2ca1193d2c11d7383bdb03dd333cc621d128237b82dafeb8d7f2bd8302f3dd",
+      "bytes": 147370,
+      "repository_file": "pool/main/g/gcc-14/libgomp1_14-20240412-0ubuntu1_amd64.deb"
+    }
+  },
+  "binary_sha256": "c2722288d22c3a1eab00c0b818d0204d4a98104d059b2fd4ecb7343e8ef759fa",
+  "scope": "Local extraction only; no system package installation",
+  "source_sha256": "202fadc935ab5143e506b859ba48be3648f3d7edf0aa96aaf9aaf611bb90b13d",
+  "linked_libraries": "\tlinux-vdso.so.1 (0x00007db96cd94000)\n\tlibneogb-0.6.5.so => /mnt/f/autoresearch/tools/third_party/jsc_msolve_0.6.5_v2/runtime/usr/lib/x86_64-linux-gnu/libneogb-0.6.5.so (0x00007db96cd1b000)\n\tlibflint.so.18 => /mnt/f/autoresearch/tools/third_party/jsc_singular_4.3.2_v2/runtime/usr/lib/x86_64-linux-gnu/libflint.so.18 (0x00007db96c228000)\n\tlibgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007db96c19f000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007db96c0b6000)\n\tlibgomp.so.1 => /mnt/f/autoresearch/tools/third_party/jsc_msolve_0.6.5_v2/runtime/usr/lib/x86_64-linux-gnu/libgomp.so.1 (0x00007db96c05f000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007db96be00000)\n\tlibmpfr.so.6 => /lib/x86_64-linux-gnu/libmpfr.so.6 (0x00007db96bd46000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007db96cd96000)\n"
+}

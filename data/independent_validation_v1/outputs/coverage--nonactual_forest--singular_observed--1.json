@@ -1,0 +1,148 @@
+{
+  "complete": true,
+  "uses_sympy": false,
+  "public_sha256": "30e8a7a6e4dd7f9f13f5f2e8dfcfc7262dbd14c709982d9f6cba7620aaae452e",
+  "bounded": false,
+  "backend_binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "attempts": [
+    {
+      "gamma": 2,
+      "script": "coverage--nonactual_forest--singular_observed--1--gamma2.sing",
+      "script_sha256": "b55968f2dc5ff09976c23f1d60807eb862ea6b51dd07a3388a88145b2706a07b",
+      "stdout_sha256": "00df93e93746f12597ca84da2be379eae7ca26a7f9a52cbcd6677aba0777650a",
+      "points": 1,
+      "dimension": 0,
+      "quotient_dimension": 1,
+      "shape_verified": true
+    }
+  ],
+  "gamma": 2,
+  "separation_trials_bound": 1,
+  "complex_points": 1,
+  "eliminator": [
+    "-5",
+    "1"
+  ],
+  "coordinate_polynomials": [
+    [
+      "1"
+    ],
+    [],
+    [
+      "1"
+    ]
+  ],
+  "factor_polynomials": [
+    [
+      "-5",
+      "1"
+    ]
+  ],
+  "basis": [
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      [
+        "-5",
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "-1",
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  ],
+  "decisions": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          -5,
+          1
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "5117/1024",
+          "10241/2048"
+        ]
+      },
+      "accepted": false,
+      "filter_certificate": {
+        "reason": "zero_edge_active_endpoints"
+      },
+      "values": [
+        [
+          "1"
+        ],
+        [],
+        [
+          "1"
+        ]
+      ]
+    }
+  ],
+  "candidates": [],
+  "outcome": "complete_list",
+  "status": "Empty",
+  "wall_seconds": 0.21786769899998149,
+  "singular_seconds": 0.2028070259999879
+}

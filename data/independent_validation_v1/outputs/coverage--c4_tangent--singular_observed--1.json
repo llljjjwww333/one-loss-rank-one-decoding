@@ -1,0 +1,158 @@
+{
+  "complete": true,
+  "uses_sympy": false,
+  "public_sha256": "be2017fe11a077a35775630b96eca84c0298ede0b0dc1a8169003a827733b7f3",
+  "bounded": false,
+  "backend_binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "attempts": [
+    {
+      "gamma": 2,
+      "script": "coverage--c4_tangent--singular_observed--1--gamma2.sing",
+      "script_sha256": "ee528d38f8c76e3594b534c2ec872a62183f853c35840ac0d624649aed652f24",
+      "stdout_sha256": "420030568777d8660adfbfaff4425077c85313aac79d06fec01dec729a03922e",
+      "points": 1,
+      "dimension": 0,
+      "quotient_dimension": 1,
+      "shape_verified": true
+    }
+  ],
+  "gamma": 2,
+  "separation_trials_bound": 1,
+  "complex_points": 1,
+  "eliminator": [
+    "0",
+    "1"
+  ],
+  "coordinate_polynomials": [
+    [],
+    [],
+    [],
+    []
+  ],
+  "factor_polynomials": [
+    [
+      "0",
+      "1"
+    ]
+  ],
+  "basis": [
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    [
+      [
+        "1",
+        [
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  ],
+  "decisions": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          0,
+          1
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "0",
+          "0"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "unbounded_support",
+        "components": 0
+      },
+      "values": [
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "factor_index": 0,
+      "root": {
+        "integer_polynomial": [
+          0,
+          1
+        ],
+        "real_root_index": 0,
+        "isolating_interval": [
+          "0",
+          "0"
+        ]
+      },
+      "accepted": true,
+      "filter_certificate": {
+        "kind": "unbounded_support",
+        "components": 0
+      },
+      "values": [
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  ],
+  "outcome": "complete_list",
+  "status": "Unique",
+  "wall_seconds": 0.22458714300000793,
+  "singular_seconds": 0.20914382999998793
+}

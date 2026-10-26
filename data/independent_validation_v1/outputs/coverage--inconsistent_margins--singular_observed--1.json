@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "uses_sympy": false,
+  "public_sha256": "5863fc4600cf302e3250fdc88e1960044ee722394e08a6e5a551eed275c809ea",
+  "bounded": false,
+  "backend_binary_sha256": "90ab699b7a28486944a167e797d7c8dd38f8f949960b93ee7a6d08ff1c7c46f4",
+  "attempts": [],
+  "outcome": "complete_list",
+  "status": "Empty",
+  "complex_points": 0,
+  "candidates": [],
+  "decisions": [],
+  "wall_seconds": 0.20537229499998944,
+  "singular_seconds": 0.1992143129999988
+}

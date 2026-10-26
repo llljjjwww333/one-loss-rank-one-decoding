@@ -4,6 +4,9 @@ Exact reconstruction software and synthetic computational data accompanying
 *One Loss Resolves Signed Rank-One Gradient Fibers: Exact Decoding on Cycle and Theta Blocks*.
 This release corresponds to manuscript version `jsc-coordinate-2026.10.26.6`.
 
+Archived software release: **[v1.0.0 — DOI 10.5281/zenodo.23660118](https://doi.org/10.5281/zenodo.23660118)**.
+The version-specific DOI identifies the code/data snapshot, separately from any journal article.
+
 ## Reproduce
 
 The byte-preserving replay has been validated on Windows with Python 3.11.

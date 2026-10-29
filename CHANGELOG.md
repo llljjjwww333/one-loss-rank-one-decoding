@@ -1,5 +1,12 @@
 # Releases
 
+## v1.3.0
+
+Adds the indexed 15-page extended report, its independently buildable sources
+and a portable archive integrity/extraction entry point. Retains all earlier
+scientific snapshots, complete per-input tables, failures and censored timings.
+The journal main article and essential supplement remain separate.
+
 ## v1.2.0
 
 Adds byte-preserved supplementary verification and the complete four-route

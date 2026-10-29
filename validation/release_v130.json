@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "version": "v1.3.0",
+  "previous_snapshot_files_byte_preserved": 1115,
+  "extended_report_pages": 15,
+  "extended_attachment_sha256": "380a4173755443d1daaffa75107fdca4e28af7368e76b406068c9dacba3148d1",
+  "extended_source_independent_rebuild": "all page text, sizes and pixels equal",
+  "new_scientific_measurements": false,
+  "new_benchmark_timings": false
+}

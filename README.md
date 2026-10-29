@@ -2,15 +2,40 @@
 
 Exact reconstruction software and synthetic computational data accompanying
 *One Loss Resolves Signed Rank-One Gradient Fibers: Exact Decoding on Cycle and Theta Blocks*.
-This release corresponds to manuscript version `jsc-final-2026.10.29.16`.
+This release corresponds to manuscript version `jsc-certified-2026.10.29.17`.
 
-Software release **v1.2.0** retains all earlier scientific snapshots and adds
-standalone supplementary checks and a four-route same-input ablation.
-The software DOI identifies code and data separately from any journal article.
-The version-specific v1.2.0 DOI is **https://doi.org/10.5281/zenodo.23753925**.
-The concept DOI is **https://doi.org/10.5281/zenodo.23660117**. The preceding
+Software release **v1.3.0** adds the indexed extended report and all of its
+LaTeX sources while retaining every earlier scientific snapshot unchanged.
+The concept DOI is **https://doi.org/10.5281/zenodo.23660117**; select v1.3.0.
+The [v1.2.0 archive](https://doi.org/10.5281/zenodo.23753925),
 [v1.1.0 archive](https://doi.org/10.5281/zenodo.23664952) and
 [v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remain unchanged.
+
+## Extended report and archive map (v1.3.0)
+
+```bash
+python reproduce_extended.py
+```
+
+This verifies the ZIP hash, safely extracts the 15-page extended report and
+its source, and checks every member against its embedded SHA-256 manifest.
+Use `--output FRESH_FOLDER` to select an extraction directory. The first
+page of the report maps each section to the data and reproduction command.
+Its LaTeX source rebuilds independently with `source/build_report.ps1`.
+
+`supplementary/Extended_materials_v1.3.0.zip` contains expanded matched
+examples, the integer-lattice uniqueness refinement, separation-certificate
+coefficient heights, all per-input comparison and ablation tables, exact-check
+and finite-grid outcomes, and the coordinate-certificate phase figure.
+The journal retains the core mathematical proofs in its essential supplement;
+the main article and essential supplement are not part of this software release.
+The report source was independently extracted and rebuilt: all 15 pages had
+equal text, dimensions and rendered pixels. This verifies artifact consistency,
+not independent mathematical proof or performance claims.
+
+The complete earlier code/data snapshot remains byte-preserved, including
+all timeout, fallback, empty and multiple controls. The original 192 ablation
+runs, 180 completed lists, 12 timeouts and 72 traces are unchanged.
 
 ## Added checks and same-input ablation (v1.2.0)
 
@@ -86,9 +111,9 @@ solver outcomes; it does not rerun or reinterpret native solver timings.
   paths preserve the original programs' import and input conventions;
   they are recreated only inside the temporary workspace.
 
-The repository contains software and synthetic data. The unpublished
-manuscript, private review reports, account credentials and author-approval
-records are not distributed here.
+The repository contains software, synthetic data and the extended computational report.
+The main journal article, essential journal supplement, private reviews, account
+credentials and author-approval records are not distributed here.
 
 ## Main computational results
 

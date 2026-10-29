@@ -1,13 +1,13 @@
 {
   "title": "One Loss Resolves Signed Rank-One Gradient Fibers: computational artifacts",
   "upload_type": "software",
-  "description": "Exact reconstruction software, synthetic public inputs and complete computational outcomes accompanying manuscript jsc-final-2026.10.29.16. Preserves the complete v1.1.0 scientific snapshot and adds standalone exact theta-specialization and two-six-cycle checks, plus a four-route same-input ablation: 16 inputs, 4 methods, 3 repetitions, 192 timed runs. All 180 completed runs and 12 censored 30-second timeouts are retained. The release includes frozen source snapshots, reference lists, output arrays, operation counts, memory measurements and propagation traces. Replays check saved results without remeasuring timings; Linux/WSL timing-repetition instructions are included. Software and synthetic data only; the journal manuscript and private reviews are not distributed.",
+  "description": "Exact reconstruction software, synthetic public inputs and complete computational outcomes accompanying manuscript jsc-certified-2026.10.29.17. Preserves every earlier scientific snapshot and adds an indexed 15-page extended computational report with independently buildable LaTeX source. The report retains the expanded matched example, integer-lattice uniqueness and certificate-height refinements, complete per-input comparison and ablation tables, finite-grid outcomes and phase figure. All original measurements, empty and multiple lists, fallback cases, budget skips, 192 ablation runs, 180 completed lists, 12 censored timeouts and 72 propagation traces are retained. Saved-output replay does not remeasure timings. The main journal manuscript, essential journal supplement, private reviews and author declarations are not distributed in this software release.",
   "creators": [
     {
       "name": "楼俊文"
     }
   ],
-  "version": "v1.2.0",
+  "version": "v1.3.0",
   "license": "mit",
   "access_right": "open",
   "keywords": [

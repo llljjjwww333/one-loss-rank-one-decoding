@@ -6,7 +6,8 @@ This release corresponds to manuscript version `jsc-certified-2026.10.29.17`.
 
 Software release **v1.3.0** adds the indexed extended report and all of its
 LaTeX sources while retaining every earlier scientific snapshot unchanged.
-The concept DOI is **https://doi.org/10.5281/zenodo.23660117**; select v1.3.0.
+The version-specific v1.3.0 DOI is **https://doi.org/10.5281/zenodo.23754950**.
+The concept DOI is **https://doi.org/10.5281/zenodo.23660117**.
 The [v1.2.0 archive](https://doi.org/10.5281/zenodo.23753925),
 [v1.1.0 archive](https://doi.org/10.5281/zenodo.23664952) and
 [v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remain unchanged.

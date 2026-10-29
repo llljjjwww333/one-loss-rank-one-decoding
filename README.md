@@ -7,8 +7,8 @@ This release corresponds to manuscript version `jsc-final-2026.10.29.16`.
 Software release **v1.2.0** retains all earlier scientific snapshots and adds
 standalone supplementary checks and a four-route same-input ablation.
 The software DOI identifies code and data separately from any journal article.
-The concept DOI is **https://doi.org/10.5281/zenodo.23660117**; select v1.2.0
-on that record for this release. The preceding
+The version-specific v1.2.0 DOI is **https://doi.org/10.5281/zenodo.23753925**.
+The concept DOI is **https://doi.org/10.5281/zenodo.23660117**. The preceding
 [v1.1.0 archive](https://doi.org/10.5281/zenodo.23664952) and
 [v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remain unchanged.
 

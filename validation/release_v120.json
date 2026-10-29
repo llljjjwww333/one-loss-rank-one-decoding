@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "version": "v1.2.0",
+  "baseline_tracked_files": 1135,
+  "unchanged_baseline_files": 1130,
+  "old_scientific_snapshot_files_verified": 1115,
+  "baseline_changes_limited_to": [
+    ".zenodo.json",
+    "CHANGELOG.md",
+    "CITATION.bib",
+    "FILES.sha256",
+    "README.md"
+  ],
+  "new_attachment_hashes": {
+    "Supplementary_verification.zip": {
+      "sha256": "a4b43dce11fd90d9548d6c141971d52b46fc3a3ea78aa9b1bda1d691631d4130",
+      "bytes": 5401,
+      "members": 6
+    },
+    "Ablation_reproducibility.zip": {
+      "sha256": "cf4fb2acd1d1c4ac8c92d9da724720e1bbeee1437d76c285cf2ab6e665be4d1c",
+      "bytes": 271986,
+      "members": 229
+    }
+  },
+  "supplementary_replay": {
+    "complete": true,
+    "version": "v1.2.0",
+    "sympy": "1.14.0",
+    "timings_remeasured": false,
+    "archives": {
+      "Supplementary_verification.zip": {
+        "sha256": "a4b43dce11fd90d9548d6c141971d52b46fc3a3ea78aa9b1bda1d691631d4130",
+        "bytes": 5401,
+        "members": 6
+      },
+      "Ablation_reproducibility.zip": {
+        "sha256": "cf4fb2acd1d1c4ac8c92d9da724720e1bbeee1437d76c285cf2ab6e665be4d1c",
+        "bytes": 271986,
+        "members": 229
+      }
+    },
+    "checks": [
+      {
+        "name": "theta-specialization",
+        "passed": true,
+        "false_points": 112
+      },
+      {
+        "name": "minimal-two-cycles",
+        "passed": true,
+        "gradient_candidates": 9
+      },
+      {
+        "name": "ablation",
+        "passed": true,
+        "status": "PASS",
+        "timed_runs_retained": 192,
+        "complete_lists_checked": 180,
+        "direct_reply_and_support_arrays": 180,
+        "pruning_traces_replayed": 72,
+        "timings_remeasured": false
+      }
+    ],
+    "scope": "Exact supplementary reruns and saved-output replay; no benchmark timing repetition or independent human proof review."
+  },
+  "journal_manuscript_distributed": false,
+  "new_benchmark_measurements": false,
+  "scope": "Baseline integrity, exact supplementary checks and saved ablation-output replay."
+}

@@ -1,5 +1,14 @@
 # Releases
 
+## v1.2.0
+
+Adds byte-preserved supplementary verification and the complete four-route
+same-input ablation accompanying jsc-final-2026.10.29.16. Includes a portable
+exact-check and saved-output replay entry point. All 192 timed runs, 12
+timeouts, 180 completed lists and 72 propagation traces are retained.
+The complete earlier scientific snapshot remains unchanged. No manuscript,
+private review or native dependency binaries are included.
+
 ## v1.1.0
 
 Adds independent native-edge reconstruction and exact replay, the complete

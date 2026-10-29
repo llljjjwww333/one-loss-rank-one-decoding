@@ -1,13 +1,13 @@
 {
   "title": "One Loss Resolves Signed Rank-One Gradient Fibers: computational artifacts",
   "upload_type": "software",
-  "description": "Exact reconstruction code, synthetic inputs and complete computational outcomes for manuscript jsc-strengthened-2026.10.26.9. Adds independent observed-edge Singular reconstruction, exact cross-RUR checks, a unified 126-run solver comparison and all 288 phase records. The primary 420-file snapshot and its results are preserved. This archive is software and data, not the journal article.",
+  "description": "Exact reconstruction software, synthetic public inputs and complete computational outcomes accompanying manuscript jsc-final-2026.10.29.16. Preserves the complete v1.1.0 scientific snapshot and adds standalone exact theta-specialization and two-six-cycle checks, plus a four-route same-input ablation: 16 inputs, 4 methods, 3 repetitions, 192 timed runs. All 180 completed runs and 12 censored 30-second timeouts are retained. The release includes frozen source snapshots, reference lists, output arrays, operation counts, memory measurements and propagation traces. Replays check saved results without remeasuring timings; Linux/WSL timing-repetition instructions are included. Software and synthetic data only; the journal manuscript and private reviews are not distributed.",
   "creators": [
     {
       "name": "楼俊文"
     }
   ],
-  "version": "v1.1.0",
+  "version": "v1.2.0",
   "license": "mit",
   "access_right": "open",
   "keywords": [

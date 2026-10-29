@@ -2,13 +2,48 @@
 
 Exact reconstruction software and synthetic computational data accompanying
 *One Loss Resolves Signed Rank-One Gradient Fibers: Exact Decoding on Cycle and Theta Blocks*.
-This release corresponds to manuscript version `jsc-strengthened-2026.10.26.9`.
+This release corresponds to manuscript version `jsc-final-2026.10.29.16`.
 
-Software release **v1.1.0** adds a native observed-edge Singular path,
-cross-RUR verification and complete phase measurements. The software DOI
-identifies code and data, separately from any journal article. The preceding
-[v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remains unchanged.
-The version-specific v1.1.0 DOI is **https://doi.org/10.5281/zenodo.23664952**.
+Software release **v1.2.0** retains all earlier scientific snapshots and adds
+standalone supplementary checks and a four-route same-input ablation.
+The software DOI identifies code and data separately from any journal article.
+The concept DOI is **https://doi.org/10.5281/zenodo.23660117**; select v1.2.0
+on that record for this release. The preceding
+[v1.1.0 archive](https://doi.org/10.5281/zenodo.23664952) and
+[v1.0.0 archive](https://doi.org/10.5281/zenodo.23660118) remain unchanged.
+
+## Added checks and same-input ablation (v1.2.0)
+
+```bash
+python reproduce_supplementary.py
+```
+
+Use Python 3.11+ and SymPy 1.14.0. This entry point verifies the two frozen
+ZIPs, extracts them into an isolated workspace, reruns both standalone exact
+checkers, and replays all saved ablation outputs. The report and logs are
+written to `reproduction-output-v120/`. It checks 112 false theta points
+for p=3,4,5,6, a two-six-cycle base point with nine gradient candidates
+and complete-reply layer sizes 1/4/4, and the saved 192-run ablation.
+
+The ablation holds 16 public inputs fixed and varies propagation on/off
+and enumeration/meet-in-the-middle, with three repetitions each. Completion
+counts are 42/48, 48/48, 42/48 and 48/48; the remaining 12 runs are censored
+at 30 seconds. All completed outputs, empty and multiple lists, propagation
+fallbacks and timeouts are retained. Saved-output replay checks 180 complete
+lists, 180 returned arrays and 72 pruning traces. This cohort shows no
+additional completed cases from propagation over MITM alone.
+
+- `supplementary/Supplementary_verification.zip`: standalone checkers and
+  exact receipts for the theta specialization and minimal two-cycle example.
+- `supplementary/Ablation_reproducibility.zip`: frozen source, inputs,
+  references, all timed records, completed outputs and pruning traces.
+- `supplementary/manifest.json`: attachment sizes and SHA-256 hashes.
+
+To repeat the ablation timings on Linux/WSL, extract the ablation ZIP into
+a fresh folder and follow its README. The saved-output replay does not
+repeat benchmark timings. The exact checkers and ablation use SymPy;
+their checks do not constitute independent human proof review or a new
+independent algebra-system comparison.
 
 ## Reproduce
 
